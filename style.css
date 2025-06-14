@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pagina {
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cabecalho {
+    z-index: 1;
+    width: 100vw;
+    position: fixed;
+    top: 0%;
+    background-color: white;
+}
+
+.titulo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 180%;
+    font-weight: 400;
+    letter-spacing: 3px;
+    word-spacing: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    background: linear-gradient(to right, purple, orange, rgb(253, 214, 41), orange, purple);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: texto-animado 4s linear infinite;
+}
+
+@keyframes texto-animado {
+    to {
+        background-position: 200%;
+    }
+}
+
+.informativo {
+    background-color: rgb(253, 214, 41);
+    width: 100%;
+    height: 10%;
+    margin-bottom: 2%;
+}
+
+.texto-informativo {
+    text-align: center;
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: purple;
+    letter-spacing: 2px;
+}
+
+.icones-menu {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}
+
+.logotipo {
+    width: 60%;
+    position: relative;
+    left: 5%;
+}
+
+.icone-loja {
+    position: relative;
+    width: 15%;
+    left: 55%;
+    top: 10%;
+    cursor: pointer;
+}
+
+.icone-whatsapp {
+    position: relative;
+    top: 10%;
+    width: 15%;
+    left: 65%;
+    cursor: pointer;
+}
+
+section, .container {
+    margin-top: 145px;
+}
+
+.legenda {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1%;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 100%;
+    color: purple;
+}
+
+.check-legenda {
+    width: 5%;
+    margin-right: 1%;
+}
+
+.texto-legenda {
+    font-size: 100%;
+}
+
+.anuncio {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12%;
+}
+
+.imagem-anuncio {
+    max-width: 97vw;
+}
+
+.preco-anuncio {
+    position: absolute;
+    left: 10%;
+    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    background-color: rgb(253, 214, 41);
+    padding: 1.5%;
+    font-size: 130%;
+    font-weight: 700;
+    border-radius: 10px;
+    color: purple;
+}
+
+.btn-ver-camiseta {
+    position: absolute;
+    margin-top: 85%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    background-color: rgb(253, 214, 41);
+    padding: 2%;
+    text-transform: uppercase;
+    font-size: 130%;
+    font-weight: 700;
+    border-radius: 10px;
+    color: purple;
+    cursor: pointer;
+}
+
+.btn-ver-camiseta:hover {
+    box-shadow: 0px 0px 15px rgb(253, 214, 41);
+}
+
+.baner-inferior {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 97vw;
+    margin-top: 97%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    background-color: purple;
+    padding: 1%;
+    text-transform: uppercase;
+    font-size: 150%;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.texto-baner-inferior {
+    font-size: 60%;
+    
+}
+
+.icone-caminhao {
+    width: 10%;
+    margin-left: 5px;
+}

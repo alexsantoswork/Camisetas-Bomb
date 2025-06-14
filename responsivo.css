@@ -1,0 +1,259 @@
+@media (min-width: 425px) {
+
+    .cabecalho .titulo {
+        font-size: 200%;
+    }
+
+    .cabecalho .icone-loja {
+        left: 55%;
+    }
+
+    .cabecalho .icone-whatsapp {
+        left: 63%;
+    }
+
+    section.container {
+        margin-top: 153px;
+    }
+
+    .legenda .check-legenda {
+        width: 5%;
+    }
+
+    .legenda .texto-legenda {
+        font-size: 130%;
+    }
+
+    .anuncio .texto-baner-inferior {
+        font-size: 70%;
+    }
+}
+
+@media (min-width: 500px) {
+
+    .cabecalho .titulo {
+        font-size: 220%;
+    }
+
+    section.container {
+        margin-top: 170px;
+    }
+
+    .legenda .check-legenda {
+        width: 4%;
+    }
+
+    .legenda .texto-legenda {
+        font-size: 150%;
+    }
+
+    .anuncio .preco-anuncio {
+        font-size: 150%;
+    }
+
+    .anuncio .btn-ver-camiseta {
+        font-size: 150%;
+    }
+
+    .anuncio .texto-baner-inferior {
+        font-size: 80%;
+    }
+
+    .anuncio .icone-caminhao {
+        margin-left: 2%;
+    }
+}
+
+@media (min-width: 760px) {
+
+    .cabecalho .titulo {
+        font-size: 270%;
+    }
+
+    section.container {
+        margin-top: 190px;
+    }
+
+    .legenda .check-legenda {
+        width: 3.5%;
+    }
+
+    .legenda .texto-legenda {
+        font-size: 170%;
+    }
+
+    div.anuncio {
+        margin-bottom: 10%;
+    }
+
+    .anuncio .imagem-anuncio {
+        max-width: 80vw;
+    }
+
+    .anuncio .preco-anuncio {
+        font-size: 160%;
+        left: 15%;
+    }
+
+    .anuncio .btn-ver-camiseta {
+        font-size: 160%;
+        margin-top: 70%;
+    }
+
+    .anuncio .baner-inferior {
+        margin-top: 79%;
+        max-width: 80vw;
+    }
+
+    .anuncio .texto-baner-inferior {
+        font-size: 80%;
+    }
+
+    .anuncio .icone-caminhao {
+        margin-left: 2%;
+    }
+}
+
+@media (min-width: 1000px) {
+
+    .cabecalho .titulo {
+        font-size: 300%;
+    }
+
+    .texto-informativo {
+        font-size: 150%;
+    }
+
+    .cabecalho .logotipo {
+        width: 70%;
+        position: relative;
+    }
+
+    .cabecalho .icone-loja {
+        width: 20%;
+        left: 45%;
+    }
+
+    .cabecalho .icone-whatsapp {
+        width: 20%;
+        left: 55%;
+    }
+
+    section.container {
+        margin-top: 230px;
+    }
+
+    .legenda .check-legenda {
+        width: 2.5%;
+    }
+
+    .legenda .texto-legenda {
+        font-size: 180%;
+    }
+
+    .anuncio .preco-anuncio {
+        font-size: 190%;
+        left: 18%;
+    }
+
+    .anuncio .btn-ver-camiseta {
+        font-size: 190%;
+    }
+
+    .anuncio .texto-baner-inferior {
+        font-size: 100%;
+    }
+
+}
+
+@media (min-width: 1400px) {
+
+    .cabecalho .titulo {
+        font-size: 350%;
+    }
+
+    .texto-informativo {
+        font-size: 200%;
+    }
+
+    .cabecalho .logotipo {
+        width: 80%;
+        position: relative;
+    }
+
+    section.container {
+        margin-top: 285px;
+    }
+
+    .legenda .check-legenda {
+        width: 2.5%;
+    }
+
+    .legenda .texto-legenda {
+        font-size: 220%;
+    }
+
+    .anuncio .preco-anuncio {
+        font-size: 250%;
+        left: 20%;
+    }
+
+    .anuncio .btn-ver-camiseta {
+        font-size: 250%;
+    }
+
+    .anuncio .texto-baner-inferior {
+        font-size: 150%;
+    }
+
+}
+
+@media (min-width: 2000px) {
+
+    .cabecalho .titulo {
+        font-size: 500%;
+    }
+
+    .texto-informativo {
+        font-size: 250%;
+    }
+
+    .cabecalho .logotipo {
+        width: 100%;
+        position: relative;
+    }
+
+    .cabecalho .icone-loja {
+        width: 30%;
+        left: 35%;
+    }
+
+    .cabecalho .icone-whatsapp {
+        width: 30%;
+    }
+
+    section.container {
+        margin-top: 370px;
+    }
+
+    .legenda .check-legenda {
+        width: 2%;
+    }
+
+    .legenda .texto-legenda {
+        font-size: 270%;
+    }
+
+    .anuncio .preco-anuncio {
+        font-size: 270%;
+        left: 20%;
+    }
+
+    .anuncio .btn-ver-camiseta {
+        font-size: 270%;
+    }
+
+    .anuncio .texto-baner-inferior {
+        font-size: 200%;
+    }
+}
