@@ -31,7 +31,8 @@
 
 .checkout-selecionar-variacoes {
     /* border: rgb(78, 78, 78) solid 1px; */
-    width: 50vw;
+    position: relative;
+    width: 100vw;
     height: 90vh;
     padding: 10px;
     display: flex;
@@ -43,7 +44,7 @@
 
 .titulo-nome {
     font-size: 17px;
-    margin-bottom: 5px;
+    margin-bottom: 0.2em;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -51,7 +52,7 @@
 .input-nome {
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
+    margin-bottom: 1em;
 }
 
 .valor-input-nome {
@@ -68,7 +69,7 @@
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
     border: none;
-    margin-bottom: 10px;
+    margin-bottom: 0.2em;
     text-align: center;
     background-color: white;
     text-transform: uppercase;
@@ -166,4 +167,13 @@ input#cores {
     border: solid 2px grey;
     font-weight: 600;
     background-color: white;    
+}
+
+.texto-orientar-pedido {
+    font-size: 0.8em;
+    color: rgb(177, 2, 2);
+}
+
+.rodape-fazer-pedido {
+    font-size: 0.5em;
 }
