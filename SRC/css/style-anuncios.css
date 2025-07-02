@@ -102,7 +102,7 @@ article {
 
 .slider-indicators {
     position: absolute;
-    bottom: 10px;
+    bottom: 2px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -111,16 +111,16 @@ article {
 }
 
 .indicator {
-    width: 12px;
-    height: 12px;
-    background-color: rgba(255, 255, 255, 0.7);
+    width: 10px;
+    height: 10px;
+    background-color: rgba(253, 214, 41, 0.466);
     border-radius: 50%;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .indicator.active {
-    background-color: #007bff;
+    background-color: purple;
 }
 
 .cores,
@@ -139,7 +139,7 @@ article {
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     font-style: italic;
-    font-size: 1em;
+    font-size: 0.8em;
     color: black;
     font-weight: 500;
 }
@@ -155,13 +155,14 @@ article {
 
 .texto-tamanhos {
     position: relative;
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
 .tamanhos-icones {
     font-weight: 700;
-    font-size: 1.4em;
-    letter-spacing: 6.5px;
+    font-size: 1em;
+    letter-spacing: 6px;
+    margin: 0;
 }
 
 .condicoes {
@@ -169,7 +170,7 @@ article {
     align-items: center;
     justify-content: space-evenly;
     position: relative;
-    bottom: 25px;
+    bottom: 30px;
 }
 
 .preco {
@@ -180,7 +181,7 @@ article {
 .valor {
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
-    font-size: 1.7em;
+    font-size: 1.4em;
     color: black;
     font-weight: 500;
     letter-spacing: 2px;
@@ -189,14 +190,15 @@ article {
 .parcelamento {
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
-    font-size: 0.7em;
+    font-size: 0.56em;
     font-weight: 600;
     /* margin-right: 1em; */
     letter-spacing: 1px;
 }
 
 .frete-gratis {
-    width: 50%;
+    width: 9em;
+
 }
 
 .container-fazer-pedido {
@@ -208,10 +210,10 @@ article {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 15em;
-    height: 2.5em;
+    width: 10em;
+    height: 2.3em;
     border-radius: 10px;
-    font-size: 1.3em;
+    font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     font-weight: 600;
@@ -219,30 +221,33 @@ article {
     text-transform: uppercase;
     text-decoration: none;    
     margin-bottom: 1.7em;
+    bottom: 0.8em;
+    position: relative;
     background-color: rgb(253, 214, 41);
 }
 
 .descricao {
     position: relative;
     padding: 10px;
-    bottom: 25px;
+    bottom: 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
-    margin-bottom: 1em;
+    margin-bottom: 0em;
 }
 
 .loja-bomb {
     background-image: url(../imagens/vitrine-anuncios/background-bomb.png);
     position: relative;
     width: 100%;
-    bottom: 35px;
-    padding-top: 25px;
+    bottom: 2em;
+    /* padding: 2em 0; */
 }
 
 .icones-pagamento {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: 0.8em;
 }
 
 .icone-sumup,
@@ -272,7 +277,7 @@ article {
 
 .logo-bomb {
     width: 50%;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
 }
 
 .rodape {
@@ -280,8 +285,8 @@ article {
     justify-content: center;
     position: relative;
     font-size: 10px;
-    bottom: 3em;
-    padding-bottom: 10px;
+    /* bottom: 2.5em; */
+    /* padding-bottom: 1em; */
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(85, 1, 85);
 }
