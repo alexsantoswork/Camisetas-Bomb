@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+article {
+    height: 100vh;
+}
+
+.legenda-rolante-continua {
+    display: flex;
+    white-space: nowrap;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: purple;
+    animation: rolarTextoContinuo 15s linear infinite;
+}
+
+.legenda-rolante-continua span {
+    padding-right: 5px;
+}
+
+@keyframes rolarTextoContinuo {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.fazer-pedido {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: rgb(253, 214, 41);
+    width: 100vw;
+    height: 7vh;
+    top: 93vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: purple;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container-legenda {
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+    background-color: rgb(253, 214, 41);
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.texto-legenda {
+    font-size: 13px;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0;
+}
+
+.slider-container {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-wrapper img {
+    width: 100%;
+    flex-shrink: 0;
+    height: auto;
+    display: block;
+}
+
+.slider-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+    z-index: 10;
+}
+
+.slider-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev-button {
+    left: 10px;
+}
+
+.next-button {
+    right: 10px;
+}
+
+.slider-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px;
+    z-index: 10;
+}
+
+.indicator {
+    width: 12px;
+    height: 12px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.indicator.active {
+    background-color: #007bff;
+}
+
+.cores,
+.tamanhos {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    bottom: 30px;
+}
+
+.texto-cores,
+.texto-tamanhos,
+.tamanhos-icones {
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 80%;
+    color: black;
+    font-weight: 500;
+}
+
+.img-cores {
+    width: 50%;
+    margin-bottom: 7px;
+}
+
+.texto-tamanhos {
+    position: relative;
+}
+
+.tamanhos-icones {
+    font-weight: 700;
+    font-size: 95%;
+    letter-spacing: 6.5px;
+}
+
+.condicoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 25px;
+}
+
+.preco {
+    display: flex;
+    flex-direction: column;
+}
+
+.valor {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.parcelamento {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 8px;
+    font-weight: 600;
+    margin-right: 20px;
+    letter-spacing: 1px;
+}
+
+.frete-gratis {
+    width: 50%;
+}
+
+.descricao {
+    position: relative;
+    padding: 10px;
+    bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.loja-bomb {
+    background-image: url(../imagens/vitrine-anuncios/background-bomb.png);
+    position: relative;
+    width: 100%;
+    bottom: 35px;
+    padding-top: 25px;
+}
+
+.icones-pagamento {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icone-sumup,
+.icone-compra-segura {
+    width: 40%;
+    height: 20%;
+    cursor: pointer;
+}
+
+.fale-conosco-ver-loja {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fale-conosco {
+    width: 50%;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.ver-loja {
+    width: 35%;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.logo-bomb {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 40px;
+    font-size: 10px;
+    padding-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(85, 1, 85);
+}

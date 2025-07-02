@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Camisetas Bomb</title>
+  <link rel="shortcut icon" href="/SRC/imagens/favicom/camisetas bomb.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/SRC/css/style-fazer-pedidos.css">
+</head>
+
+<body>
+
+  <form class="container" id="form" action="https://api.staticforms.xyz/submit" method="post">
+    <input type="hidden" name="apiKey" value="sf_mm33a161fb5ddlc3221mkghh">
+    <input type="text" name="honeypot" style="display: none" tabindex="-1" autocomplete="off">
+
+    <div class="checkout-selecionar-variacoes">
+      <div class="input-nome">
+        <!-- <label for="name">Nome</label> -->
+        <small class="titulo-nome">Nome</small>
+        <input class="valor-input-nome" type="text" id="names" name="nome" placeholder="Escreva o seu nome aqui"
+          required>
+        <!-- <div id="errorMessage" class="error-message"></div> -->
+      </div>
+
+      <input class="titulo-checkout" type="text" name="produto" value="Camiseta Masculina Bomb" readonly>
+
+      <div class="campo-cores">
+        <small class="titulo-selecione-cor">Selecione uma cor</small>
+        <div class="selecionar-cores">
+          <div class="selecionar-preto">
+            <input type="radio" id="cores" name="cor" value="Preto" required>
+            <label class="cor-preto" for="preto">Preto</label>
+          </div>
+
+          <div class="selecionar-branco">
+            <input type="radio" id="cores" name="cor" value="Branco" required>
+            <label class="cor-branco" for="branco">Branco</label>
+          </div>
+
+          <div class="selecionar-azul">
+            <input type="radio" id="cores" name="cor" value="Azul" required>
+            <label class="cor-azul" for="azul">Azul</label>
+          </div>
+
+          <div class="selecionar-vermelho">
+            <input type="radio" id="cores" name="cor" value="Vermelho" required>
+            <label class="cor-vermelho" for="vermelho">Vermelho</label>
+          </div>
+
+          <div class="selecionar-cinza">
+            <input type="radio" id="cores" name="cor" value="Cinza" required>
+            <label class="cor-cinza" for="cinza">Cinza</label>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="campo-tamanhos">
+        <small class="titulo-selecione-tamanhos">Selecione um tamanho</small>
+        <div class="selecionar-tamanhos">
+          <div class="selecionar-p">
+            <input class="tamp" type="radio" id="cores" name="tamanho" value="P" required>
+            <label for="cores">P</label>
+          </div>
+
+          <div class="selecionar-m">
+            <input type="radio" id="cores" name="tamanho" value="M" required>
+            <label for="cores">M</label>
+          </div>
+
+          <div class="selecionar-g">
+            <input type="radio" id="cores" name="tamanho" value="G" required>
+            <label for="cores">G</label>
+          </div>
+
+          <div class="selecionar-gg">
+            <input type="radio" id="cores" name="tamanho" value="GG" required>
+            <label for="cores">GG</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="campo-quantidade">
+        <small class="titulo-selecione-quantidade">Quantidade</small>
+        <div class="selecionar-quantidade">
+          <button class="btn-01" name="quantidade" value="01" onclick="validarBtnUm()">01</button>
+          <button class="btn-02" name="quantidade" value="02" onclick="validarBtnDois()">02</button>
+          <button class="btn-03" name="quantidade" value="03" onclick="validarBtnTres()">03</button>
+          <button class="btn-04" name="quantidade" value="04" onclick="validarBtnQuatro()">04</button>
+          <button class="btn-05" name="quantidade" value="05" onclick="validarBtnCinco()">05</button>
+          <button class="btn-06" name="quantidade" value="06" onclick="validarBtnSeis()">06</button>
+        </div>
+      </div>
+
+    </div>
+
+    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/SRC/html/obrigado.html">
+
+  <script src="/SRC/js/fazerPedido.js"></script>
+</body>
+
+</html>
