@@ -24,7 +24,6 @@
     flex-direction: column;
     text-align: center;
     background-color: white;
-    bottom: 2em;
 }
 
 .titulo-nome {
@@ -160,11 +159,11 @@ input#cores {
 
 .texto-orientar-pedido {
     font-size: 0.9em;
-    color: rgb(177, 2, 2);
+    /* color: rgb(177, 2, 2); */
 }
 
 .rodape-fazer-pedido {
     font-size: 0.5em;
     position: relative;
-    top: 13em;   
+    top: 3em;   
 }

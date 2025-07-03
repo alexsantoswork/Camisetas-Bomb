@@ -2,12 +2,12 @@
 
     .checkout-selecionar-variacoes {
         width: 90vw;
-        bottom: 2em;
+        /* bottom: 2em; */
     }
 
     .rodape {
         position: relative;
-        top: 8em;
+        /* top: 2em; */
         font-size: 1.3em;
     }
 }
@@ -16,12 +16,12 @@
 
     .checkout-selecionar-variacoes {
         width: 80vw;
-        bottom: 3em;
+        /* bottom: 3em; */
     }
 
     .rodape {
         position: relative;
-        top: 6em;
+        /* top: 6em; */
     }
 }
 
