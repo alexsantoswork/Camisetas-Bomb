@@ -24,6 +24,7 @@
     flex-direction: column;
     text-align: center;
     background-color: white;
+    bottom: 2em;
 }
 
 .titulo-nome {
@@ -165,5 +166,5 @@ input#cores {
 .rodape-fazer-pedido {
     font-size: 0.5em;
     position: relative;
-    top: 5vh;   
+    top: 13em;   
 }
