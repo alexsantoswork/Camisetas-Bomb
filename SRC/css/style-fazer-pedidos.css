@@ -167,6 +167,9 @@ input#cores {
 .rodape-fazer-pedido {
     font-size: 0.5em;
     position: relative;
-    top: 18em;
-    text-align: center;   
+    top: 25em;  
+}
+
+.rodape {
+    text-align: center;
 }
