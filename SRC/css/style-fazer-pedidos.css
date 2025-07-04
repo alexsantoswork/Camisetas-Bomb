@@ -10,12 +10,13 @@
 
 .container {
     display: flex;
-    height: 100vh;
+    /* height: 100vh; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
     background-color: white;
+    top: 5em;
 }
 
 .checkout-selecionar-variacoes {
@@ -24,6 +25,7 @@
     flex-direction: column;
     text-align: center;
     background-color: white;
+    
 }
 
 .titulo-nome {
@@ -159,11 +161,11 @@ input#cores {
 
 .texto-orientar-pedido {
     font-size: 0.9em;
-    /* color: rgb(177, 2, 2); */
+    color: rgb(177, 2, 2);
 }
 
 .rodape-fazer-pedido {
     font-size: 0.5em;
     position: relative;
-    top: 3em;   
+    top: 15em;   
 }
