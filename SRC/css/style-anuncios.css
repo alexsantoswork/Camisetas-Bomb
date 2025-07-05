@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    scroll-behavior: smooth;
 }
 
 article {
@@ -11,7 +14,7 @@ article {
 .legenda-rolante-continua {
     display: flex;
     white-space: nowrap;
-    font-family: Arial, sans-serif;
+    /* font-family: Arial, sans-serif; */
     font-size: 18px;
     color: purple;
     animation: rolarTextoContinuo 15s linear infinite;
@@ -136,9 +139,9 @@ article {
 .texto-tamanhos,
 .tamanhos-icones {
     margin-right: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     text-transform: uppercase;
-    font-style: italic;
+    /* font-style: italic; */
     font-size: 0.8em;
     color: black;
     font-weight: 500;
@@ -179,7 +182,7 @@ article {
 }
 
 .valor {
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     text-transform: uppercase;
     font-size: 1.4em;
     color: black;
@@ -188,7 +191,7 @@ article {
 }
 
 .parcelamento {
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     text-transform: uppercase;
     font-size: 0.56em;
     font-weight: 600;
@@ -210,12 +213,12 @@ article {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 10em;
+    width: 15em;
     height: 2.3em;
     border-radius: 10px;
     font-size: 1em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-style: italic; */
     font-weight: 600;
     text-decoration: none;
     text-transform: uppercase;
@@ -225,12 +228,11 @@ article {
     position: relative;
     background-color: rgb(253, 214, 41);
 }
-
 .descricao {
     position: relative;
     padding: 10px;
     bottom: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     font-size: 12px;
     margin-bottom: 0em;
 }
@@ -239,7 +241,7 @@ article {
     background-image: url(../imagens/vitrine-anuncios/background-bomb.png);
     position: relative;
     width: 100%;
-    bottom: 2em;
+    bottom: 9.5em;
     /* padding: 2em 0; */
 }
 
@@ -280,6 +282,218 @@ article {
     /* margin-bottom: 100px; */
 }
 
+.texto-selecionar-pedido {
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    position: relative;
+}
+
+/* FORMULARIO PARA FAZER PEDIDO */
+.container {
+    display: flex;
+    /* height: 100vh; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: white;
+    bottom: 10.5em;
+}
+
+.checkout-selecionar-variacoes {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    /* margin-top: 1em; */
+    
+}
+
+.titulo-nome {
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.input-nome {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+.valor-input-nome {
+    font-size: 1em;
+    height: 2.5em;
+    padding: 1em;
+    border: rgb(78, 78, 78) solid 0.1em;
+    box-shadow: rgb(78, 78, 78) 0.1em 0.1em;
+    border-radius: 0.4em;
+}
+
+.titulo-checkout {
+    font-size: 0.9em;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    margin-bottom: 0.5em;
+    text-align: center;
+    background-color: white;
+    text-transform: uppercase;
+}
+
+input#cores {
+    transform: scale(2.2);
+    margin-bottom: 1.1em;
+    display: flex;
+    align-self: center;
+}
+
+.campo-cores, .campo-tamanhos, .campo-quantidade {
+    border: rgb(78, 78, 78) solid 0.1em;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    box-shadow: rgb(78, 78, 78) 0.1em 0.1em;
+    background-color: white;
+    border-radius: 0.4em;
+}
+
+.titulo-selecione-cor, .titulo-selecione-tamanhos, .titulo-selecione-quantidade {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.selecionar-cores, .selecionar-tamanhos, .selecionar-quantidade {
+    display: flex;
+    margin-bottom: 0.2em;
+    gap: 0.5em;
+    justify-content: center;
+}
+
+.cor-preto {
+    background-color: rgb(53, 53, 53);
+    color: white;
+    padding: 0.3em;
+    border-radius: 0.4em;
+    border: solid 0.1em gray;
+}
+
+.cor-branco {
+    background-color: aliceblue;
+    padding: 0.3em;
+    border-radius: 0.4em;
+    border: solid 0.1em gray;
+}
+
+.cor-azul {
+    background-color: blue;
+    padding: 0.3em;
+    color: white;
+    border-radius: 0.4em;
+    border: solid 0.1em gray;
+}
+
+.cor-vermelho {
+    background-color: red;
+    padding: 0.3em;
+    color: white;
+    border-radius: 0.4em;
+    border: solid 0.1em gray;
+}
+
+.cor-cinza {
+    background-color: rgb(170, 170, 170);
+    padding: 0.3em;
+    color: white;
+    border-radius: 0.4em;
+    border: solid 0.1em gray;
+}
+
+.selecionar-tamanhos {
+    gap: 3em;
+}
+
+.selecionar-preto, .selecionar-branco, .selecionar-azul, .selecionar-vermelho, .selecionar-cinza {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9em;
+
+}
+
+.selecionar-p, .selecionar-m, .selecionar-g, .selecionar-gg {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: rgb(48, 48, 48);
+}
+
+.selecionar-quantidade {
+    gap: 1em;
+}
+
+.btn-01, .btn-02, .btn-03, .btn-04, .btn-05, .btn-06 {
+    padding: 0.5em;
+    border: solid 0.2em rgb(78, 78, 78);
+    font-weight: 600;
+    background-color: white;
+    margin-bottom: 0.5em;
+    border-radius: 0.4em; 
+    background-color: rgb(236, 236, 236);
+}
+
+.texto-orientar-pedido {
+    font-size: 0.9em;
+    color: rgb(177, 2, 2);
+}
+
+.navegacao-inferior {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: 8em;
+    position: relative;
+}
+
+.titulo-inferior {
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+.navegacao-inferior-blocos {
+    display: flex;
+    position: relative;
+    gap: 3em;
+    font-size: 0.8em;
+    
+}
+
+.navegacao-inferior-bloco-um, .navegacao-inferior-bloco-dois {
+   display: flex;
+   flex-direction: column;
+   cursor: pointer;
+}
+
+.rodape-fazer-pedido {
+    font-size: 0.5em;
+    position: relative;
+    bottom: 12em;
+    padding-bottom: 2em;
+}
+
+
+
 .rodape {
     display: flex;
     justify-content: center;
@@ -288,5 +502,6 @@ article {
     /* bottom: 2.5em; */
     /* padding-bottom: 1em; */
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(85, 1, 85);
+    text-align: center;
+    color: rgb(78, 78, 78);
 }
