@@ -402,7 +402,6 @@ input#cores {
     padding: 0.5em;
     border: solid 0.2em rgb(78, 78, 78);
     font-weight: 600;
-    background-color: white;
     margin-bottom: 0.5em;
     border-radius: 0.4em; 
     background-color: rgb(236, 236, 236);
@@ -420,7 +419,7 @@ input#cores {
     position: relative;
     width: 100%;
     bottom: 9.5em;
-    /* padding: 2em 0; */
+    padding: 2em 0;
 }
 
 .icones-pagamento {
