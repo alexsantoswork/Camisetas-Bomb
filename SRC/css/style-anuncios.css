@@ -230,58 +230,16 @@ article {
 }
 .descricao {
     position: relative;
-    padding: 10px;
+    padding: 10px 10px 0;
     bottom: 30px;
     /* font-family: Arial, Helvetica, sans-serif; */
     font-size: 12px;
-    margin-bottom: 0em;
+    /* margin-bottom: 0em; */
 }
 
-.loja-bomb {
-    background-image: url(../imagens/vitrine-anuncios/background-bomb.png);
-    position: relative;
-    width: 100%;
-    bottom: 9.5em;
-    /* padding: 2em 0; */
-}
 
-.icones-pagamento {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-bottom: 0.8em;
-}
 
-.icone-sumup,
-.icone-compra-segura {
-    width: 40%;
-    height: 20%;
-    cursor: pointer;
-}
-
-.fale-conosco-ver-loja {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.fale-conosco {
-    width: 50%;
-    margin-bottom: 15px;
-    cursor: pointer;
-}
-
-.ver-loja {
-    width: 35%;
-    margin-bottom: 15px;
-    cursor: pointer;
-}
-
-.logo-bomb {
-    width: 50%;
-    /* margin-bottom: 100px; */
-}
-
+/* FORMULARIO PARA FAZER PEDIDO */
 .texto-selecionar-pedido {
     display: flex;
     justify-content: center;
@@ -292,7 +250,6 @@ article {
     position: relative;
 }
 
-/* FORMULARIO PARA FAZER PEDIDO */
 .container {
     display: flex;
     /* height: 100vh; */
@@ -310,7 +267,7 @@ article {
     flex-direction: column;
     text-align: center;
     background-color: white;
-    /* margin-top: 1em; */
+    margin-top: 1em;
     
 }
 
@@ -456,6 +413,57 @@ input#cores {
     color: rgb(177, 2, 2);
 }
 
+
+/* INFORMAÇÕES DA LOJA */
+.loja-bomb {
+    background-image: url(../imagens/vitrine-anuncios/background-bomb.png);
+    position: relative;
+    width: 100%;
+    bottom: 9.5em;
+    /* padding: 2em 0; */
+}
+
+.icones-pagamento {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 0.8em;
+}
+
+.icone-sumup,
+.icone-compra-segura {
+    width: 40%;
+    height: 20%;
+    cursor: pointer;
+}
+
+.fale-conosco-ver-loja {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fale-conosco {
+    width: 50%;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.ver-loja {
+    width: 35%;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.logo-bomb {
+    width: 50%;
+    /* margin-bottom: 100px; */
+}
+
+
+
+
+/* NAVEGAÇÃO INFERIOR */
 .navegacao-inferior {
     display: flex;
     flex-direction: column;
@@ -489,11 +497,11 @@ input#cores {
     font-size: 0.5em;
     position: relative;
     bottom: 12em;
-    padding-bottom: 2em;
+    padding-bottom: 3em;
 }
 
 
-
+/* RODAPÉ */
 .rodape {
     display: flex;
     justify-content: center;
