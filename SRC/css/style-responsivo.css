@@ -1,68 +1,77 @@
 @media (min-width: 425px) {
 
-    .cabecalho .titulo {
-        font-size: 200%;
-    }
-
-    .cabecalho .icone-loja {
-        left: 55%;
-    }
-
-    .cabecalho .icone-whatsapp {
-        left: 63%;
+    .legenda .check-legenda {
+        width: 1.3em;
     }
 
     section.container {
-        margin-top: 153px;
-    }
-
-    .legenda .check-legenda {
-        width: 5%;
+        margin-top: 8em;
     }
 
     .legenda .texto-legenda {
-        font-size: 130%;
-    }
-
-    .anuncio .texto-baner-inferior {
-        font-size: 70%;
+        font-size: 1.1em;
     }
 }
 
 @media (min-width: 500px) {
 
     .cabecalho .titulo {
-        font-size: 220%;
+        font-size: 2.5em;
+    }
+
+    div.container-legenda-rolante {
+        font-size: 1.3em;
+    }
+
+    img.logotipo{
+        width: 9em;
+    }
+
+    img.icone-loja {
+        width: 3em;
+    }
+
+    img.icone-whatsapp {
+        width: 3em;
+        margin-left: 1em;
     }
 
     section.container {
-        margin-top: 170px;
+        margin-top: 10.5em;
     }
 
     .legenda .check-legenda {
-        width: 4%;
+        width: 1.6em;
     }
 
     .legenda .texto-legenda {
-        font-size: 150%;
+        font-size: 1.4em;
+    }
+
+    img.imagem-anuncio {
+        margin-bottom: 1em;
     }
 
     .anuncio .preco-anuncio {
-        font-size: 150%;
+        font-size: 1.7em;
     }
 
     .anuncio .btn-ver-camiseta {
-        font-size: 150%;
+        font-size: 1.5em;
     }
 
     .anuncio .texto-baner-inferior {
-        font-size: 80%;
+        font-size: 1.5em;
+        
     }
 
     .anuncio .icone-caminhao {
-        margin-left: 2%;
+        margin-left: 1em;
+        width: 4em;
     }
 }
+
+/* acima revisado */
 
 @media (min-width: 760px) {
 

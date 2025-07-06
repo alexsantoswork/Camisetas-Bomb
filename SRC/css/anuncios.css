@@ -14,14 +14,13 @@ article {
 .legenda-rolante-continua {
     display: flex;
     white-space: nowrap;
-    /* font-family: Arial, sans-serif; */
-    font-size: 18px;
+    font-size: 1.2em;
     color: purple;
     animation: rolarTextoContinuo 15s linear infinite;
 }
 
 .legenda-rolante-continua span {
-    padding-right: 5px;
+    padding-right: 0.3em;
 }
 
 @keyframes rolarTextoContinuo {
@@ -36,17 +35,17 @@ article {
 
 .container-legenda {
     width: 100%;
-    height: 30px;
+    height: 2em;
     overflow: hidden;
     background-color: rgb(253, 214, 41);
     position: relative;
     display: flex;
     align-items: center;
-    margin: 10px 0;
+    margin: 0.5em 0;
 }
 
 .texto-legenda {
-    font-size: 13px;
+    font-size: 0.8em;
 }
 
 .slider {
@@ -61,7 +60,7 @@ article {
     width: 100%;
     position: relative;
     overflow: hidden;
-    margin-bottom: 40px;
+    margin-bottom: 2.5em;
 }
 
 .slider-wrapper {
@@ -78,14 +77,16 @@ article {
 
 .slider-button {
     position: absolute;
+    font-style: normal;
     top: 50%;
     transform: translateY(-50%);
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     border: none;
-    padding: 10px 15px;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 1.4em;
+    width: 1.5em;
+    height: 1.5em;
     border-radius: 50%;
     transition: background-color 0.3s ease;
     z-index: 10;
@@ -96,26 +97,26 @@ article {
 }
 
 .prev-button {
-    left: 10px;
+    left: 0.5em;
 }
 
 .next-button {
-    right: 10px;
+    right: 0.5em;
 }
 
 .slider-indicators {
     position: absolute;
-    bottom: 2px;
+    bottom: 0.3em;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
-    gap: 8px;
+    gap: 0.5em;
     z-index: 10;
 }
 
 .indicator {
-    width: 10px;
-    height: 10px;
+    width: 0.6em;
+    height: 0.6em;
     background-color: rgba(253, 214, 41, 0.466);
     border-radius: 50%;
     cursor: pointer;
@@ -132,16 +133,14 @@ article {
     position: relative;
     justify-content: center;
     align-items: center;
-    bottom: 30px;
+    bottom: 1.9em;
 }
 
 .texto-cores,
 .texto-tamanhos,
 .tamanhos-icones {
-    margin-right: 10px;
-    /* font-family: Arial, Helvetica, sans-serif; */
+    margin-right: 0.8em;
     text-transform: uppercase;
-    /* font-style: italic; */
     font-size: 0.8em;
     color: black;
     font-weight: 500;
@@ -149,7 +148,7 @@ article {
 
 .img-cores {
     width: 50%;
-    margin-bottom: 7px;
+    margin-bottom: 0.5em;
 }
 
 .tamanhos {
@@ -164,7 +163,7 @@ article {
 .tamanhos-icones {
     font-weight: 700;
     font-size: 1em;
-    letter-spacing: 6px;
+    letter-spacing: 0.4em;
     margin: 0;
 }
 
@@ -173,7 +172,7 @@ article {
     align-items: center;
     justify-content: space-evenly;
     position: relative;
-    bottom: 30px;
+    bottom: 2em;
 }
 
 .preco {
@@ -182,26 +181,22 @@ article {
 }
 
 .valor {
-    /* font-family: Arial, Helvetica, sans-serif; */
     text-transform: uppercase;
     font-size: 1.4em;
     color: black;
     font-weight: 500;
-    letter-spacing: 2px;
+    letter-spacing: 0.1em;
 }
 
 .parcelamento {
-    /* font-family: Arial, Helvetica, sans-serif; */
     text-transform: uppercase;
     font-size: 0.56em;
     font-weight: 600;
-    /* margin-right: 1em; */
-    letter-spacing: 1px;
+    letter-spacing: 0.1em;
 }
 
 .frete-gratis {
     width: 9em;
-
 }
 
 .container-fazer-pedido {
@@ -215,10 +210,8 @@ article {
     justify-content: center;
     width: 15em;
     height: 2.3em;
-    border-radius: 10px;
+    border-radius: 0.5em;
     font-size: 1em;
-    /* font-family: Arial, Helvetica, sans-serif; */
-    /* font-style: italic; */
     font-weight: 600;
     text-decoration: none;
     text-transform: uppercase;
@@ -228,16 +221,13 @@ article {
     position: relative;
     background-color: rgb(253, 214, 41);
 }
+
 .descricao {
     position: relative;
-    padding: 10px 10px 0;
-    bottom: 30px;
-    /* font-family: Arial, Helvetica, sans-serif; */
-    font-size: 12px;
-    /* margin-bottom: 0em; */
+    padding: 0.7em 0.7em 0;
+    bottom: 2.3em;
+    font-size: 0.8em;
 }
-
-
 
 /* FORMULARIO PARA FAZER PEDIDO */
 .texto-selecionar-pedido {
@@ -252,7 +242,6 @@ article {
 
 .container {
     display: flex;
-    /* height: 100vh; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -268,7 +257,6 @@ article {
     text-align: center;
     background-color: white;
     margin-top: 1em;
-    
 }
 
 .titulo-nome {
@@ -383,7 +371,6 @@ input#cores {
     display: flex;
     flex-direction: column;
     font-size: 0.9em;
-
 }
 
 .selecionar-p, .selecionar-m, .selecionar-g, .selecionar-gg {
@@ -411,7 +398,6 @@ input#cores {
     font-size: 0.9em;
     color: rgb(177, 2, 2);
 }
-
 
 /* INFORMAÇÕES DA LOJA */
 .loja-bomb {
@@ -444,46 +430,42 @@ input#cores {
 
 .fale-conosco {
     width: 50%;
-    margin-bottom: 15px;
+    margin-bottom: 1em;
     cursor: pointer;
 }
 
 .ver-loja {
     width: 35%;
-    margin-bottom: 15px;
+    margin-bottom: 1em;
     cursor: pointer;
 }
 
 .logo-bomb {
     width: 50%;
-    /* margin-bottom: 100px; */
 }
-
-
-
 
 /* NAVEGAÇÃO INFERIOR */
-.navegacao-inferior {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    bottom: 8em;
-    position: relative;
-}
-
 .titulo-inferior {
     font-size: 1em;
     text-transform: uppercase;
     margin-bottom: 1em;
+    bottom: 9em;
+    text-align: center;
+    position: relative;
+}
+
+.navegacao-inferior {
+    display: flex;
+    justify-content: space-evenly;
+    bottom: 9em;
+    position: relative;
 }
 
 .navegacao-inferior-blocos {
     display: flex;
     position: relative;
     gap: 3em;
-    font-size: 0.8em;
-    
+    font-size: 0.8em;    
 }
 
 .navegacao-inferior-bloco-um, .navegacao-inferior-bloco-dois {
@@ -499,15 +481,12 @@ input#cores {
     padding-bottom: 3em;
 }
 
-
 /* RODAPÉ */
 .rodape {
     display: flex;
     justify-content: center;
     position: relative;
-    font-size: 10px;
-    /* bottom: 2.5em; */
-    /* padding-bottom: 1em; */
+    font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: rgb(78, 78, 78);

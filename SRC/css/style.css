@@ -21,10 +21,10 @@
 
 .titulo {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 180%;
+    font-size: 2em;
     font-weight: 400;
-    letter-spacing: 3px;
-    word-spacing: 20px;
+    letter-spacing: 0.05em;
+    word-spacing: 0.2em;
     text-transform: uppercase;
     text-align: center;
     background: linear-gradient(to right, purple, orange, rgb(253, 214, 41), orange, purple);
@@ -41,79 +41,97 @@
     }
 }
 
-.informativo {
-    background-color: rgb(253, 214, 41);
-    width: 100%;
-    height: 10%;
-    margin-bottom: 2%;
+.legenda-rolante-continua {
+    display: flex;
+    white-space: nowrap;
+    font-size: 1.2em;
+    color: purple;
+    animation: rolarTextoContinuo 15s linear infinite;
 }
 
-.texto-informativo {
-    text-align: center;
-    padding: 3px;
+.legenda-rolante-continua span {
+    padding-right: 0.3em;
+}
+
+@keyframes rolarTextoContinuo {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.container-legenda-rolante {
+    width: 100%;
+    height: 2em;
+    overflow: hidden;
+    background-color: rgb(253, 214, 41);
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    color: purple;
-    letter-spacing: 2px;
+    margin-bottom: 0.5em;
+    font-size: 1em;
 }
 
 .icones-menu {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 2%;
+    margin-bottom: 0.25em;
 }
 
 .logotipo {
-    width: 60%;
     position: relative;
-    left: 5%;
+    width: 6em;
+    margin-right: 7em;
 }
 
 .icone-loja {
     position: relative;
-    width: 15%;
-    left: 55%;
-    top: 10%;
+    width: 2em;
+    top: 0.2em;
     cursor: pointer;
 }
 
 .icone-whatsapp {
     position: relative;
-    top: 10%;
-    width: 15%;
-    left: 65%;
+    margin-left: 0.6em;
+    top: 0.2em;
+    width: 2em;
     cursor: pointer;
 }
 
 section, .container {
-    margin-top: 145px;
+    margin-top: 7.65em;
+}
+
+.check-legenda {
+    width: 1em;
+    margin-right: 0.2em;
+}
+
+.texto-legenda {
+    font-size: 0.8em;
 }
 
 .legenda {
     display: flex;
     align-items: center;
-    margin-bottom: 1%;
+    margin-bottom: 0.3em;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     font-style: italic;
-    font-size: 100%;
     color: purple;
-}
-
-.check-legenda {
-    width: 5%;
-    margin-right: 1%;
-}
-
-.texto-legenda {
-    font-size: 100%;
 }
 
 .anuncio {
     display: flex;
     justify-content: center;
-    margin-bottom: 12%;
+    margin-bottom: 2.5em;
 }
 
 .imagem-anuncio {
@@ -122,29 +140,27 @@ section, .container {
 
 .preco-anuncio {
     position: absolute;
-    left: 10%;
-    margin-top: 5%;
+    left: 1em;
+    margin-top: 0.5em;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     background-color: rgb(253, 214, 41);
-    padding: 1.5%;
-    font-size: 130%;
+    padding: 0.2em 0.5em;
     font-weight: 700;
-    border-radius: 10px;
+    border-radius: 0.4em;
     color: purple;
 }
 
-.btn-ver-camiseta {
+.btn-ver-camiseta {   
     position: absolute;
     margin-top: 85%;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     background-color: rgb(253, 214, 41);
-    padding: 2%;
+    padding: 0.5em 1em;
     text-transform: uppercase;
-    font-size: 130%;
     font-weight: 700;
-    border-radius: 10px;
+    border-radius: 0.5em;
     color: purple;
     cursor: pointer;
     border: none;
@@ -152,7 +168,7 @@ section, .container {
 }
 
 .btn-ver-camiseta:hover {
-    box-shadow: 0px 0px 15px rgb(253, 214, 41);
+    box-shadow: 0em 0em 1em rgb(253, 214, 41);
 }
 
 .baner-inferior {
@@ -165,19 +181,14 @@ section, .container {
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     background-color: purple;
-    padding: 1%;
+    padding: 0.3em;
     text-transform: uppercase;
-    font-size: 150%;
-    font-weight: 700;
+    font-size: 0.75em;
+    font-weight: 600;
     color: aliceblue;
 }
 
-.texto-baner-inferior {
-    font-size: 60%;
-    
-}
-
 .icone-caminhao {
-    width: 10%;
-    margin-left: 5px;
+    width: 3em;
+    margin-left: 0.5em;
 }

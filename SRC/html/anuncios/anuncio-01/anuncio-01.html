@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="/SRC/imagens/favicom/camisetas bomb.ico" type="image/x-icon">
     <link rel="stylesheet" href="/SRC/css/responsivo.css">
     <link rel="stylesheet" href="/SRC/css/style.css">
-    <link rel="stylesheet" href="/SRC/css/style-anuncios.css">
+    <link rel="stylesheet" href="/SRC/css/anuncios.css">
     <title>Camisetas Bomb</title>
 </head>
 
@@ -87,11 +87,6 @@
                 assumenda libero? Fugit sequi expedita quis! Totam, deserunt exercitationem?</p>
         </div>
 
-
-
-
-
-
         <!-- FORMULARIO PARA FAZER O PEDIDO -->
         <form class="container" id="form" action="https://api.staticforms.xyz/submit" method="post">
             <input type="hidden" name="apiKey" value="sf_mm33a161fb5ddlc3221mkghh">
@@ -104,11 +99,9 @@
                 </div>
 
                 <div class="input-nome">
-                    <!-- <label for="name">Nome</label> -->
                     <small class="titulo-nome">Nome Completo</small>
                     <input class="valor-input-nome" type="text" id="names" name="nome"
                         placeholder="Escreva o seu nome aqui" required>
-                    <!-- <div id="errorMessage" class="error-message"></div> -->
                 </div>
 
                 <input class="titulo-checkout" type="text" name="produto" value="Camiseta Masculina Barcelona" readonly>
@@ -142,7 +135,6 @@
                         </div>
                     </div>
                 </div>
-
 
                 <div class="campo-tamanhos">
                     <small class="titulo-selecione-tamanhos">Selecione um tamanho</small>
@@ -184,13 +176,12 @@
                 <p class="texto-orientar-pedido">Selecione a quantidade para concluir o pedido.</p>
             </div>
 
-
             <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/SRC/html/obrigado.html">
 
             <script src="/SRC/js/fazerPedido.js"></script>
         </form>
 
-
+        <!-- INFORMAÇÕES LOJA BOMB -->
         <figure class="loja-bomb">
             <div class="icones-pagamento">
                 <img class="icone-sumup" src="/SRC/imagens/vitrine-anuncios/sumup.png" alt="">
@@ -203,14 +194,9 @@
             </div>
         </figure>
 
-
-
-
-
-
-
+        <!-- NAVEGAÇÃO INFERIOR -->
+        <h2 class="titulo-inferior">Camisetas Bomb</h2>
         <nav class="navegacao-inferior">
-            <h2 class="titulo-inferior">Camisetas Bomb</h2>
             <div class="navegacao-inferior-blocos">
                 <div class="navegacao-inferior-bloco-um">
                     <span>Promoções</span>
@@ -230,26 +216,15 @@
                     <span>Frete Gratis</span>
                 </div>
             </div>
-
-
         </nav>
 
-
+        <!-- RODAPÉ -->
         <footer class="rodape-fazer-pedido">
             <p class="rodape">Desenvolvido por CAMISETAS BOMB © <br>Avenida Mateo Bei N° 2861 CEP: 03949-012 São Paulo -
                 SP
             <p>
         </footer>
-
-
-
-
-
-
-
     </article>
-
     <script src="/SRC/js/sliderAnuncio.js"></script>
 </body>
-
 </html>
