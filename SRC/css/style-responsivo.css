@@ -23,7 +23,7 @@
         font-size: 1.3em;
     }
 
-    img.logotipo{
+    img.logotipo {
         width: 9em;
     }
 
@@ -37,7 +37,7 @@
     }
 
     section.container {
-        margin-top: 10.5em;
+        margin-top: 11em;
     }
 
     .legenda .check-legenda {
@@ -45,7 +45,7 @@
     }
 
     .legenda .texto-legenda {
-        font-size: 1.4em;
+        font-size: 1.5em;
     }
 
     img.imagem-anuncio {
@@ -62,7 +62,7 @@
 
     .anuncio .texto-baner-inferior {
         font-size: 1.5em;
-        
+
     }
 
     .anuncio .icone-caminhao {
@@ -70,8 +70,6 @@
         width: 4em;
     }
 }
-
-/* acima revisado */
 
 @media (min-width: 760px) {
 
