@@ -46,7 +46,7 @@ function validarBtnUm() {
     })
     
     if (validarRadioSelecionado('tamanho', 'cor') && nameInput.value.trim() !== '') {
-        window.open('http://127.0.0.1:5500/SRC/html/anuncios/anuncio-01/pagamento-01.html', '_blank');
+        window.open('https://pay.sumup.com/b2c/QW698QFV', '_blank');
     }
 }
 
