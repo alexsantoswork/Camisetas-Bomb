@@ -225,17 +225,20 @@
                 </div>
             </article>
 
-            <form class="container-inscrito" id="form-inscrito" action="https://api.staticforms.xyz/submit" method="post">
+            <form class="container-inscrito" id="form-inscrito" action="https://api.staticforms.xyz/submit"
+                method="post">
                 <input type="hidden" name="apiKey" value="sf_mm33a161fb5ddlc3221mkghh">
                 <input type="text" name="honeypot" style="display: none" tabindex="-1" autocomplete="off">
 
                 <span class="paragrafo-inscrever-se">Inscreva-se para ficar por dentro das novidades.</span>
 
-                <input class="email-input-inscrever-se" type="text" id="names" name="e-mail" placeholder="Escreva o seu e-mail aqui" required><br>
+                <input class="email-input-inscrever-se" type="text" id="names" name="e-mail"
+                    placeholder="Escreva o seu e-mail aqui" required><br>
 
-                <button class="btn-inscrever-se" href="">Inscrever-se</button>
+                <button class="btn-inscrever-se" href="">Inscrever</button>
 
                 <input type="hidden" name="redirectTo" value="https://camisetasbomb.com.br/index.html">
+
             </form>
 
             <!-- ANUNCIO 11 -->
@@ -316,7 +319,7 @@
             <article>
                 <div class="legenda">
                     <img class="check-legenda" src="./SRC/imagens/vitrine/icone check.png" alt="">
-                    <h2 class="texto-legenda">Camiseta Masculina Jesus Cristo</h2>
+                    <h2 class="texto-legenda">Camiseta Masculina Jesus Crist</h2>
                 </div>
                 <div class="anuncio">
                     <img class="imagem-anuncio"
@@ -330,6 +333,35 @@
                     </div>
                 </div>
             </article>
+
+            <!-- SLIDER PROMOÇÃO -->
+            <div class="slider">
+                <div class="slider-container">
+                    <div class="slider-wrapper">
+                        <img src="/SRC/imagens/anuncios/anuncio-01/camiseta barcelona camisa masculina oversized.jpg"
+                            alt="Imagem 1">
+                        <img src="/SRC/imagens/anuncios/anuncio-01/camiseta barcelona azul camisa masculina oversized.jpg"
+                            alt="Imagem 2">
+                        <img src="/SRC/imagens/anuncios/anuncio-01/camiseta barcelona branca camisa masculina oversized.jpg"
+                            alt="Imagem 3">
+                        <img src="/SRC/imagens/anuncios/anuncio-01/camiseta barcelona cinza camisa masculina oversized.jpg"
+                            alt="Imagem 4">
+                        <img src="/SRC/imagens/anuncios/anuncio-01/camiseta barcelona vermelha camisa masculina oversized.jpg"
+                            alt="Imagem 6">
+                    </div>
+
+                    <button class="slider-button prev-button">&#10094;</button>
+                    <button class="slider-button next-button">&#10095;</button>
+                    <div class="slider-indicators">
+                        <div class="indicator active" data-index="0"></div>
+                        <div class="indicator" data-index="1"></div>
+                        <div class="indicator" data-index="2"></div>
+                        <div class="indicator" data-index="3"></div>
+                        <div class="indicator" data-index="4"></div>
+                    </div>
+
+                </div>
+            </div>
 
             <!-- ANUNCIO 16 -->
             <article>
@@ -372,7 +404,7 @@
             <article>
                 <div class="legenda">
                     <img class="check-legenda" src="./SRC/imagens/vitrine/icone check.png" alt="">
-                    <h2 class="texto-legenda">Camiseta Masculina Urban Trendy</h2>
+                    <h2 class="texto-legenda">Camiseta Masculina Urban Trend</h2>
                 </div>
                 <div class="anuncio">
                     <img class="imagem-anuncio"
@@ -422,10 +454,44 @@
                         <img class="icone-caminhao" src="./SRC/imagens/vitrine/icone-caminhao.png" alt="">
                     </div>
                 </div>
-            </article>
+            </article> 
 
         </section>
+
+        <!-- NAVEGAÇÃO INFERIOR -->
+            <h2 class="index-titulo-inferior">Camisetas Bomb</h2>
+            <nav class="index-navegacao-inferior">
+                <div class="index-navegacao-inferior-blocos">
+                    <div class="index-navegacao-inferior-bloco-um">
+                        <span>Promoções</span>
+                        <span>Feminino</span>
+                        <span>Masculino</span>
+                        <span>Oversized</span>
+                        <span>Casual</span>
+                        <span>Basica</span>
+                    </div>
+
+                    <div class="index-navegacao-inferior-bloco-dois">
+                        <span>Sobre a loja</span>
+                        <span>Contate - nos</span>
+                        <span>Tabela de medidas</span>
+                        <span>Transparencia</span>
+                        <span>Devoluções</span>
+                        <span>Frete Gratis</span>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- RODAPÉ -->
+            <footer class="rodape-fazer-pedido">
+                <p class="rodape">Desenvolvido por CAMISETAS BOMB © <br>Avenida Mateo Bei N° 2861 CEP: 03949-012 São
+                    Paulo - SP. Telefone: 11 9.9228-7852
+                <p>
+            </footer>
+
     </main>
+    <!-- JAVASCRIPT -->
+    <script src="/SRC/js/sliderAnuncio.js"></script>
 </body>
 
 </html>

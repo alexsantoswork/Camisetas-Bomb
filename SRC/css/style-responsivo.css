@@ -1,5 +1,9 @@
 @media (min-width: 425px) {
 
+    .icones-menu {
+        gap: 4em;
+    }
+
     .legenda .check-legenda {
         width: 1.3em;
     }
@@ -10,6 +14,47 @@
 
     .legenda .texto-legenda {
         font-size: 1.1em;
+    }
+
+    h3.preco-anuncio {
+        font-size: 1.1em;
+    }
+
+    a.btn-ver-camiseta {
+        font-size: 1.1em;
+    }
+
+    p.texto-baner-inferior {
+        font-size: 1.4em;
+    }
+
+    img.icone-caminhao {
+        width: 4em;
+        margin-left: 0.6em;
+    }
+
+
+    span.paragrafo-inscrever-se {
+        font-size: 0.8em;
+    }
+
+    input.email-input-inscrever-se {
+        height: 3em;
+        text-align: center;
+        margin-bottom: 1em;
+    }
+
+    button.btn-inscrever-se {
+        height: 2.5em;
+        font-size: 1em;
+    }
+
+    .email-input-inscrever-se::placeholder {
+        font-size: 1.3em;
+    }
+
+    p.rodape {
+        font-size: 1.3em;
     }
 }
 
@@ -45,7 +90,7 @@
     }
 
     .legenda .texto-legenda {
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
     img.imagem-anuncio {
@@ -53,214 +98,431 @@
     }
 
     .anuncio .preco-anuncio {
-        font-size: 1.7em;
+        font-size: 1.3em;
     }
 
-    .anuncio .btn-ver-camiseta {
+    a.btn-ver-camiseta {
+        font-size: 1.3em;
+    }
+
+    p.texto-baner-inferior {
         font-size: 1.5em;
-    }
-
-    .anuncio .texto-baner-inferior {
-        font-size: 1.5em;
 
     }
 
-    .anuncio .icone-caminhao {
+    img.icone-caminhao {
         margin-left: 1em;
-        width: 4em;
+        width: 5em;
+    }
+
+    nav.index-navegacao-inferior {
+        padding: 1.4em;
+        bottom: 0.5em;
+    }
+
+    .rodape-fazer-pedido p {
+        font-size: 1.2em;
+    }
+
+    footer {
+        margin-bottom: 2em;
     }
 }
 
-@media (min-width: 760px) {
+@media (min-width: 700px) {
 
-    .cabecalho .titulo {
-        font-size: 270%;
+    main.pagina {
+        width: 100vw;
+    }
+
+    header.cabecalho {
+        width: 100vw;
     }
 
     section.container {
-        margin-top: 190px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0.5em 2em;
+        margin-top: 11.5em;
+        margin-bottom: 3em;
     }
 
-    .legenda .check-legenda {
-        width: 3.5%;
+    .container div {
+        width: 20vw;
     }
 
-    .legenda .texto-legenda {
-        font-size: 170%;
+    .container img {
+        width: 20vw;
     }
 
     div.anuncio {
-        margin-bottom: 10%;
+        margin-bottom: 0;
+        position: relative;
     }
 
-    .anuncio .imagem-anuncio {
-        max-width: 80vw;
+    div.legenda {
+        margin-bottom: 0em;
+        height: 2em;
+    }
+    
+    img.check-legenda {
+        font-size: 0.5em;
     }
 
-    .anuncio .preco-anuncio {
-        font-size: 160%;
-        left: 15%;
+    .legenda .texto-legenda {
+        font-size: 0.6em;
+        font-weight: 600;
     }
 
-    .anuncio .btn-ver-camiseta {
-        font-size: 160%;
-        margin-top: 70%;
+    .cabecalho .container-legenda-rolante {
+        margin-bottom: 1em;
     }
 
-    .anuncio .baner-inferior {
-        margin-top: 79%;
-        max-width: 80vw;
+    .anuncio h3.preco-anuncio {
+        font-size: 0.55em;
+        margin-left: -1em;
     }
 
-    .anuncio .texto-baner-inferior {
-        font-size: 80%;
+    a.btn-ver-camiseta {
+        margin-top: 84%;
+        font-size: 0.5em;
     }
 
-    .anuncio .icone-caminhao {
-        margin-left: 2%;
+    div.baner-inferior {
+        margin-top: 98%;
+        font-size: 28%;
+        text-align: center;
+    }
+
+    img.icone-caminhao {
+        width: 3em;
+    }
+
+    form.container-inscrito {
+        width: 20%;
+        text-align: center;
+        height: 14.5%;
+        top: 0em;
+        display: flex;
+        justify-content: center;
+    }
+
+    span.paragrafo-inscrever-se {
+        font-size: 70%;
+        background-color: white;
+        padding: 0.4em;
+    }
+
+    input.email-input-inscrever-se {
+        padding: 1em;
+        width: 100%;
+    }
+
+    .email-input-inscrever-se::placeholder {
+        font-size: 0.8em;
+    }
+
+    div.slider {
+        height: 100%;
+        top: 1.6em;
+    }
+
+    button.slider-button.prev-button {
+        margin-left: -0.2em;
+        font-size: 1em;
+    }
+
+    button.slider-button.next-button {
+        margin-right: -0.2em;
+        font-size: 1em;
+    }
+
+    .slider,.slider-indicators {
+        display: flex;
+        justify-content: center;
+    }
+
+    div.indicator {
+        width: 0.6em;
+    }
+
+    nav.index-navegacao-inferior {
+        padding: 1.5em;
+        margin: 0;
+    }
+
+
+
+    .index-navegacao-inferior-bloco-um {
+        margin-right: 5em;
+    }
+
+
+    .rodape-fazer-pedido p {
+        font-size: 1.3em;
+    }
+
+    footer {
+        margin: 3em 0em;
     }
 }
 
 @media (min-width: 1000px) {
 
-    .cabecalho .titulo {
-        font-size: 300%;
+    .anuncio h3.preco-anuncio {
+        font-size: 0.7em;
     }
 
-    .texto-informativo {
-        font-size: 150%;
+    a.btn-ver-camiseta {
+        margin-top: 84%;
+        font-size: 0.7em;
     }
 
-    .cabecalho .logotipo {
-        width: 70%;
-        position: relative;
+    div.baner-inferior {
+        margin-top: 98%;
+        font-size: 38%;
+        text-align: center;
     }
 
-    .cabecalho .icone-loja {
-        width: 20%;
-        left: 45%;
+    img.icone-caminhao {
+        width: 4em;
     }
 
-    .cabecalho .icone-whatsapp {
-        width: 20%;
-        left: 55%;
+    .email-input-inscrever-se::placeholder {
+        font-size: 1em;
     }
 
-    section.container {
-        margin-top: 230px;
-    }
 
-    .legenda .check-legenda {
-        width: 2.5%;
+}
+
+@media (min-width: 1300px) {
+
+    img.check-legenda {
+        font-size: 0.7em;
     }
 
     .legenda .texto-legenda {
-        font-size: 180%;
+        font-size: 0.8em;
+        font-weight: 600;
     }
 
-    .anuncio .preco-anuncio {
-        font-size: 190%;
-        left: 18%;
+    .anuncio h3.preco-anuncio {
+        font-size: 0.9em;
     }
 
-    .anuncio .btn-ver-camiseta {
-        font-size: 190%;
+    a.btn-ver-camiseta {
+        margin-top: 84%;
+        font-size: 0.9em;
     }
 
-    .anuncio .texto-baner-inferior {
-        font-size: 100%;
+    div.baner-inferior {
+        margin-top: 98%;
+        font-size: 45%;
+        text-align: center;
+    }
+
+    .email-input-inscrever-se::placeholder {
+        font-size: 1.1em;
+    }
+
+    button.slider-button.prev-button {
+        margin-left: -0.2em;
+        font-size: 1.3em;
+    }
+
+    button.slider-button.next-button {
+        margin-right: -0.2em;
+        font-size: 1.3em;
     }
 
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1600px) {
 
-    .cabecalho .titulo {
-        font-size: 350%;
+    div.legenda {
+        margin-bottom: 1em;
+        height: 2em;
     }
 
-    .texto-informativo {
-        font-size: 200%;
-    }
-
-    .cabecalho .logotipo {
-        width: 80%;
-        position: relative;
-    }
-
-    section.container {
-        margin-top: 285px;
-    }
-
-    .legenda .check-legenda {
-        width: 2.5%;
+    img.check-legenda {
+        font-size: 0.8em;
     }
 
     .legenda .texto-legenda {
-        font-size: 220%;
+        font-size: 1.1em;
+        font-weight: 600;
     }
 
-    .anuncio .preco-anuncio {
-        font-size: 250%;
-        left: 20%;
+    section.container {
+        gap: 1.7em 2em;
     }
 
-    .anuncio .btn-ver-camiseta {
-        font-size: 250%;
+    .anuncio h3.preco-anuncio {
+        font-size: 1em;
     }
 
-    .anuncio .texto-baner-inferior {
-        font-size: 150%;
+    a.btn-ver-camiseta {
+        margin-top: 84%;
+        font-size: 1em;
+    }
+
+    div.baner-inferior {
+        margin-top: 98%;
+        font-size: 50%;
+        text-align: center;
+    }
+
+    span.paragrafo-inscrever-se {
+        font-size: 1em;
+    }
+
+    .email-input-inscrever-se::placeholder {
+        font-size: 1.2em;
+    }
+
+    div.slider {
+        height: 100%;
+        top: 2.5em;
+    }
+
+    button.slider-button.prev-button {
+        margin-left: -0.2em;
+        font-size: 1.5em;
+    }
+
+    button.slider-button.next-button {
+        margin-right: -0.2em;
+        font-size: 1.5em;
+    }
+
+    h2.index-titulo-inferior {
+        font-size: 1.5em;
+    }
+
+    nav.index-navegacao-inferior {
+        font-size: 1.5em;
+    }
+
+    footer.rodape-fazer-pedido {
+        font-size: 0.7em;
     }
 
 }
 
-@media (min-width: 2000px) {
+@media (min-width: 1900px) {
 
-    .cabecalho .titulo {
-        font-size: 500%;
-    }
-
-    .texto-informativo {
-        font-size: 250%;
-    }
-
-    .cabecalho .logotipo {
-        width: 100%;
-        position: relative;
-    }
-
-    .cabecalho .icone-loja {
-        width: 30%;
-        left: 35%;
-    }
-
-    .cabecalho .icone-whatsapp {
-        width: 30%;
-    }
-
-    section.container {
-        margin-top: 370px;
-    }
-
-    .legenda .check-legenda {
-        width: 2%;
+    img.check-legenda {
+        font-size: 0.8em;
     }
 
     .legenda .texto-legenda {
-        font-size: 270%;
+        font-size: 1.1em;
+        font-weight: 600;
     }
 
-    .anuncio .preco-anuncio {
-        font-size: 270%;
-        left: 20%;
+    .anuncio h3.preco-anuncio {
+        font-size: 1.1em;
     }
 
-    .anuncio .btn-ver-camiseta {
-        font-size: 270%;
+    a.btn-ver-camiseta {
+        margin-top: 84%;
+        font-size: 1.1em;
     }
 
-    .anuncio .texto-baner-inferior {
-        font-size: 200%;
+    div.baner-inferior {
+        margin-top: 98%;
+        font-size: 60%;
+        text-align: center;
     }
+
+    span.paragrafo-inscrever-se {
+        font-size: 1.1em;
+    }
+
+    .email-input-inscrever-se::placeholder {
+        font-size: 1.2em;
+    }
+
 }
+
+@media (min-width: 2200px) {
+
+    img.check-legenda {
+        font-size: 0.9em;
+    }
+
+    .legenda .texto-legenda {
+        font-size: 1.3em;
+        font-weight: 600;
+    }
+
+    section.container {
+        gap: 2.1em 2em;
+    }
+
+    .anuncio h3.preco-anuncio {
+        font-size: 1.3em;
+    }
+
+    a.btn-ver-camiseta {
+        margin-top: 84%;
+        font-size: 1.3em;
+    }
+
+    div.baner-inferior {
+        margin-top: 98%;
+        font-size: 70%;
+        text-align: center;
+    }
+
+    span.paragrafo-inscrever-se {
+        font-size: 1.3em;
+    }
+
+    .email-input-inscrever-se::placeholder {
+        font-size: 1.3em;
+    }
+
+}
+
+@media (min-width: 2500px) {
+
+    img.check-legenda {
+        font-size: 1em;
+    }
+
+    .legenda .texto-legenda {
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+
+    section.container {
+        gap: 2.3em 2em;
+    }
+
+    .anuncio h3.preco-anuncio {
+        font-size: 1.5em;
+    }
+
+    a.btn-ver-camiseta {
+        margin-top: 84%;
+        font-size: 1.5em;
+    }
+
+    div.baner-inferior {
+        margin-top: 98%;
+        font-size: 80%;
+        text-align: center;
+    }
+
+    span.paragrafo-inscrever-se {
+        font-size: 1.5em;
+    }
+
+    .email-input-inscrever-se::placeholder {
+        font-size: 1.4em;
+    }
+
+}
+

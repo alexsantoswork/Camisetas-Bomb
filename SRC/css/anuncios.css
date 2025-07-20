@@ -447,6 +447,7 @@ input#cores {
 /* NAVEGAÇÃO INFERIOR */
 .titulo-inferior {
     font-size: 1em;
+    color: rgb(80, 0, 80);
     text-transform: uppercase;
     margin-bottom: 1em;
     bottom: 9em;
@@ -465,7 +466,8 @@ input#cores {
     display: flex;
     position: relative;
     gap: 3em;
-    font-size: 0.8em;    
+    font-size: 0.8em;
+    color: rgb(80, 0, 80);   
 }
 
 .navegacao-inferior-bloco-um, .navegacao-inferior-bloco-dois {
@@ -474,6 +476,7 @@ input#cores {
    cursor: pointer;
 }
 
+/* RODAPÉ */
 .rodape-fazer-pedido {
     font-size: 0.5em;
     position: relative;
@@ -481,7 +484,6 @@ input#cores {
     padding-bottom: 3em;
 }
 
-/* RODAPÉ */
 .rodape {
     display: flex;
     justify-content: center;
