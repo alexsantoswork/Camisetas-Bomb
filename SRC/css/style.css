@@ -74,7 +74,7 @@
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 0.5em;
-    font-size: 1em;
+    /* font-size: 1em; */
 }
 
 .icones-menu {
@@ -144,7 +144,7 @@ section,
     left: 2em;
     margin-top: 1em;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.8em;
+    font-size: 1.1em;
     font-style: italic;
     background-color: rgb(253, 214, 41);
     padding: 0.3em 0.5em;
@@ -155,9 +155,9 @@ section,
 
 .btn-ver-camiseta {
     position: absolute;
-    margin-top: 85%;
+    margin-top: 83%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.8em;
+    font-size: 1.1em;
     font-style: italic;
     background-color: rgb(253, 214, 41);
     padding: 0.5em 0.5em;
