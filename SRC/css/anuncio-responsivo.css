@@ -14,6 +14,22 @@
     }
 }
 
+@media (min-width: 830px) {
+
+    .legenda-rolante-continua {
+        word-spacing: 0.8em;
+        letter-spacing: 0.2em;
+        font-weight: 500;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .legenda-rolante-continua span::after  {
+        content: " ";
+        margin-right: 20px;
+    }
+
+}
+
 @media (min-width: 1300px) {
     
     div.slider,.cores,.tamanhos,.condicoes,.container-fazer-pedido,.descricao,.container,figure.loja-bomb,.titulo-inferior,.navegacao-inferior {
@@ -22,10 +38,41 @@
     }
 }
 
+@media (min-width: 1400px) {
+
+    .legenda-rolante-continua {
+        word-spacing: 1em;
+        letter-spacing: 0.4em;
+        
+    }
+
+    .legenda-rolante-continua span::after  {
+        content: " ";
+        margin-right: 20px;
+    }
+
+}
+
 @media (min-width: 1600px) {
     
     div.slider,.cores,.tamanhos,.condicoes,.container-fazer-pedido,.descricao,.container,figure.loja-bomb,.titulo-inferior,.navegacao-inferior {
         width: 20%;
         margin-left: 40%;
     }
+}
+
+@media (min-width: 1800px) {
+
+    .legenda-rolante-continua {
+        word-spacing: 1.3em;
+        letter-spacing: 0.8em;
+        font-weight: 700;
+        
+    }
+    
+    .legenda-rolante-continua span::after  {
+        content: " ";
+        margin-right: 50px;
+    }
+
 }
