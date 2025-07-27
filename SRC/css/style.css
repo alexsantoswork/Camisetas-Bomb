@@ -229,6 +229,7 @@ section,
 
 .email-input-inscrever-se::placeholder {
     color: rgba(128, 0, 128, 0.596);
+    text-align: center;
 }
 
 .btn-inscrever-se {
@@ -382,4 +383,5 @@ section,
     text-align: center;
     color: rgb(78, 78, 78);
     font-style: italic;
+    margin-bottom: 3em;
 }

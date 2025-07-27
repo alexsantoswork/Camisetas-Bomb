@@ -131,9 +131,9 @@
 
 @media (min-width: 700px) {
 
-    main.pagina {
-        /* width: 100vw; */
-    }
+    /* main.pagina {
+        width: 100vw;
+    } */
 
     header.cabecalho {
         width: 100vw;
