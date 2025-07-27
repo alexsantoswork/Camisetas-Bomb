@@ -14,7 +14,6 @@ article {
 .legenda-rolante-continua {
     display: flex;
     white-space: nowrap;
-    font-size: 1.51em;
     color: purple;
     animation: rolarTextoContinuo 15s linear infinite;
 }
@@ -35,7 +34,7 @@ article {
 
 .container-legenda {
     width: 100%;
-    height: 2.5em;
+    height: 2em;
     overflow: hidden;
     background-color: rgb(253, 214, 41);
     position: relative;

@@ -4,21 +4,23 @@
         width: 50%;
         margin-left: 25%;
     }
-}
 
-@media (min-width: 1000px) {
-    
-    div.slider,.cores,.tamanhos,.condicoes,.container-fazer-pedido,.descricao,.container,figure.loja-bomb,.titulo-inferior,.navegacao-inferior {
-        width: 40%;
-        margin-left: 30%;
+    .legenda-rolante-continua {
+        letter-spacing: 0.2em;
+        word-spacing: 1em;
+    }
+
+    .legenda-rolante-continua span::after  {
+        content: " ";
+        margin-right: 20px;
     }
 }
 
 @media (min-width: 830px) {
 
     .legenda-rolante-continua {
-        word-spacing: 0.8em;
         letter-spacing: 0.2em;
+        word-spacing: 0.8em;
         font-weight: 500;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
@@ -28,6 +30,37 @@
         margin-right: 20px;
     }
 
+}
+
+@media (min-width: 1000px) {
+    
+    div.slider,.cores,.tamanhos,.condicoes,.container-fazer-pedido,.descricao,.container,figure.loja-bomb,.titulo-inferior,.navegacao-inferior {
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    .legenda-rolante-continua {
+        letter-spacing: 0.3em;
+        word-spacing: 0.9em;
+    }
+
+    .legenda-rolante-continua span::after  {
+        content: " ";
+        margin-right: 20px;
+    }
+}
+
+@media (min-width: 1250px) {
+
+    .legenda-rolante-continua {
+        letter-spacing: 0.45em;
+        word-spacing: 1em;
+    }
+
+    .legenda-rolante-continua span::after  {
+        content: " ";
+        margin-right: 20px;
+    }
 }
 
 @media (min-width: 1300px) {
@@ -41,14 +74,14 @@
 @media (min-width: 1400px) {
 
     .legenda-rolante-continua {
-        word-spacing: 1em;
-        letter-spacing: 0.4em;
+        letter-spacing: 0.7em;
+        word-spacing: 1.2em;
         
     }
 
     .legenda-rolante-continua span::after  {
         content: " ";
-        margin-right: 20px;
+        margin-right: 27px;
     }
 
 }
@@ -64,8 +97,8 @@
 @media (min-width: 1800px) {
 
     .legenda-rolante-continua {
-        word-spacing: 1.3em;
-        letter-spacing: 0.8em;
+        letter-spacing: 1em;
+        word-spacing: 1.4em;
         font-weight: 700;
         
     }
@@ -75,4 +108,18 @@
         margin-right: 50px;
     }
 
+}
+
+@media (min-width: 2300px) {
+
+    .legenda-rolante-continua {
+        letter-spacing: 1.2em;
+        word-spacing: 1.5em;
+        
+    }
+
+    .legenda-rolante-continua span::after  {
+        content: " ";
+        margin-right: 50px;
+    }
 }
