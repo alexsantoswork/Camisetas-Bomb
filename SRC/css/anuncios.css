@@ -214,7 +214,7 @@ article {
     font-weight: 600;
     text-decoration: none;
     text-transform: uppercase;
-    text-decoration: none;    
+    text-decoration: none;
     margin-bottom: 1.7em;
     bottom: 0.8em;
     position: relative;
@@ -224,178 +224,197 @@ article {
 .descricao {
     position: relative;
     padding: 0.7em 0.7em 0;
-    bottom: 2.3em;
+    bottom: 1.5em;
     font-size: 0.8em;
 }
 
 /* FORMULARIO PARA FAZER PEDIDO */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .texto-selecionar-pedido {
     display: flex;
     justify-content: center;
     font-size: 1em;
     font-weight: 600;
     text-transform: uppercase;
-    margin-bottom: 1em;
-    position: relative;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    background-color: white;
-    bottom: 10.5em;
-}
-
-.checkout-selecionar-variacoes {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-color: white;
-    margin-top: 1em;
+    margin: 0.5em 0em 1em;
 }
 
 .titulo-nome {
-    font-size: 0.9em;
-    margin-bottom: 0.5em;
-    font-weight: 600;
-    text-transform: uppercase;
+    margin-bottom: 0.2em;
 }
 
-.input-nome {
+div.input-nome {
     display: flex;
     flex-direction: column;
-    margin-bottom: 2em;
-}
-
-.valor-input-nome {
-    font-size: 1em;
-    height: 2.5em;
-    padding: 1em;
-    border: rgb(78, 78, 78) solid 0.1em;
-    box-shadow: rgb(78, 78, 78) 0.1em 0.1em;
-    border-radius: 0.4em;
-}
-
-.titulo-checkout {
-    font-size: 0.9em;
-    font-weight: 600;
-    font-family: Arial, Helvetica, sans-serif;
-    border: none;
-    margin-bottom: 0.5em;
-    text-align: center;
-    background-color: white;
+    align-items: center;
     text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 600;
+    margin-bottom: 2em;
+    width: 100%;
 }
 
-input#cores {
-    transform: scale(2.2);
-    margin-bottom: 1.1em;
+input.valor-input-nome {
+    width: 90%;
+    height: 2.4em;
+    text-align: center;
+    border-radius: 0.5em;
+    border: solid 0.1em rgb(66, 66, 66);
+    box-shadow: 0.1em 0.1em rgb(66, 66, 66);
+    font-size: 1.2em;
+}
+
+input.valor-input-nome::placeholder {
+    color: rgb(66, 66, 66);
+}
+
+.titulo-form {
+    border: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+input.titulo-checkout {
+    text-transform: uppercase;
+    border: none;
+    width: 90%;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.titulo-variacoes {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 600;
+    margin-bottom: 0.3em;
+}
+
+div.radio-group {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 5.3em;
+    border: solid 0.1em rgb(66, 66, 66);
+    border-radius: 0.5em;
+    box-shadow: 0.1em 0.1em rgb(66, 66, 66) ;
+    margin-bottom: 1em;
+}
+
+.radio-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-item input,radio {
+    transform: scale(2);
+    margin-bottom: 1em;
     display: flex;
     align-self: center;
 }
 
-.campo-cores, .campo-tamanhos, .campo-quantidade {
-    border: rgb(78, 78, 78) solid 0.1em;
-    padding: 0.5em;
-    margin-bottom: 1em;
-    box-shadow: rgb(78, 78, 78) 0.1em 0.1em;
-    background-color: white;
-    border-radius: 0.4em;
+.label-preto {
+    background-color: black;
+    color: white;
+    font-size: 0.8em;
+    padding: 0.3em;
+    border: solid 0.1em black;
+    border-radius: 0.5em;
 }
 
-.titulo-selecione-cor, .titulo-selecione-tamanhos, .titulo-selecione-quantidade {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1em;
+.label-branco {
+    background-color: white;
+    color: black;
+    font-size: 0.8em;
+    padding: 0.3em;
+    border-radius: 0.5em;
+    border: solid 0.1em black;
+}
+
+.label-vermelho {
+    background-color: red;
+    color: white;
+    font-size: 0.8em;
+    padding: 0.3em;
+    border-radius: 0.5em;
+    border: solid 0.1em black;
+}
+
+.label-azul {
+    background-color: blue;
+    color: white;
+    font-size: 0.8em;
+    padding: 0.3em;
+    border-radius: 0.5em;
+    border: solid 0.1em black;
+}
+
+.label-cinza {
+    background-color: grey;
+    color: white;
+    font-size: 0.8em;
+    padding: 0.3em;
+    border-radius: 0.5em;
+    border: solid 0.1em black;
+}
+
+.fonte-tamanhos,.fonte-quantidade {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.radio-cor .radio-item {
+    margin: 2%;
+}
+
+.radio-tamanho .radio-item {
+    margin: 8%;
+}
+
+.radio-quantidade .radio-item {
+    margin: 4%;
+}
+
+.btn-comprar {
+    width: 50%;
+    height: 2.3em;
+    font-size: 1em;
     font-weight: 600;
     text-transform: uppercase;
-    font-size: 0.9em;
+    border-radius: 0.5em;
+    border: solid 0.1em purple;
+    box-shadow: 0.1em 0.1em purple;
+    color: purple;
+    background-color: rgb(253, 214, 41);
+    margin-bottom: 0.3em;
 }
 
-.selecionar-cores, .selecionar-tamanhos, .selecionar-quantidade {
-    display: flex;
-    margin-bottom: 0.2em;
-    gap: 0.5em;
-    justify-content: center;
+p.validation-message {
+    position: absolute;
+    margin-top: 6em;
+    font-size: 0.7em;
 }
 
-.cor-preto {
-    background-color: rgb(53, 53, 53);
-    color: white;
-    padding: 0.3em;
-    border-radius: 0.4em;
-    border: solid 0.1em gray;
+.success {
+    color: green;
 }
 
-.cor-branco {
-    background-color: aliceblue;
-    padding: 0.3em;
-    border-radius: 0.4em;
-    border: solid 0.1em gray;
+.error {
+    color: red;
 }
 
-.cor-azul {
-    background-color: blue;
-    padding: 0.3em;
-    color: white;
-    border-radius: 0.4em;
-    border: solid 0.1em gray;
-}
-
-.cor-vermelho {
-    background-color: red;
-    padding: 0.3em;
-    color: white;
-    border-radius: 0.4em;
-    border: solid 0.1em gray;
-}
-
-.cor-cinza {
-    background-color: rgb(170, 170, 170);
-    padding: 0.3em;
-    color: white;
-    border-radius: 0.4em;
-    border: solid 0.1em gray;
-}
-
-.selecionar-tamanhos {
-    gap: 3em;
-}
-
-.selecionar-preto, .selecionar-branco, .selecionar-azul, .selecionar-vermelho, .selecionar-cinza {
-    display: flex;
-    flex-direction: column;
-    font-size: 0.9em;
-}
-
-.selecionar-p, .selecionar-m, .selecionar-g, .selecionar-gg {
-    display: flex;
-    flex-direction: column;
-    font-size: 1.3em;
-    font-weight: 600;
-    color: rgb(48, 48, 48);
-}
-
-.selecionar-quantidade {
-    gap: 1em;
-}
-
-.btn-01, .btn-02, .btn-03, .btn-04, .btn-05, .btn-06 {
-    padding: 0.5em;
-    border: solid 0.2em rgb(78, 78, 78);
-    font-weight: 600;
-    margin-bottom: 0.5em;
-    border-radius: 0.4em; 
-    background-color: rgb(236, 236, 236);
-}
-
-.texto-orientar-pedido {
-    font-size: 0.9em;
-    color: rgb(177, 2, 2);
+.redimencionar-msg {
+    padding-top: 3.1em;
 }
 
 /* INFORMAÇÕES DA LOJA */
@@ -403,7 +422,7 @@ input#cores {
     background-image: url(../imagens/vitrine-anuncios/background-bomb.png);
     position: relative;
     width: 100%;
-    bottom: 9.5em;
+    /* bottom: 9.5em; */
     padding: 2em 0;
 }
 
@@ -449,7 +468,7 @@ input#cores {
     color: rgb(80, 0, 80);
     text-transform: uppercase;
     margin-bottom: 1em;
-    bottom: 9em;
+    /* bottom: 9em; */
     text-align: center;
     position: relative;
 }
@@ -457,8 +476,9 @@ input#cores {
 .navegacao-inferior {
     display: flex;
     justify-content: space-evenly;
-    bottom: 9em;
+    /* bottom: 9em; */
     position: relative;
+    margin-bottom: 1em;
 }
 
 .navegacao-inferior-blocos {
@@ -466,20 +486,21 @@ input#cores {
     position: relative;
     gap: 3em;
     font-size: 0.8em;
-    color: rgb(80, 0, 80);   
+    color: rgb(80, 0, 80);
 }
 
-.navegacao-inferior-bloco-um, .navegacao-inferior-bloco-dois {
-   display: flex;
-   flex-direction: column;
-   cursor: pointer;
+.navegacao-inferior-bloco-um,
+.navegacao-inferior-bloco-dois {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
 }
 
 /* RODAPÉ */
 .rodape-fazer-pedido {
     font-size: 0.5em;
     position: relative;
-    bottom: 12em;
+    /* bottom: 12em; */
     padding-bottom: 3em;
 }
 

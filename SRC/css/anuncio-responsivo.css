@@ -1,6 +1,6 @@
 @media (min-width: 700px) {
     
-    div.slider,.cores,.tamanhos,.condicoes,.container-fazer-pedido,.descricao,.container,figure.loja-bomb,.titulo-inferior,.navegacao-inferior {
+    form,div.slider,.cores,.tamanhos,.condicoes,.container-fazer-pedido,.descricao,.container,figure.loja-bomb,.titulo-inferior,.navegacao-inferior {
         width: 50%;
         margin-left: 25%;
     }
@@ -34,7 +34,7 @@
 
 @media (min-width: 1000px) {
     
-    div.slider,.cores,.tamanhos,.condicoes,.container-fazer-pedido,.descricao,.container,figure.loja-bomb,.titulo-inferior,.navegacao-inferior {
+    form,div.slider,.cores,.tamanhos,.condicoes,.container-fazer-pedido,.descricao,.container,figure.loja-bomb,.titulo-inferior,.navegacao-inferior {
         width: 40%;
         margin-left: 30%;
     }
@@ -64,8 +64,8 @@
 }
 
 @media (min-width: 1300px) {
-    
-    div.slider,.cores,.tamanhos,.condicoes,.container-fazer-pedido,.descricao,.container,figure.loja-bomb,.titulo-inferior,.navegacao-inferior {
+        
+    form,div.slider,.cores,.tamanhos,.condicoes,.container-fazer-pedido,.descricao,.container,figure.loja-bomb,.titulo-inferior,.navegacao-inferior {
         width: 30%;
         margin-left: 35%;
     }
@@ -88,7 +88,7 @@
 
 @media (min-width: 1600px) {
     
-    div.slider,.cores,.tamanhos,.condicoes,.container-fazer-pedido,.descricao,.container,figure.loja-bomb,.titulo-inferior,.navegacao-inferior {
+    form,div.slider,.cores,.tamanhos,.condicoes,.container-fazer-pedido,.descricao,.container,figure.loja-bomb,.titulo-inferior,.navegacao-inferior {
         width: 20%;
         margin-left: 40%;
     }

@@ -74,7 +74,7 @@
 
         <div class="container-fazer-pedido">
             <nav>
-                <a class="btn-fazer-pedido" href="#form">Fazer Pedido</a>
+                <a class="btn-fazer-pedido" href="#meuFormulario">Fazer Pedido</a>
             </nav>
         </div>
 
@@ -88,98 +88,121 @@
         </div>
 
         <!-- FORMULARIO PARA FAZER O PEDIDO -->
-        <form class="container" id="form" action="https://api.staticforms.xyz/submit" method="post">
-            <input type="hidden" name="apiKey" value="sf_mm33a161fb5ddlc3221mkghh">
-            <input type="text" name="honeypot" style="display: none" tabindex="-1" autocomplete="off">
 
-            <div class="checkout-selecionar-variacoes">
 
-                <div class="texto-selecionar-pedido">
-                    <small>Preencha abaixo para fazer o pedido</small>
-                </div>
+        <form class="form" action="https://api.staticforms.xyz/submit" method="post" id="meuFormulario">
+            <input type="hidden" name="accessKey" value="sf_mm33a161fb5ddlc3221mkghh">
+            <!-- <input type="hidden" name="subject" value="Seleção de Páginas - Formulário do Site"> -->
+            <input type="hidden" name="redirectTo" value="https://camisetasbomb.com.br/SRC/html/obrigado.html">
+            
 
-                <div class="input-nome">
-                    <small class="titulo-nome">Nome Completo</small>
-                    <input class="valor-input-nome" type="text" id="names" name="nome"
-                        placeholder="Escreva o seu nome aqui" required>
-                </div>
+            <!-- <input type="hidden" name="email_remetente" value="contato@seusite.com"> -->
 
-                <input class="titulo-checkout" type="text" name="produto" value="Camiseta Masculina Barcelona" readonly>
 
-                <div class="campo-cores">
-                    <small class="titulo-selecione-cor">Selecione uma cor</small>
-                    <div class="selecionar-cores">
-                        <div class="selecionar-preto">
-                            <input type="radio" id="cores" name="cor" value="Preto" required>
-                            <label class="cor-preto" for="preto">Preto</label>
-                        </div>
-
-                        <div class="selecionar-branco">
-                            <input type="radio" id="cores" name="cor" value="Branco" required>
-                            <label class="cor-branco" for="branco">Branco</label>
-                        </div>
-
-                        <div class="selecionar-azul">
-                            <input type="radio" id="cores" name="cor" value="Azul" required>
-                            <label class="cor-azul" for="azul">Azul</label>
-                        </div>
-
-                        <div class="selecionar-vermelho">
-                            <input type="radio" id="cores" name="cor" value="Vermelho" required>
-                            <label class="cor-vermelho" for="vermelho">Vermelho</label>
-                        </div>
-
-                        <div class="selecionar-cinza">
-                            <input type="radio" id="cores" name="cor" value="Cinza" required>
-                            <label class="cor-cinza" for="cinza">Cinza</label>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="campo-tamanhos">
-                    <small class="titulo-selecione-tamanhos">Selecione um tamanho</small>
-                    <div class="selecionar-tamanhos">
-                        <div class="selecionar-p">
-                            <input class="tamp" type="radio" id="cores" name="tamanho" value="P" required>
-                            <label for="cores">P</label>
-                        </div>
-
-                        <div class="selecionar-m">
-                            <input type="radio" id="cores" name="tamanho" value="M" required>
-                            <label for="cores">M</label>
-                        </div>
-
-                        <div class="selecionar-g">
-                            <input type="radio" id="cores" name="tamanho" value="G" required>
-                            <label for="cores">G</label>
-                        </div>
-
-                        <div class="selecionar-gg">
-                            <input type="radio" id="cores" name="tamanho" value="GG" required>
-                            <label for="cores">GG</label>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="campo-quantidade">
-                    <small class="titulo-selecione-quantidade">Selecione a Quantidade</small>
-                    <div class="selecionar-quantidade">
-                        <button class="btn-01" name="quantidade" value="01" onclick="validarBtnUm()">01</button>
-                        <button class="btn-02" name="quantidade" value="02" onclick="validarBtnDois()">02</button>
-                        <button class="btn-03" name="quantidade" value="03" onclick="validarBtnTres()">03</button>
-                        <button class="btn-04" name="quantidade" value="04" onclick="validarBtnQuatro()">04</button>
-                        <button class="btn-05" name="quantidade" value="05" onclick="validarBtnCinco()">05</button>
-                        <button class="btn-06" name="quantidade" value="06" onclick="validarBtnSeis()">06</button>
-                    </div>
-                </div>
-
-                <p class="texto-orientar-pedido">Selecione a quantidade para concluir o pedido.</p>
+            <div class="texto-selecionar-pedido">
+                <small>Preencha abaixo para fazer o pedido</small>
             </div>
 
-            <input type="hidden" name="redirectTo" value="https://camisetasbomb.com.br/SRC/html/obrigado.html">
+            <div class="input-nome">
+                <label class="titulo-nome">Nome Completo</label>
+                <input class="valor-input-nome" type="text" id="names" name="nome" placeholder="Escreva o seu nome aqui"
+                    required>
+            </div>
+
+            <div class="titulo-form">
+                <input class="titulo-checkout" type="text" name="produto" value="Camiseta Masculina Barcelona" readonly>
+            </div>
+
+            <span class="titulo-variacoes">Selecione uma cor</span>
+            <div class="radio-group radio-cor">
+                
+                <div class="radio-item radio-cor">
+                    <input type="radio" id="campo1_radio1" name="cor" value="preto">
+                    <label class="label-preto" for="campo1_radio1">Preto</label>
+                </div>
+                <div class="radio-item">
+                    <input type="radio" id="campo1_radio2" name="cor" value="branco">
+                    <label class="label-branco" for="campo1_radio2">Branco</label>
+                </div>
+                <div class="radio-item">
+                    <input type="radio" id="campo1_radio3" name="cor" value="vermelho">
+                    <label class="label-vermelho" for="campo1_radio3">Vermelha</label>
+                </div>
+                <div class="radio-item">
+                    <input type="radio" id="campo1_radio4" name="cor" value="azul">
+                    <label class="label-azul" for="campo1_radio4">Azul</label>
+                </div>
+                <div class="radio-item">
+                    <input type="radio" id="campo1_radio5" name="cor" value="cinza">
+                    <label class="label-cinza" for="campo1_radio5">Cinza</label>
+                </div>
+                <p class="validation-message" id="campo1-msg"></p>
+            </div>
+
+            <span class="titulo-variacoes">Selecione um tamanho</span>
+            <div class="radio-group radio-tamanho">
+                <div class="radio-item">
+                    <input type="radio" id="campo2_radio1" name="tamanho" value="P">
+                    <label class="fonte-tamanhos" for="campo2_radio1">P</label>
+                </div>
+                <div class="radio-item">
+                    <input type="radio" id="campo2_radio2" name="tamanho" value="M">
+                    <label class="fonte-tamanhos" for="campo2_radio2">M</label>
+                </div>
+                <div class="radio-item">
+                    <input type="radio" id="campo2_radio3" name="tamanho" value="G">
+                    <label class="fonte-tamanhos" for="campo2_radio3">G</label>
+                </div>
+                <div class="radio-item">
+                    <input type="radio" id="campo2_radio4" name="tamanho" value="GG">
+                    <label class="fonte-tamanhos" for="campo2_radio4">GG</label>
+                </div>
+                <!-- <div class="radio-item">
+                    <input type="radio" id="campo2_radio5" name="campo2" value="roxo">
+                    <label for="campo2_radio5">XG</label>
+                </div> -->
+                <p class="validation-message" id="campo2-msg"></p>
+            </div>
+
+            <span class="titulo-variacoes">Selecione a quantidade</span>
+            <div class="radio-group radio-quantidade">
+                <div class="radio-item">
+                    <input type="radio" id="campo3_radio1" name="quantidade" value="https://www.google.com" value="01">
+                    <label class="fonte-quantidade" for="campo3_radio1">01</label>
+                </div>
+                <div class="radio-item">
+                    <input type="radio" id="campo3_radio2" name="quantidade" value="https://www.youtube.com">
+                    <label class="fonte-quantidade" for="campo3_radio2">02</label>
+                </div>
+                <div class="radio-item">
+                    <input type="radio" id="campo3_radio3" name="quantidade" value="https://www.wikipedia.org">
+                    <label class="fonte-quantidade" for="campo3_radio3">03</label>
+                </div>
+                <div class="radio-item">
+                    <input type="radio" id="campo3_radio4" name="quantidade" value="https://github.com">
+                    <label class="fonte-quantidade" for="campo3_radio4">04</label>
+                </div>
+                <div class="radio-item">
+                    <input type="radio" id="campo3_radio5" name="quantidade" value="https://www.openai.com">
+                    <label class="fonte-quantidade" for="campo3_radio5">05</label>
+                </div>
+
+                <div class="radio-item">
+                    <input type="radio" id="campo3_radio6" name="quantidade" value="https://www.openai.com">
+                    <label class="fonte-quantidade" for="campo3_radio6">06</label>
+                </div>
+
+                <p class="validation-message" id="campo3-msg"></p>
+            </div>
+
+            <button class="btn-comprar" type="submit" id="validarAbrirBtn">Comprar</button>
+            <p class="validation-message global-message redimencionar-msg" id="global-msg"></p>
 
             <script src="/SRC/js/fazerPedido.js"></script>
         </form>
+
+
+
 
         <!-- INFORMAÇÕES LOJA BOMB -->
         <figure class="loja-bomb esconder-background">
