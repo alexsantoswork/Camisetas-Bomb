@@ -44,7 +44,7 @@ article {
 }
 
 .texto-legenda {
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 .slider {
@@ -209,7 +209,10 @@ article {
     justify-content: center;
     width: 15em;
     height: 2.3em;
+    color: purple;
     border-radius: 0.5em;
+    border: solid 0.1em purple;
+    box-shadow: 0.1em 0.1em purple;
     font-size: 1em;
     font-weight: 600;
     text-decoration: none;
@@ -239,14 +242,16 @@ form {
 .texto-selecionar-pedido {
     display: flex;
     justify-content: center;
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: 600;
     text-transform: uppercase;
+    text-align: center;
     margin: 0.5em 0em 1em;
 }
 
 .titulo-nome {
     margin-bottom: 0.2em;
+    font-size: 1.1em;
 }
 
 div.input-nome {
@@ -256,7 +261,7 @@ div.input-nome {
     text-transform: uppercase;
     font-size: 0.8em;
     font-weight: 600;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     width: 100%;
 }
 
@@ -279,6 +284,7 @@ input.valor-input-nome::placeholder {
     display: flex;
     justify-content: center;
     width: 100%;
+    font-size: 1.1em;
 }
 
 input.titulo-checkout {
@@ -293,7 +299,7 @@ input.titulo-checkout {
 
 .titulo-variacoes {
     text-transform: uppercase;
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight: 600;
     margin-bottom: 0.3em;
 }
@@ -387,7 +393,7 @@ div.radio-group {
 
 .btn-comprar {
     width: 50%;
-    height: 2.3em;
+    height: 2.5em;
     font-size: 1em;
     font-weight: 600;
     text-transform: uppercase;
@@ -397,6 +403,7 @@ div.radio-group {
     color: purple;
     background-color: rgb(253, 214, 41);
     margin-bottom: 0.3em;
+    cursor: pointer;
 }
 
 p.validation-message {
@@ -414,7 +421,8 @@ p.validation-message {
 }
 
 .redimencionar-msg {
-    padding-top: 3.1em;
+    padding-top: 5.3em;
+    /* padding-bottom: 5em; */
 }
 
 /* INFORMAÇÕES DA LOJA */
@@ -424,6 +432,7 @@ p.validation-message {
     width: 100%;
     /* bottom: 9.5em; */
     padding: 2em 0;
+    margin-bottom: 1em;
 }
 
 .icones-pagamento {
@@ -448,14 +457,35 @@ p.validation-message {
 
 .fale-conosco {
     width: 50%;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
     cursor: pointer;
 }
 
 .ver-loja {
-    width: 35%;
-    margin-bottom: 1em;
+    width: 40%;
+    height: 2em;
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    /* text-align: center; */
+    border-radius: 0.5em;
+    border: solid 0.1em purple;
+    /* box-shadow: 0.1em 0.1em purple; */
+    color: purple;
+    background-color: rgb(253, 214, 41);
+    margin-bottom: 1.5em;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icone-loja {
+    width: 1.5em;
+    position: relative;
+    top: 0;
+    margin-left: 0.2em;
 }
 
 .logo-bomb {
@@ -481,12 +511,17 @@ p.validation-message {
     margin-bottom: 1em;
 }
 
+.navegacao-inferior span {
+    margin-bottom: 0.5em;
+    color: rgb(80, 0, 80);
+}
+
 .navegacao-inferior-blocos {
     display: flex;
     position: relative;
     gap: 3em;
-    font-size: 0.8em;
-    color: rgb(80, 0, 80);
+    /* font-size: 0.8em; */
+    margin-bottom: 2em;
 }
 
 .navegacao-inferior-bloco-um,
@@ -498,10 +533,10 @@ p.validation-message {
 
 /* RODAPÉ */
 .rodape-fazer-pedido {
-    font-size: 0.5em;
+    font-size: 0.6em;
     position: relative;
     /* bottom: 12em; */
-    padding-bottom: 3em;
+    padding-bottom: 2.5em;
 }
 
 .rodape {

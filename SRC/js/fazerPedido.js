@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
             msg.classList.remove('success');
         });
 
+
         // --- Validação Campo 1: Escolher um número par ---
         const campo1Radios = document.getElementsByName('cor');
         const campo1Msg = document.getElementById('campo1-msg');
@@ -30,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         if (!campo1Selecionado) {
-            campo1Msg.textContent = 'Por favor, selecione uma cor.';
+            campo1Msg.textContent = 'Escolha uma cor.';
             campo1Msg.classList.remove('success');
             campo1Msg.classList.add('error');
             todosCamposValidos = false;
@@ -61,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         if (!campo2Selecionado) {
-            campo2Msg.textContent = 'Por favor, selecione um tamanho.';
+            campo2Msg.textContent = 'Escolha um tamanho.';
             campo2Msg.classList.remove('success');
             campo2Msg.classList.add('error');
             todosCamposValidos = false;
@@ -89,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         if (!campo3Selecionado) {
-            campo3Msg.textContent = 'Por favor, selecione a quantidade.';
+            campo3Msg.textContent = 'Escolha a quantidade.';
             campo3Msg.classList.remove('success');
             campo3Msg.classList.add('error');
             todosCamposValidos = false;

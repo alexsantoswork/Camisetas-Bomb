@@ -211,7 +211,8 @@ section,
 
 .paragrafo-inscrever-se {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.65em;
+    font-size: 0.7em;
+    text-align: center;
     font-weight: 600;
     color: purple;
     font-style: italic;
@@ -224,7 +225,7 @@ section,
     border: solid 0.1em purple;
     padding: 0.1em 3em;
     width: 80%;
-    height: 2em;
+    height: 2.5em;
 }
 
 .email-input-inscrever-se::placeholder {
@@ -236,7 +237,7 @@ section,
     position: relative;
     padding: 0.1em 0.5em;
     width: 10em;
-    height: 2em;
+    height: 2.5em;
     font-size: 0.7em;
     font-weight: 600;
     text-transform: uppercase;
