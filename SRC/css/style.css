@@ -335,7 +335,7 @@ section,
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     text-transform: uppercase;
-    margin: 1em 0em 0em;
+    /* margin: 1em 0em 0em; */
     text-align: center;
     position: relative;
     color: rgb(80, 0, 80);
@@ -348,17 +348,23 @@ section,
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     color: rgb(80, 0, 80);
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     position: relative;
-    padding: 1em;
+    padding-top: 1.5em;
+}
+
+.navegacao-inferior span {
+    margin-bottom: 0.5em;
+    color: rgb(80, 0, 80);
 }
 
 .index-navegacao-inferior-blocos {
     display: flex;
     position: relative;
     gap: 3em;
-    font-size: 0.8em;
+    /* font-size: 0.8em; */
     top: 0.4em;
+    margin-bottom: 2em;
 }
 
 .index-navegacao-inferior-bloco-um,
@@ -371,18 +377,17 @@ section,
 
 /* RODAPÉ */
 .rodape-fazer-pedido {
-    font-size: 0.5em;
+    font-size: 0.6em;
     position: relative;
+    /* bottom: 12em; */
+    padding-bottom: 0;
 }
-
 .rodape {
     display: flex;
     justify-content: center;
     position: relative;
-    font-size: 1em;
+    /* font-size: 1em; */
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: rgb(78, 78, 78);
-    font-style: italic;
-    margin-bottom: 3em;
 }
