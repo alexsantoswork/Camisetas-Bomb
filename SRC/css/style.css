@@ -380,7 +380,7 @@ section,
     font-size: 0.6em;
     position: relative;
     /* bottom: 12em; */
-    padding-bottom: 0;
+    padding-bottom: 1em;
 }
 .rodape {
     display: flex;
