@@ -380,7 +380,7 @@ section,
     font-size: 0.6em;
     position: relative;
     /* bottom: 12em; */
-    padding-bottom: 1.5em;
+    /* padding-bottom: 1.5em; */
 }
 .rodape {
     display: flex;
@@ -390,4 +390,5 @@ section,
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: rgb(78, 78, 78);
+    margin-bottom: 1em;
 }
