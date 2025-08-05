@@ -202,22 +202,62 @@
         </form>
 
 
+        <!-- BOTÃO WHATSAPP -->
+        <div class="btn-whatsapp">
+            <a href="https://wa.me/message/MGMRQ5NME3DRA1" target="_blank">Clique aqui para falar no whatsapp</a>
+        </div>
 
 
-        <!-- INFORMAÇÕES LOJA BOMB -->
-        <figure class="loja-bomb esconder-background">
-            <div class="icones-pagamento">
-                <img class="icone-sumup" src="/SRC/imagens/vitrine-anuncios/sumup.png" alt="">
-                <img class="icone-compra-segura" src="/SRC/imagens/vitrine-anuncios/compra-segura.png" alt="">
+        <!-- PERGUNTAS FREQUENTES -->
+        <div class="container-perguntas-frequentes">
+            <div class="perguntas-frequentes">
+                <div class="container-titulo-perguntas">
+                    <img src="/SRC/imagens/vitrine-anuncios/icone-perguntas-frequentes.png" alt="">
+                    <span class="texto-perguntas-frequentes">Perguntas Frequentes</span>
+                </div>
+                <div class="faq">
+                    <p class="faq-um-pergunta">▪ Como concluir o meu pedido?</p>
+                    <p class="faq-um-resposta">📢 Para fazer a compra, preencha o formulario acima com o nome para
+                        identificar o pedido, selecione a cor, tamanho e quantidade após todos os campos estarem
+                        preenchidos clique em COMPRAR, e será redirecionado para a tela de pagamento.</p>
+                </div>
+
+                <button id="btnMaisPerguntas" onclick="abrirPerguntas()" class="btn-mais-perguntas">Ver mais Perguntas</button>
+
+                <div id="maisPerguntas" class="mais-perguntas">
+                    <div class="faq">
+                        <p class="faq-um-pergunta">▪ Como comprar acima de 06 unidades?</p>
+                        <p class="faq-um-resposta">📢 Para pedidos acima de 06 unidades o atendimento é pelo whatsapp.
+                        </p>
+                    </div>
+                    <div class="faq">
+                        <p class="faq-um-pergunta">▪ Como comprar modelos diferentes em um mesmo pedido?</p>
+                        <p class="faq-um-resposta">📢 Escolha os modelos que deseja e faça o pedido pelo whatsapp.</p>
+                    </div>
+                    <div class="faq">
+                        <p class="faq-um-pergunta">▪ Qual o valor do frete?</p>
+                        <p class="faq-um-resposta">📢 Enviamos com frete grátis para todo o Brasil.</p>
+                    </div>
+                    <div class="faq">
+                        <p class="faq-um-pergunta">▪ Como saber as medidas para escolher o tamanho correto?</p>
+                        <p class="faq-um-resposta">📢 Temos uma tabela com as medidas de tamanho em centimetros para
+                            auxiliar na escolha.</p>
+                    </div>
+                    <div class="faq">
+                        <p class="faq-um-pergunta">▪ Tem garantia? Como funciona a troca ou devolução?</p>
+                        <p class="faq-um-resposta">📢 Fornecemos a garantia dos produtos, caso precise trocar ou
+                            devolver
+                            entre em contato com o nosso suporte</p>
+                    </div>
+                    <p class="texto-duvidas">Tem alguma duvida especifica, clique no botão abaixo para perguntar.</p>
+                    <a class="btn-whats" href="">
+                        <img src="/SRC/imagens/vitrine-anuncios/fale-conosco.png" alt="">
+                    </a>
+                </div>
+
             </div>
-            <div class="fale-conosco-ver-loja">
-                <img class="fale-conosco" src="/SRC/imagens/vitrine-anuncios/fale-conosco.png" alt="">
-                <!-- <img class="ver-loja" src="/SRC/imagens/vitrine-anuncios/ver-loja.png" alt=""> -->
-                <a class="ver-loja" href="">Ver loja <img class="icone-loja"
-                        src="/SRC/imagens/vitrine-anuncios/icone-loja.png" alt=""></a>
-                <img class="logo-bomb" src="/SRC/imagens/menu_superior/logotipo-bomb.png" alt="">
-            </div>
-        </figure>
+        </div>
+
 
         <!-- NAVEGAÇÃO INFERIOR -->
         <h2 class="titulo-inferior">Camisetas Bomb</h2>
@@ -251,6 +291,7 @@
         </footer>
     </article>
     <script src="/SRC/js/sliderAnuncio.js"></script>
+    <script src="/SRC/js/mais-perguntas.js"></script>
 </body>
 
 </html>

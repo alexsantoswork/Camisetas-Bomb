@@ -402,7 +402,7 @@ div.radio-group {
     box-shadow: 0.1em 0.1em purple;
     color: purple;
     background-color: rgb(253, 214, 41);
-    margin-bottom: 0.3em;
+    margin-bottom: 1.5em;
     cursor: pointer;
 }
 
@@ -425,95 +425,138 @@ p.validation-message {
     /* padding-bottom: 5em; */
 }
 
-/* INFORMAÇÕES DA LOJA */
-.loja-bomb {
-    background-image: url(../imagens/vitrine-anuncios/background-bomb.png);
-    position: relative;
-    width: 100%;
-    /* bottom: 9.5em; */
-    padding: 2em 0;
+.btn-whatsapp {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-whatsapp a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(69, 156, 69);
+    color: white;
+    width: 90%;
+    height: 3em;
+    border-radius: 0.5em;
+    border: 0.1em solid rgb(37, 85, 37);
+    box-shadow: 0.1em 0.1em rgb(37, 85, 37);
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+}
+
+
+/* PERGUNTAS FREQUENTES */
+.container-perguntas-frequentes {
+    display: flex;
+    justify-content: center;
+}
+
+.perguntas-frequentes {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
     margin-bottom: 1em;
 }
 
-.icones-pagamento {
+.container-titulo-perguntas {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
-    margin-bottom: 0.8em;
-}
-
-.icone-sumup,
-.icone-compra-segura {
-    width: 40%;
-    height: 20%;
-    cursor: pointer;
-}
-
-.fale-conosco-ver-loja {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.fale-conosco {
-    width: 50%;
-    margin-bottom: 1.5em;
-    cursor: pointer;
-}
-
-.ver-loja {
-    width: 40%;
-    height: 2.4em;
-    font-size: 1em;
-    font-weight: 600;
+    /* justify-content: center; */
+    font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
-    text-decoration: none;
-    /* text-align: center; */
+    font-size: 0.8em;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+
+}
+
+.perguntas-frequentes img {
+    width: 2.5em;
+    margin-right: 0.7em;
+}
+
+.faq {
+    border: solid 0.1em black;
     border-radius: 0.5em;
-    border: solid 0.1em purple;
-    /* box-shadow: 0.1em 0.1em purple; */
-    color: purple;
-    background-color: rgb(253, 214, 41);
-    margin-bottom: 1.5em;
-    cursor: pointer;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+.faq-um-pergunta {
+    font-size: 0.8em;
+    color: rgb(185, 1, 1);
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+.faq-um-resposta {
+    font-size: 0.7em;
+    /* font-weight: 600; */
+    letter-spacing: 0.05em;
+}
+
+.texto-duvidas {
+    font-size: 0.8em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.btn-whats {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
-.icone-loja {
-    width: 1.5em;
-    position: relative;
-    top: 0;
-    margin-left: 0.2em;
+.btn-whats img {
+    width: 70%;
 }
 
-.logo-bomb {
-    width: 50%;
+.mais-perguntas {
+    display: none;
 }
+
+.btn-mais-perguntas {
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 600;
+    height: 2em;
+    border-radius: 0.5em;
+    border: 0.1em solid black;
+    
+}
+
 
 /* NAVEGAÇÃO INFERIOR */
 .titulo-inferior {
     font-size: 1em;
-    color: rgb(80, 0, 80);
+    color: purple;
     text-transform: uppercase;
-    margin-bottom: 1em;
+    /* margin-bottom: 1em; */
     /* bottom: 9em; */
     text-align: center;
     position: relative;
 }
 
 .navegacao-inferior {
+    background-image: url(/SRC/imagens/vitrine-anuncios/background-bomb.png);
     display: flex;
     justify-content: space-evenly;
     /* bottom: 9em; */
     position: relative;
     margin-bottom: 1em;
+    padding-top: 1.8em;
 }
 
 .navegacao-inferior span {
     margin-bottom: 0.5em;
-    color: rgb(80, 0, 80);
+    color: purple;
 }
 
 .navegacao-inferior-blocos {
