@@ -536,7 +536,7 @@ p.validation-message {
     font-size: 0.6em;
     position: relative;
     /* bottom: 12em; */
-    /* padding-bottom: 1.5em; */
+    padding-bottom: 1.5em;
 }
 
 .rodape {
@@ -547,6 +547,5 @@ p.validation-message {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: rgb(78, 78, 78);
-    margin-bottom: 2em;
 }
 
