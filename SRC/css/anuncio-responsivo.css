@@ -1,6 +1,6 @@
 @media (min-width: 700px) {
     
-    form,div.slider,.cores,.tamanhos,.condicoes,.container-fazer-pedido,.descricao,.container,figure.loja-bomb,.titulo-inferior,.navegacao-inferior,.container-perguntas-frequentes,.btn-whatsapp {
+    form,div.slider,.cores,.tamanhos,.condicoes,.container-fazer-pedido,.descricao,.container,figure.loja-bomb,.titulo-inferior,.navegacao-inferior,.container-perguntas-frequentes,.btn-whatsapp, .faq-container {
         width: 50%;
         margin-left: 25%;
     }
@@ -14,6 +14,8 @@
         content: " ";
         margin-right: 20px;
     }
+
+
 }
 
 @media (min-width: 830px) {
@@ -34,7 +36,7 @@
 
 @media (min-width: 1000px) {
     
-    form,div.slider,.cores,.tamanhos,.condicoes,.container-fazer-pedido,.descricao,.container,figure.loja-bomb,.titulo-inferior,.navegacao-inferior,.container-perguntas-frequentes,.btn-whatsapp {
+    form,div.slider,.cores,.tamanhos,.condicoes,.container-fazer-pedido,.descricao,.container,figure.loja-bomb,.titulo-inferior,.navegacao-inferior,.container-perguntas-frequentes,.btn-whatsapp, .faq-container {
         width: 40%;
         margin-left: 30%;
     }
@@ -65,7 +67,7 @@
 
 @media (min-width: 1300px) {
         
-    form,div.slider,.cores,.tamanhos,.condicoes,.container-fazer-pedido,.descricao,.container,figure.loja-bomb,.titulo-inferior,.navegacao-inferior,.container-perguntas-frequentes,.btn-whatsapp {
+    form,div.slider,.cores,.tamanhos,.condicoes,.container-fazer-pedido,.descricao,.container,figure.loja-bomb,.titulo-inferior,.navegacao-inferior,.container-perguntas-frequentes,.btn-whatsapp, .faq-container {
         width: 30%;
         margin-left: 35%;
     }
@@ -88,7 +90,7 @@
 
 @media (min-width: 1600px) {
     
-    form,div.slider,.cores,.tamanhos,.condicoes,.container-fazer-pedido,.descricao,.container,figure.loja-bomb,.titulo-inferior,.navegacao-inferior,.container-perguntas-frequentes,.btn-whatsapp {
+    form,div.slider,.cores,.tamanhos,.condicoes,.container-fazer-pedido,.descricao,.container,figure.loja-bomb,.titulo-inferior,.navegacao-inferior,.container-perguntas-frequentes,.btn-whatsapp, .faq-container {
         width: 20%;
         margin-left: 40%;
     }
