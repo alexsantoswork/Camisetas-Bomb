@@ -208,7 +208,7 @@ article {
     align-items: center;
     justify-content: center;
     width: 15em;
-    height: 2.3em;
+    height: 3em;
     color: purple;
     border-radius: 0.5em;
     border: solid 0.1em purple;
@@ -392,8 +392,8 @@ div.radio-group {
 }
 
 .btn-comprar {
-    width: 50%;
-    height: 2.5em;
+    width: 15em;
+    height: 3em;
     font-size: 1em;
     font-weight: 600;
     text-transform: uppercase;
@@ -438,12 +438,12 @@ p.validation-message {
     text-decoration: none;
     background-color: rgb(69, 156, 69);
     color: white;
-    width: 90%;
-    height: 3em;
+    width: 80%;
+    height: 4em;
     border-radius: 0.5em;
     border: 0.1em solid rgb(37, 85, 37);
     box-shadow: 0.1em 0.1em rgb(37, 85, 37);
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     text-transform: uppercase;
     font-size: 0.8em;
     font-weight: 600;
@@ -457,17 +457,22 @@ p.validation-message {
 
 .faq-container {
     background-color: #ffffff;
-    padding: 30px;
+    padding: 0em 1em 2em;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     /* max-width: 800px; */
     /* width: 100%; */
 }
 
-h1 {
-    text-align: center;
-    color: #333;
-    margin-bottom: 30px;
+.titulo-faq {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 600;
+    color: purple;
+    margin-bottom: 1em;
 }
 
 .faq-item {
@@ -483,8 +488,8 @@ h1 {
 }
 
 .faq-pergunta {
-    background-color: #007bff;
-    color: white;
+    background-color: rgb(253, 214, 41);
+    color: purple;
     padding: 15px 20px;
     border: none;
     width: 100%;
@@ -499,7 +504,7 @@ h1 {
 }
 
 .faq-pergunta:hover {
-    background-color: #0056b3;
+    background-color: rgb(223, 188, 37);
 }
 
 /* Adiciona um indicador de seta */
@@ -533,7 +538,7 @@ h1 {
 
 .faq-resposta p {
     margin: 0;
-    color: #555;
+    color: purple;
     line-height: 1.6;
 }
 
