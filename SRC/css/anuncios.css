@@ -181,7 +181,7 @@ article {
 
 .valor {
     text-transform: uppercase;
-    font-size: 1.4em;
+    font-size: 1.6em;
     color: black;
     font-weight: 500;
     letter-spacing: 0.1em;
@@ -195,7 +195,7 @@ article {
 }
 
 .frete-gratis {
-    width: 9em;
+    width: 10em;
 }
 
 .container-fazer-pedido {
@@ -455,9 +455,9 @@ p.validation-message {
 
 
 
-.faq-container {
+div.faq-container {
     background-color: #ffffff;
-    padding: 0em 1em 2em;
+    padding: 0em 2em 2em;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     /* max-width: 800px; */
