@@ -11,6 +11,7 @@ article {
     height: 100vh;
 }
 
+/* LEGENDA ROLANTE */
 .legenda-rolante-continua {
     display: flex;
     white-space: nowrap;
@@ -43,10 +44,12 @@ article {
     margin: 0.5em 0;
 }
 
+/* LEGENDA */
 .texto-legenda {
     font-size: 1em;
 }
 
+/* SLIDER ANUNCIO */
 .slider {
     display: flex;
     justify-content: center;
@@ -126,6 +129,7 @@ article {
     background-color: purple;
 }
 
+/* CORES E TAMANHOS */
 .cores,
 .tamanhos {
     display: flex;
@@ -166,6 +170,7 @@ article {
     margin: 0;
 }
 
+/* CONDIÇÕES E PREÇO */
 .condicoes {
     display: flex;
     align-items: center;
@@ -198,6 +203,7 @@ article {
     width: 10em;
 }
 
+/* BOTÃO FAZER PEDIDO */
 .container-fazer-pedido {
     display: flex;
     justify-content: center;
@@ -224,6 +230,7 @@ article {
     background-color: rgb(253, 214, 41);
 }
 
+/* DESCRIÇÃO */
 .descricao {
     position: relative;
     padding: 0.7em 0.7em 0;
@@ -232,7 +239,6 @@ article {
 }
 
 /* FORMULARIO PARA FAZER PEDIDO */
-
 form {
     display: flex;
     flex-direction: column;
@@ -427,6 +433,7 @@ p.validation-message {
     /* padding-bottom: 5em; */
 }
 
+/* BOTÃO WHATSAPP */
 .btn-whatsapp {
     display: flex;
     justify-content: center;
@@ -452,19 +459,10 @@ p.validation-message {
     letter-spacing: 0.03em;
 }
 
-
 /* PERGUNTAS FREQUENTES */
-
-
-
 .faq-container {
-    /* background-color: #ffffff; */
     padding: 0em 3em;
     margin-bottom: 2em;
-    /* border-radius: 10px; */
-    /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); */
-    /* max-width: 800px; */
-    /* width: 100%; */
 }
 
 .titulo-faq {
@@ -513,42 +511,31 @@ p.validation-message {
     background-color: rgb(223, 188, 37);
 }
 
-/* Adiciona um indicador de seta */
 .faq-pergunta::after {
     content: '+';
-    /* Símbolo de mais */
     font-size: 1.2em;
     font-weight: bold;
     transition: transform 0.3s ease;
 }
 
-/* Gira o símbolo quando a pergunta está ativa/aberta */
 .faq-pergunta.active::after {
     content: '-';
-    /* Símbolo de menos */
     transform: rotate(0deg);
-    /* Não precisa girar o hífen, mas mantém a transição */
 }
 
 
 .faq-resposta {
     max-height: 0;
-    /* Começa com altura zero */
     overflow: hidden;
-    /* Esconde o conteúdo que transborda */
     transition: max-height 0.3s ease-out, padding 0.3s ease-out;
-    /* Transição suave */
     background-color: #f9f9f9;
     border-radius: 0 0 5px 5px;
     padding: 0 20px;
-    /* Padding inicial zero para que a transição funcione com max-height */
 }
 
 .faq-resposta.mostrar {
     max-height: 200px;
-    /* Um valor alto o suficiente para a maioria das respostas */
     padding: 15px 20px;
-    /* Padding quando a resposta é mostrada */
 }
 
 .faq-resposta p {
@@ -557,146 +544,32 @@ p.validation-message {
     line-height: 1.6;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .container-perguntas-frequentes {
-    display: flex;
-    justify-content: center;
-}
-
-.perguntas-frequentes {
-    padding: 1em;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1em;
-}
-
-.container-titulo-perguntas {
-    display: flex;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    font-size: 0.8em;
-    font-weight: 600;
-    margin-bottom: 0.5em;
-
-}
-
-.perguntas-frequentes img {
-    width: 2.5em;
-    margin-right: 0.7em;
-}
-
-.faq {
-    border: solid 0.1em black;
-    border-radius: 0.5em;
-    padding: 0.5em;
-    margin-bottom: 1em;
-}
-
-.faq-um-pergunta {
-    font-size: 0.8em;
-    color: rgb(185, 1, 1);
-    font-weight: 600;
-    margin-bottom: 0.5em;
-}
-
-.faq-um-resposta {
-    font-size: 0.7em;
-    letter-spacing: 0.05em;
-}
-
-.texto-duvidas {
-    font-size: 0.8em;
-    text-align: center;
-    margin-bottom: 1em;
-}
-
-.btn-faq-um {
-    position: relative;
-    left: 94.5%;
-    bottom: 77%;
-    width: 2em;
-    height: 1em;
-}
-
-.btn-whats {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.btn-whats img {
-    width: 70%;
-}
-
-.mais-perguntas {
-    display: none;
-}
-
-.btn-mais-perguntas {
-    margin-bottom: 1em;
-    text-transform: uppercase;
-    font-size: 0.8em;
-    font-weight: 600;
-    height: 2em;
-    border-radius: 0.5em;
-    border: 0.1em solid black;
-    
-} */
-
-
 /* NAVEGAÇÃO INFERIOR */
 .titulo-inferior {
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     text-transform: uppercase;
-    /* margin: 1em 0em 0em; */
     text-align: center;
     position: relative;
     color: purple;
 }
 
 .navegacao-inferior {
-
     background-image: url(/SRC/imagens/vitrine-anuncios/background-bomb.png);
     display: flex;
+    position: relative;
     justify-content: space-evenly;
+    padding-top: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-    /* color: rgb(80, 0, 80); */
     margin-bottom: 2em;
-    position: relative;
-    padding-top: 1.5em;
 }
-
-/* .navegacao-inferior span {
-    margin-bottom: 0.5em;
-    color: purple;
-} */
 
 .navegacao-inferior-blocos {
     display: flex;
     position: relative;
     gap: 3em;
-    /* font-size: 0.8em; */
     top: 0.4em;
     margin-bottom: 2em;
 }
@@ -714,7 +587,6 @@ p.validation-message {
 .rodape-fazer-pedido {
     font-size: 0.6em;
     position: relative;
-    /* bottom: 12em; */
     padding-bottom: 1.5em;
 }
 
@@ -722,7 +594,6 @@ p.validation-message {
     display: flex;
     justify-content: center;
     position: relative;
-    /* font-size: 1em; */
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: rgb(78, 78, 78);

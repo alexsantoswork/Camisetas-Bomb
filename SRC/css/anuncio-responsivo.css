@@ -14,8 +14,6 @@
         content: " ";
         margin-right: 20px;
     }
-
-
 }
 
 @media (min-width: 830px) {
@@ -31,7 +29,6 @@
         content: " ";
         margin-right: 20px;
     }
-
 }
 
 @media (min-width: 1000px) {
@@ -78,14 +75,12 @@
     .legenda-rolante-continua {
         letter-spacing: 0.7em;
         word-spacing: 1.2em;
-        
     }
 
     .legenda-rolante-continua span::after  {
         content: " ";
         margin-right: 27px;
     }
-
 }
 
 @media (min-width: 1600px) {
@@ -102,14 +97,12 @@
         letter-spacing: 1em;
         word-spacing: 1.4em;
         font-weight: 700;
-        
     }
     
     .legenda-rolante-continua span::after  {
         content: " ";
         margin-right: 50px;
     }
-
 }
 
 @media (min-width: 2300px) {
@@ -117,7 +110,6 @@
     .legenda-rolante-continua {
         letter-spacing: 1.2em;
         word-spacing: 1.5em;
-        
     }
 
     .legenda-rolante-continua span::after  {

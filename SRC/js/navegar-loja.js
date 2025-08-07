@@ -8,6 +8,6 @@
                 conteudoDiv.classList.add('navegar-loja');
             } else {
                 conteudoDiv.classList.add('navegar-loja-visivel');
-                conteudoDiv.classList.remove('navegar-loja'); // Opcional: remove a classe de ocultar
+                conteudoDiv.classList.remove('navegar-loja'); 
             }
         }

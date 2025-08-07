@@ -5,12 +5,12 @@
 }
 
 .container-obrigado {
+    background-image: url(/SRC/imagens/vitrine-anuncios/background-bomb.png);
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(/SRC/imagens/vitrine-anuncios/background-bomb.png);
 }
 
 .cartao-obrigado {

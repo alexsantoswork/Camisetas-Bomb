@@ -114,7 +114,6 @@
 
     p.texto-baner-inferior {
         font-size: 1.5em;
-
     }
 
     img.icone-caminhao {
@@ -137,10 +136,6 @@
 }
 
 @media (min-width: 700px) {
-
-    /* main.pagina {
-        width: 100vw;
-    } */
 
     header.cabecalho {
         width: 100vw;
@@ -260,12 +255,9 @@
         margin: 0;
     }
 
-
-
     .index-navegacao-inferior-bloco-um {
         margin-right: 5em;
     }
-
 
     .rodape-fazer-pedido p {
         font-size: 1.3em;
@@ -289,7 +281,6 @@
         content: " ";
         margin-right: 20px;
     }
-
 }
 
 @media (min-width: 1000px) {
@@ -316,8 +307,6 @@
     .email-input-inscrever-se::placeholder {
         font-size: 1em;
     }
-
-
 }
 
 @media (min-width: 1300px) {
@@ -359,7 +348,6 @@
         margin-right: -0.2em;
         font-size: 1.3em;
     }
-
 }
 
 @media (min-width: 1400px) {
@@ -367,14 +355,12 @@
     .legenda-rolante-continua {
         word-spacing: 1em;
         letter-spacing: 0.4em;
-        
     }
 
     .legenda-rolante-continua span::after  {
         content: " ";
         margin-right: 20px;
     }
-
 }
 
 @media (min-width: 1600px) {
@@ -455,14 +441,12 @@
         word-spacing: 1.3em;
         letter-spacing: 0.8em;
         font-weight: 700;
-        
     }
     
     .legenda-rolante-continua span::after  {
         content: " ";
         margin-right: 50px;
     }
-
 }
 
 @media (min-width: 1900px) {
@@ -498,7 +482,6 @@
     .email-input-inscrever-se::placeholder {
         font-size: 1.2em;
     }
-
 }
 
 @media (min-width: 2200px) {
@@ -538,7 +521,6 @@
     .email-input-inscrever-se::placeholder {
         font-size: 1.3em;
     }
-
 }
 
 @media (min-width: 2500px) {
@@ -578,5 +560,4 @@
     .email-input-inscrever-se::placeholder {
         font-size: 1.4em;
     }
-
 }
