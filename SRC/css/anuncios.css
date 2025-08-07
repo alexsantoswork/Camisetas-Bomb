@@ -242,11 +242,11 @@ form {
 .texto-selecionar-pedido {
     display: flex;
     justify-content: center;
-    font-size: 1.1em;
+    font-size: 1.2em;
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
-    margin: 0.5em 0em 1em;
+    margin: 1em 0em 1em;
 }
 
 .titulo-nome {
@@ -313,7 +313,7 @@ div.radio-group {
     height: 5.3em;
     border: solid 0.1em rgb(66, 66, 66);
     border-radius: 0.5em;
-    box-shadow: 0.1em 0.1em rgb(66, 66, 66) ;
+    box-shadow: 0.1em 0.1em rgb(66, 66, 66);
     margin-bottom: 1em;
 }
 
@@ -322,7 +322,8 @@ div.radio-group {
     flex-direction: column;
 }
 
-.radio-item input,radio {
+.radio-item input,
+radio {
     transform: scale(2);
     margin-bottom: 1em;
     display: flex;
@@ -374,7 +375,8 @@ div.radio-group {
     border: solid 0.1em black;
 }
 
-.fonte-tamanhos,.fonte-quantidade {
+.fonte-tamanhos,
+.fonte-quantidade {
     font-size: 1.2em;
     font-weight: 600;
 }
@@ -510,7 +512,8 @@ p.validation-message {
 
 /* Adiciona um indicador de seta */
 .faq-pergunta::after {
-    content: '+'; /* Símbolo de mais */
+    content: '+';
+    /* Símbolo de mais */
     font-size: 1.2em;
     font-weight: bold;
     transition: transform 0.3s ease;
@@ -518,23 +521,31 @@ p.validation-message {
 
 /* Gira o símbolo quando a pergunta está ativa/aberta */
 .faq-pergunta.active::after {
-    content: '-'; /* Símbolo de menos */
-    transform: rotate(0deg); /* Não precisa girar o hífen, mas mantém a transição */
+    content: '-';
+    /* Símbolo de menos */
+    transform: rotate(0deg);
+    /* Não precisa girar o hífen, mas mantém a transição */
 }
 
 
 .faq-resposta {
-    max-height: 0; /* Começa com altura zero */
-    overflow: hidden; /* Esconde o conteúdo que transborda */
-    transition: max-height 0.3s ease-out, padding 0.3s ease-out; /* Transição suave */
+    max-height: 0;
+    /* Começa com altura zero */
+    overflow: hidden;
+    /* Esconde o conteúdo que transborda */
+    transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+    /* Transição suave */
     background-color: #f9f9f9;
     border-radius: 0 0 5px 5px;
-    padding: 0 20px; /* Padding inicial zero para que a transição funcione com max-height */
+    padding: 0 20px;
+    /* Padding inicial zero para que a transição funcione com max-height */
 }
 
 .faq-resposta.mostrar {
-    max-height: 200px; /* Um valor alto o suficiente para a maioria das respostas */
-    padding: 15px 20px; /* Padding quando a resposta é mostrada */
+    max-height: 200px;
+    /* Um valor alto o suficiente para a maioria das respostas */
+    padding: 15px 20px;
+    /* Padding quando a resposta é mostrada */
 }
 
 .faq-resposta p {
@@ -650,39 +661,41 @@ p.validation-message {
 
 /* NAVEGAÇÃO INFERIOR */
 .titulo-inferior {
-    font-size: 2em;
-    color: purple;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
     text-transform: uppercase;
-    /* margin-bottom: 0.5em; */
-    /* bottom: 9em; */
-    /* top: 1em; */
+    /* margin: 1em 0em 0em; */
     text-align: center;
     position: relative;
+    color: purple;
 }
 
 .navegacao-inferior {
-    
+
     background-image: url(/SRC/imagens/vitrine-anuncios/background-bomb.png);
     display: flex;
     justify-content: space-evenly;
-    padding: 2em;
-    /* bottom: 9em; */
-    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    /* color: rgb(80, 0, 80); */
     margin-bottom: 2em;
-    /* padding-top: 2em; */
+    position: relative;
+    padding-top: 1.5em;
 }
 
-.navegacao-inferior span {
+/* .navegacao-inferior span {
     margin-bottom: 0.5em;
     color: purple;
-}
+} */
 
 .navegacao-inferior-blocos {
     display: flex;
     position: relative;
     gap: 3em;
     /* font-size: 0.8em; */
-    /* margin-bottom: 2em; */
+    top: 0.4em;
+    margin-bottom: 2em;
 }
 
 .navegacao-inferior-bloco-um,
@@ -690,6 +703,8 @@ p.validation-message {
     display: flex;
     flex-direction: column;
     cursor: pointer;
+    gap: 0.5em;
+    color: purple;
 }
 
 /* RODAPÉ */
@@ -709,4 +724,3 @@ p.validation-message {
     text-align: center;
     color: rgb(78, 78, 78);
 }
-
