@@ -504,6 +504,9 @@ p.validation-message {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 0.5em;
+    border: solid 0.1em purple;
+    box-shadow: 0.1em 0.1em purple;
 }
 
 .faq-pergunta:hover {
