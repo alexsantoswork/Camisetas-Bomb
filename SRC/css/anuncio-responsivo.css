@@ -1,7 +1,25 @@
+@media (min-width: 375px) {
+
+    div.btn-whatsapp a {
+        font-size: 0.7em;
+    }
+
+    span.titulo-faq {
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 425px) {
+
+    div.btn-whatsapp a {
+        font-size: 0.8em;
+    }
+}
+
 @media (min-width: 700px) {
     
     form,div.slider,.cores,.tamanhos,.condicoes,.container-fazer-pedido,.descricao,.container,figure.loja-bomb,.titulo-inferior,.navegacao-inferior,.container-perguntas-frequentes,.btn-whatsapp, .faq-container {
-        width: 50%;
+        width: 60%;
         margin-left: 25%;
     }
 
@@ -17,6 +35,11 @@
 }
 
 @media (min-width: 830px) {
+
+    form,div.slider,.cores,.tamanhos,.condicoes,.container-fazer-pedido,.descricao,.container,figure.loja-bomb,.titulo-inferior,.navegacao-inferior,.container-perguntas-frequentes,.btn-whatsapp, .faq-container {
+        width: 50%;
+        margin-left: 25%;
+    }
 
     .legenda-rolante-continua {
         letter-spacing: 0.2em;

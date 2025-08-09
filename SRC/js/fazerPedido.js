@@ -86,10 +86,6 @@ document.addEventListener('DOMContentLoaded', function() {
         if (todosCamposValidos) {
             window.open(linkParaAbrir, '_blank'); 
             meuFormulario.submit();
-        } else {
-            globalMsg.textContent = 'Por favor, selecione os campos abaixo.';
-            globalMsg.classList.add('error');
-            globalMsg.classList.remove('success');
         }
     });
 });
