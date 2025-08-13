@@ -1,18 +1,11 @@
 @media (min-width: 375px) {
 
     div.btn-whatsapp a {
-        font-size: 0.7em;
+        font-size: 0.8em;
     }
 
     span.titulo-faq {
         font-size: 1em;
-    }
-}
-
-@media (min-width: 425px) {
-
-    div.btn-whatsapp a {
-        font-size: 0.8em;
     }
 }
 

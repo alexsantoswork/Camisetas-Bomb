@@ -343,7 +343,7 @@ div.radio-group {
     border: solid 0.1em rgb(66, 66, 66);
     border-radius: 0.5em;
     box-shadow: 0.1em 0.1em rgb(66, 66, 66);
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 
 .radio-item {
@@ -360,6 +360,8 @@ radio {
 }
 
 .label-preto {
+    width: 3em;
+    height: 2em;
     background-color: black;
     color: white;
     font-size: 0.8em;
@@ -369,6 +371,8 @@ radio {
 }
 
 .label-branco {
+    width: 3em;
+    height: 2em;
     background-color: white;
     color: black;
     font-size: 0.8em;
@@ -378,6 +382,8 @@ radio {
 }
 
 .label-vermelho {
+    width: 3em;
+    height: 2em;
     background-color: red;
     color: white;
     font-size: 0.8em;
@@ -387,6 +393,8 @@ radio {
 }
 
 .label-azul {
+    width: 3em;
+    height: 2em;
     background-color: blue;
     color: white;
     font-size: 0.8em;
@@ -396,6 +404,8 @@ radio {
 }
 
 .label-cinza {
+    width: 3em;
+    height: 2em;
     background-color: grey;
     color: white;
     font-size: 0.8em;
