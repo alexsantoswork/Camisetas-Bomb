@@ -14,14 +14,9 @@
     line-height: 1.3em;
 }
 
-.tamanho,.altura,.largura {
+.tamanho,.altura,.largura,.manga {
     text-align: center;
     margin: 2em 0em;
-}
-
-div.loja-bomb {
-    position: relative;
-    top: 0em;
 }
 
 .navegacao-inferior a {

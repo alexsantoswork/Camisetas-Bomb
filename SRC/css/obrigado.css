@@ -56,10 +56,6 @@ a {
     cursor: pointer;
 }
 
-div.loja-bomb {
-    position: relative;
-    top: 0em;
-}
 
 .index-navegacao-inferior-blocos a {
     text-decoration: none;
