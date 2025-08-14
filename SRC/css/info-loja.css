@@ -12,11 +12,12 @@
 .paragrafo-sobre {
     color: purple;
     line-height: 1.3em;
-    
+    margin-bottom: 3em; 
 }
 
 .tamanho,.altura,.largura {
     text-align: center;
+    margin: 2em 0em;
 }
 
 .navegacao-inferior a {
