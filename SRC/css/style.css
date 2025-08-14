@@ -377,6 +377,9 @@ section,
 
 /* RODAPÉ */
 .rodape-fazer-pedido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 0.6em;
     position: relative;
     padding-bottom: 1.5em;
@@ -385,8 +388,8 @@ section,
 .rodape {
     display: flex;
     justify-content: center;
+    text-align: center;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
     color: rgb(78, 78, 78);
 }
