@@ -359,6 +359,11 @@ section,
     margin-bottom: 2em;
 }
 
+.index-navegacao-inferior-blocos a {
+    text-decoration: none;
+    color: inherit;   
+}
+
 .index-navegacao-inferior-bloco-um,
 .index-navegacao-inferior-bloco-dois {
     display: flex;

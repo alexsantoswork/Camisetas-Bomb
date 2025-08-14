@@ -606,6 +606,12 @@ p.validation-message {
     margin-bottom: 2em;
 }
 
+.navegacao-inferior-blocos a {
+    text-decoration: none;
+    color: inherit;   
+}
+
+
 .navegacao-inferior-blocos {
     display: flex;
     position: relative;

@@ -1,0 +1,29 @@
+.cartao-obrigado {
+    width: 80%;
+}
+
+.titulo-sobre {
+    font-family: Arial, Helvetica, sans-serif;
+    color: purple;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+.paragrafo-sobre {
+    color: purple;
+    line-height: 1.3em;
+    margin-bottom: 1em;
+}
+
+.tamanho,.altura,.largura {
+    text-align: center;
+}
+
+div.navegacao-inferior-bloco-dois{
+    align-items: start;
+}
+
+.navegacao-inferior a {
+    text-decoration: none;
+    color: inherit;
+}
