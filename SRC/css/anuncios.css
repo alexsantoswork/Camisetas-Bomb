@@ -638,7 +638,7 @@ p.validation-message {
     padding-bottom: 1.5em;
 }
 
-.rodape {
+p.rodape {
     display: flex;
     justify-content: center;
     position: relative;
