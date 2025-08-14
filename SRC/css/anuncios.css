@@ -608,7 +608,9 @@ p.validation-message {
 
 .navegacao-inferior-blocos a {
     text-decoration: none;
-    color: inherit;   
+    color: inherit;
+    box-shadow: none;
+    outline: none; 
 }
 
 

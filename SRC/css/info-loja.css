@@ -1,5 +1,6 @@
-.cartao-obrigado {
+section.cartao-obrigado {
     width: 80%;
+    
 }
 
 .titulo-sobre {
@@ -12,18 +13,29 @@
 .paragrafo-sobre {
     color: purple;
     line-height: 1.3em;
-    margin-bottom: 1em;
+    
 }
 
 .tamanho,.altura,.largura {
     text-align: center;
 }
 
-div.navegacao-inferior-bloco-dois{
-    align-items: start;
+nav.navegacao-inferior {
+    top: 0em;
+    position: relative;
+
 }
 
 .navegacao-inferior a {
     text-decoration: none;
     color: inherit;
+}
+
+div.navegacao-inferior-bloco-dois{
+    align-items: start;
+}
+
+p.rodape {
+    top: 0em;
+    position: relative;
 }
