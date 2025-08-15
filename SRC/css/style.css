@@ -359,7 +359,7 @@ section,
     margin-bottom: 2em;
 }
 
-.index-navegacao-inferior-blocos a {
+div.index-navegacao-inferior-blocos a {
     text-decoration: none;
     color: inherit;
     box-shadow: none;

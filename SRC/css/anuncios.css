@@ -606,7 +606,7 @@ p.validation-message {
     margin-bottom: 2em;
 }
 
-.navegacao-inferior-blocos a {
+div.navegacao-inferior-blocos a{
     text-decoration: none;
     color: inherit;
     box-shadow: none;

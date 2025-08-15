@@ -19,12 +19,12 @@
     margin-top: 2em;
 }
 
-.navegacao-inferior a {
+/* .navegacao-inferior a {
     text-decoration: none;
     color: inherit;
     box-shadow: none;
     outline: none; 
-}
+} */
 
 div.navegacao-inferior-bloco-dois{
     align-items: start;
