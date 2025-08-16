@@ -9,7 +9,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* margin-bottom: 4em; */
 }
 
 .cartao-obrigado {
@@ -17,14 +16,13 @@
     align-items: center;
     flex-direction: column;
     padding: 1em;
-    margin: 10% 10% 20%;
+    margin: 5% 10% 20%;
     background-color: rgb(253, 214, 41);
     border-radius: 0.5em;
     box-shadow: 0.1em 0.1em 0.7em purple;
 }
 
 .titulo-cartao, .paragrafo-confirmacao, .paragrafo-duvidas  {
-    margin: 1em 0em 0.5em;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
@@ -35,14 +33,21 @@
 .titulo-cartao {
     font-size: 1.3em;
     text-transform: uppercase;
+    margin: 1em 0em;
 }
 
 .icone-pedido-realizado {
     width: 25%;
+    margin-bottom: 1em;
+}
+
+.paragrafo-confirmacao {
+    margin-bottom: 2em;
 }
 
 .paragrafo-duvidas {
     font-size: 0.8em;
+    margin-bottom: 1em;
 }
 
 a {
@@ -55,14 +60,6 @@ a {
     margin-bottom: 2em;
     cursor: pointer;
 }
-
-
-/* .index-navegacao-inferior-blocos a {
-    text-decoration: none;
-    color: inherit;
-    box-shadow: none;
-    outline: none; 
-} */
 
 div.navegacao-inferior-bloco-dois{
     align-items: start;

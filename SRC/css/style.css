@@ -76,6 +76,11 @@
     margin-bottom: 0.5em;
 }
 
+/* div.legenda-rolante-continua span:after {
+    content: " ";
+    margin-right: 0.3em;
+} */
+
 .icones-menu {
     display: flex;
     justify-content: space-around;
