@@ -54,7 +54,7 @@ div.legenda {
 }
 
 /* SLIDER ANUNCIO */
-.slider {
+.slider-4 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -359,6 +359,10 @@ radio {
     align-self: center;
 }
 
+div.radio-group.radio-cor {
+    gap: 0.5em;
+}
+
 .label-preto {
     width: 3em;
     height: 2em;
@@ -561,7 +565,6 @@ p.validation-message {
     transform: rotate(0deg);
 }
 
-
 .faq-resposta {
     max-height: 0;
     overflow: hidden;
@@ -610,7 +613,6 @@ div.navegacao-inferior-blocos a{
     box-shadow: none;
     outline: none; 
 }
-
 
 .navegacao-inferior-blocos {
     display: flex;

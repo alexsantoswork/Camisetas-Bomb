@@ -147,7 +147,7 @@
         flex-wrap: wrap;
         gap: 0.5em 2em;
         margin-top: 11.5em;
-        margin-bottom: 3em;
+        margin-bottom: 0.5em;
     }
 
     .container div {
@@ -167,10 +167,6 @@
         margin-bottom: 0em;
         height: 2em;
     }
-
-    /* img.check-legenda {
-        font-size: 0.5em;
-    } */
 
     img.check-legenda,.legenda .texto-legenda {
         font-size: 0.5em;
@@ -245,6 +241,11 @@
         display: flex;
         justify-content: center;
     }
+    
+    .slider-container {
+        position: relative;
+        top: 1.6em;
+    }
 
     div.indicator {
         width: 0.6em;
@@ -284,7 +285,12 @@
 
     div.legenda, img.check-legenda .texto-legenda {
         font-size: 1.1em;
-    }    
+    }
+    
+    .slider-container {
+        position: relative;
+        top: 1.8em;
+    }
 }
 
 @media (min-width: 1000px) {
@@ -314,6 +320,11 @@
 
     .email-input-inscrever-se::placeholder {
         font-size: 1em;
+    }
+
+    .slider-container {
+        position: relative;
+        top: 2.6em;
     }
 }
 
@@ -345,6 +356,11 @@
 
     .email-input-inscrever-se::placeholder {
         font-size: 1.1em;
+    }
+
+    .slider-container {
+        position: relative;
+        top: 2.8em;
     }
 
     button.slider-button.prev-button {
@@ -404,9 +420,9 @@
         font-size: 1.2em;
     }
 
-    div.slider {
-        height: 100%;
-        top: 2.5em;
+    .slider-container {
+        position: relative;
+        top: 4em;
     }
 
     button.slider-button.prev-button {
@@ -534,5 +550,10 @@
 
     .email-input-inscrever-se::placeholder {
         font-size: 1.4em;
+    }
+
+    .slider-container {
+        position: relative;
+        top: 4.6em;
     }
 }

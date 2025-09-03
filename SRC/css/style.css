@@ -76,11 +76,6 @@
     margin-bottom: 0.5em;
 }
 
-/* div.legenda-rolante-continua span:after {
-    content: " ";
-    margin-right: 0.3em;
-} */
-
 .icones-menu {
     display: flex;
     justify-content: space-around;
@@ -115,6 +110,7 @@
 section,
 .container {
     margin-top: 7.8em;
+    margin-bottom: -1em;
 }
 
 .check-legenda {
@@ -257,7 +253,7 @@ section,
 }
 
 /* SLIDER PROMOÇÃO */
-.slider {
+.slider-1 .slider-2 .slider-3 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -274,7 +270,11 @@ section,
 
 .slider-wrapper {
     display: flex;
-    transition: transform 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.slider-wrapper.no-transition {
+    transition: none !important;
 }
 
 .slider-wrapper img {

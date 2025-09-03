@@ -22,7 +22,9 @@
     box-shadow: 0.1em 0.1em 0.7em purple;
 }
 
-.titulo-cartao, .paragrafo-confirmacao, .paragrafo-duvidas  {
+.titulo-cartao,
+.paragrafo-confirmacao,
+.paragrafo-duvidas {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
@@ -55,13 +57,14 @@ a {
     justify-content: center;
 }
 
-.icone-whats, .icone-voltar {
+.icone-whats,
+.icone-voltar {
     width: 70%;
     margin-bottom: 2em;
     cursor: pointer;
 }
 
-div.navegacao-inferior-bloco-dois{
+div.navegacao-inferior-bloco-um,
+div.navegacao-inferior-bloco-dois {
     align-items: start;
 }
-
