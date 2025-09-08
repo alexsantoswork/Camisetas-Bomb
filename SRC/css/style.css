@@ -252,7 +252,7 @@ section,
     bottom: 1em;
 }
 
-/* SLIDER DESTAQUE DA SEMANA */
+/* SLIDER*/
 .destaque-da-semana {
     font-size: 1.5em;
 }
@@ -266,7 +266,7 @@ section,
 }
 
 .slider-container {
-    max-width: 97vw;
+    /* max-width: 97vw; */
     position: relative;
     overflow: hidden;
     margin: 0.5em 0em 1.5em;
