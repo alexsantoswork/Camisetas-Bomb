@@ -133,45 +133,28 @@ div.legenda {
     background-color: purple;
 }
 
-/* CORES E TAMANHOS */
-.cores,
+/*TAMANHOS */
 .tamanhos {
     display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
     bottom: 1.9em;
+    margin-bottom: 1em;
 }
 
-.texto-cores,
-.texto-tamanhos,
-.tamanhos-icones {
+.texto-tamanhos {
     margin-right: 0.8em;
     text-transform: uppercase;
-    font-size: 0.8em;
+    font-size: 0.9em;
     color: black;
     font-weight: 500;
 }
 
-.img-cores {
-    width: 50%;
-    margin-bottom: 0.5em;
-}
-
-.tamanhos {
-    margin-bottom: 0.5em;
-}
-
-.texto-tamanhos {
-    position: relative;
-    font-size: 0.8em;
-}
-
-.tamanhos-icones {
+.icone-tamanhos {
     font-weight: 700;
-    font-size: 1em;
+    font-size: 1.1em;
     letter-spacing: 0.4em;
-    margin: 0;
 }
 
 /* CONDIÇÕES E PREÇO */
@@ -198,17 +181,18 @@ div.legenda {
 
 .parcelamento {
     text-transform: uppercase;
-    font-size: 0.56em;
+    font-size: 0.55em;
     font-weight: 600;
     letter-spacing: 0.1em;
 }
 
+/* FRETE */
 .frete {
     background-color: purple;
     color: white;
-    padding: 0.5em 1em;
+    padding: 0.6em 1em;
     border-radius: 0.5em;
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     text-transform: uppercase;
@@ -226,13 +210,13 @@ div.legenda {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 15em;
+    width: 12em;
     height: 3em;
     color: purple;
     border-radius: 0.5em;
     border: solid 0.1em purple;
     box-shadow: 0.1em 0.1em purple;
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: 600;
     text-decoration: none;
     text-transform: uppercase;
@@ -266,7 +250,26 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* background-image: url(/SRC/imagens/vitrine-anuncios/background-bomb.png); */
 }
+
+.validation-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+    min-height: 1em;
+    /* Garante que o layout não "pule" quando a mensagem aparece/desaparece */
+}
+
+.validation-name,.validation-tamanho {
+    position: relative;
+    bottom: 2em; 
+    font-weight: 400;
+}
+
+/* .validation-tamanho {
+    top: 108em;
+} */
 
 .texto-selecionar-pedido {
     display: flex;
@@ -275,12 +278,12 @@ form {
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
-    margin: 0.5em 0em 1em;
+    margin: 1em;
 }
 
 .titulo-nome {
-    margin-bottom: 0.2em;
-    font-size: 1.1em;
+    margin-bottom: 0.5em;
+    /* font-size: 1.2em; */
 }
 
 div.input-nome {
@@ -288,7 +291,7 @@ div.input-nome {
     flex-direction: column;
     align-items: center;
     text-transform: uppercase;
-    font-size: 0.8em;
+    /* font-size: 0.8em; */
     font-weight: 600;
     margin-bottom: 1em;
     width: 100%;
@@ -302,6 +305,7 @@ input.valor-input-nome {
     border: solid 0.1em rgb(66, 66, 66);
     box-shadow: 0.1em 0.1em rgb(66, 66, 66);
     font-size: 1.2em;
+    margin-bottom: 0.9em;
 }
 
 input.valor-input-nome::placeholder {
@@ -313,7 +317,7 @@ input.valor-input-nome::placeholder {
     display: flex;
     justify-content: center;
     width: 100%;
-    font-size: 1.1em;
+    /* font-size: 1.2em; */
 }
 
 input.titulo-checkout {
@@ -321,16 +325,16 @@ input.titulo-checkout {
     border: none;
     width: 90%;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 1em;
     font-weight: 600;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 
 .titulo-variacoes {
     text-transform: uppercase;
-    font-size: 0.9em;
+    font-size: 1em;
     font-weight: 600;
-    margin-bottom: 0.3em;
+    margin-bottom: 0.5em;
 }
 
 div.radio-group {
@@ -339,7 +343,7 @@ div.radio-group {
     justify-content: center;
     align-items: center;
     position: relative;
-    height: 5.3em;
+    height: 5em;
     border: solid 0.1em rgb(66, 66, 66);
     border-radius: 0.5em;
     box-shadow: 0.1em 0.1em rgb(66, 66, 66);
@@ -354,92 +358,32 @@ div.radio-group {
 .radio-item input,
 radio {
     transform: scale(2);
-    margin-bottom: 1em;
+    margin: 1em 0em;
     display: flex;
     align-self: center;
 }
 
-div.radio-group.radio-cor {
-    gap: 0.5em;
-}
-
-.label-preto {
-    width: 3em;
-    height: 2em;
-    background-color: black;
-    color: white;
-    font-size: 0.8em;
-    padding: 0.3em;
-    border: solid 0.1em black;
-    border-radius: 0.5em;
-}
-
-.label-branco {
-    width: 3em;
-    height: 2em;
-    background-color: white;
-    color: black;
-    font-size: 0.8em;
-    padding: 0.3em;
-    border-radius: 0.5em;
-    border: solid 0.1em black;
-}
-
-.label-vermelho {
-    width: 3em;
-    height: 2em;
-    background-color: red;
-    color: white;
-    font-size: 0.8em;
-    padding: 0.3em;
-    border-radius: 0.5em;
-    border: solid 0.1em black;
-}
-
-.label-azul {
-    width: 3em;
-    height: 2em;
-    background-color: blue;
-    color: white;
-    font-size: 0.8em;
-    padding: 0.3em;
-    border-radius: 0.5em;
-    border: solid 0.1em black;
-}
-
-.label-cinza {
-    width: 3em;
-    height: 2em;
-    background-color: grey;
-    color: white;
-    font-size: 0.8em;
-    padding: 0.3em;
-    border-radius: 0.5em;
-    border: solid 0.1em black;
-}
-
-.fonte-tamanhos,
-.fonte-quantidade {
+.fonte-tamanhos {
     font-size: 1.2em;
     font-weight: 600;
 }
 
-.radio-cor .radio-item {
+/* .radio-item {
     margin: 2%;
-}
+} */
 
 .radio-tamanho .radio-item {
     margin: 8%;
 }
 
-.radio-quantidade .radio-item {
+/* .radio-quantidade .radio-item {
     margin: 4%;
-}
+} */
 
 .btn-comprar {
-    width: 15em;
+    width: 12em;
     height: 3em;
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: 600;
     text-transform: uppercase;
     border-radius: 0.5em;
@@ -447,11 +391,11 @@ div.radio-group.radio-cor {
     box-shadow: 0.1em 0.1em purple;
     color: purple;
     background-color: rgb(253, 214, 41);
-    margin-bottom: 2em;
+    margin-bottom: 3em;
     cursor: pointer;
 }
 
-p.validation-message {
+/* p.validation-message {
     position: absolute;
     margin-top: 6em;
     font-size: 0.7em;
@@ -467,7 +411,7 @@ p.validation-message {
 
 .redimencionar-msg {
     padding-top: 6.6em;
-}
+} */
 
 /* BOTÃO WHATSAPP */
 .btn-whatsapp {
@@ -488,7 +432,7 @@ p.validation-message {
     border-radius: 0.5em;
     border: 0.1em solid rgb(37, 85, 37);
     box-shadow: 0.1em 0.1em rgb(37, 85, 37);
-    margin-bottom: 1em;
+    margin-bottom: 3em;
     text-transform: uppercase;
     font-size: 0.6em;
     font-weight: 600;
@@ -607,11 +551,11 @@ p.validation-message {
     margin-bottom: 2em;
 }
 
-div.navegacao-inferior-blocos a{
+div.navegacao-inferior-blocos a {
     text-decoration: none;
     color: inherit;
     box-shadow: none;
-    outline: none; 
+    outline: none;
 }
 
 .navegacao-inferior-blocos {

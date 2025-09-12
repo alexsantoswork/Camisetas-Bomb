@@ -50,20 +50,20 @@
                 </div>
             </div>
         </div>
-        <div class="cores">
+        <!-- <div class="cores">
             <span class="texto-cores">Cores</span>
             <img class="img-cores" src="/SRC/imagens/vitrine-anuncios/cores-anuncio.png" alt="">
-        </div>
+        </div> -->
         <div class="tamanhos">
-            <span class="texto-tamanhos">Tamanhos</span>
-            <span class="tamanhos-icones">P-M-G-GG</span>
+            <span class="texto-tamanhos">Tamanhos:</span>
+            <span class="icone-tamanhos">P-M-G-GG</span>
         </div>
         <div class="condicoes">
             <div class="preco">
                 <span class="valor">R$ 49,90</span>
-                <span class="parcelamento">Em até 12X no cartão</span>
+                <span class="parcelamento">Em até 18X no cartão</span>
             </div>
-            <span class="frete"> Frete - R$ 9,90</span>
+            <span class="frete"> Entrega rápida</span>
         </div>
         <div class="container-fazer-pedido">
             <nav>
@@ -71,7 +71,11 @@
             </nav>
         </div>
         <div class="descricao">
-            <p>Tá procurando aquela camiseta que é a sua cara? Chega mais! Nossas camisetas têm o tecido 100% algodão com um acabamento excelente, e as estampas são resistentes e duradouras. Conforto e qualidade em uma camiseta que tem estilo e um preço que cabe no seu bolso, ela entrega um custo-benefício que você não vai encontrar por aí. Pode confiar é qualidade que veste, te deixando no estilo e super à vontade. Chega de blusa sem graça, bora ter uma que te representa.
+            <p>Tá procurando aquela camiseta que é a sua cara? Chega mais! Nossas camisetas têm o tecido 100% algodão
+                com um acabamento excelente, e as estampas são resistentes e duradouras. Conforto e qualidade em uma
+                camiseta que tem estilo e um preço que cabe no seu bolso, ela entrega um custo-benefício que você não
+                vai encontrar por aí. Pode confiar é qualidade que veste, te deixando no estilo e super à vontade. Chega
+                de blusa sem graça, bora ter uma que te representa.
             </p>
             <strong>Tabela de medidas</strong>
             <div class="tabela-medidas">
@@ -83,98 +87,56 @@
             <span>Após a conclusão do pedido enviamos em até 24h, custo de <strong>R$ 9,90</strong> frete único para
                 todo Brasil.</span>
         </div>
+
+
+
         <!-- FORMULARIO PARA FAZER O PEDIDO -->
         <form class="form" action="https://api.staticforms.xyz/submit" method="post" id="meuFormulario">
             <input type="hidden" name="accessKey" value="sf_mm33a161fb5ddlc3221mkghh">
             <input type="hidden" name="redirectTo" value="https://camisetasbomb.com.br/SRC/html/obrigado.html">
+
             <div class="texto-selecionar-pedido">
                 <small>Preencha abaixo para fazer o pedido</small>
             </div>
+
             <div class="input-nome">
-                <label class="titulo-nome">Nome Completo</label>
-                <input class="valor-input-nome" type="text" id="names" name="nome" placeholder="Escreva o seu nome aqui"
-                    required>
-            </div>
+                <label for="names" class="titulo-nome">Nome Completo</label>
+                <input class="valor-input-nome" type="text" id="names" name="nome"
+                    placeholder="Escreva o seu nome aqui">
+                </div>
+                <p class="validation-message validation-name" id="names-msg"></p>
+
             <div class="titulo-form">
                 <input class="titulo-checkout" type="text" name="produto" value="Camiseta Masculina Barcelona" readonly>
             </div>
-            <span class="titulo-variacoes">Selecione uma cor</span>
-            <div class="radio-group radio-cor">
-                <div class="radio-item radio-cor">
-                    <input type="radio" id="campo1_radio1" name="cor" value="preto">
-                    <label class="label-preto" for="campo1_radio1"></label>
-                </div>
-                <div class="radio-item">
-                    <input type="radio" id="campo1_radio2" name="cor" value="branco">
-                    <label class="label-branco" for="campo1_radio2"></label>
-                </div>
-                <div class="radio-item">
-                    <input type="radio" id="campo1_radio3" name="cor" value="vermelho">
-                    <label class="label-vermelho" for="campo1_radio3"></label>
-                </div>
-                <div class="radio-item">
-                    <input type="radio" id="campo1_radio4" name="cor" value="azul">
-                    <label class="label-azul" for="campo1_radio4"></label>
-                </div>
-                <div class="radio-item">
-                    <input type="radio" id="campo1_radio5" name="cor" value="cinza">
-                    <label class="label-cinza" for="campo1_radio5"></label>
-                </div>
-                <p class="validation-message" id="campo1-msg"></p>
-            </div>
+
             <span class="titulo-variacoes">Selecione um tamanho</span>
             <div class="radio-group radio-tamanho">
                 <div class="radio-item">
-                    <input type="radio" id="campo2_radio1" name="tamanho" value="P">
+                    <input type="checkbox" id="campo2_radio1" name="tamanho" value="P">
                     <label class="fonte-tamanhos" for="campo2_radio1">P</label>
                 </div>
                 <div class="radio-item">
-                    <input type="radio" id="campo2_radio2" name="tamanho" value="M">
+                    <input type="checkbox" id="campo2_radio2" name="tamanho" value="M">
                     <label class="fonte-tamanhos" for="campo2_radio2">M</label>
                 </div>
                 <div class="radio-item">
-                    <input type="radio" id="campo2_radio3" name="tamanho" value="G">
+                    <input type="checkbox" id="campo2_radio3" name="tamanho" value="G">
                     <label class="fonte-tamanhos" for="campo2_radio3">G</label>
                 </div>
                 <div class="radio-item">
-                    <input type="radio" id="campo2_radio4" name="tamanho" value="GG">
+                    <input type="checkbox" id="campo2_radio4" name="tamanho" value="GG">
                     <label class="fonte-tamanhos" for="campo2_radio4">GG</label>
                 </div>
-                <p class="validation-message" id="campo2-msg"></p>
             </div>
-            <span class="titulo-variacoes">Selecione a quantidade</span>
-            <div class="radio-group radio-quantidade">
-                <div class="radio-item">
-                    <input type="radio" id="campo3_radio1" name="quantidade" value="https://www.google.com" value="01">
-                    <label class="fonte-quantidade" for="campo3_radio1">01</label>
-                </div>
-                <div class="radio-item">
-                    <input type="radio" id="campo3_radio2" name="quantidade" value="https://www.youtube.com">
-                    <label class="fonte-quantidade" for="campo3_radio2">02</label>
-                </div>
-                <div class="radio-item">
-                    <input type="radio" id="campo3_radio3" name="quantidade" value="https://www.wikipedia.org">
-                    <label class="fonte-quantidade" for="campo3_radio3">03</label>
-                </div>
-                <div class="radio-item">
-                    <input type="radio" id="campo3_radio4" name="quantidade" value="https://github.com">
-                    <label class="fonte-quantidade" for="campo3_radio4">04</label>
-                </div>
-                <div class="radio-item">
-                    <input type="radio" id="campo3_radio5" name="quantidade" value="https://www.openai.com">
-                    <label class="fonte-quantidade" for="campo3_radio5">05</label>
-                </div>
+            <p class="validation-message validation-tamanho" id="campo2-msg"></p>
 
-                <div class="radio-item">
-                    <input type="radio" id="campo3_radio6" name="quantidade" value="https://www.openai.com">
-                    <label class="fonte-quantidade" for="campo3_radio6">06</label>
-                </div>
-                <p class="validation-message" id="campo3-msg"></p>
-            </div>
             <button class="btn-comprar" type="submit" id="validarAbrirBtn">Comprar</button>
-            <p class="validation-message global-message redimencionar-msg" id="global-msg"></p>
-            <script src="/SRC/js/fazerPedido.js"></script>
         </form>
+
+
+
+
         <!-- BOTÃO WHATSAPP -->
         <div class="btn-whatsapp">
             <a href="https://wa.me/message/MGMRQ5NME3DRA1" target="_blank">Clique aqui fale no whatsapp
@@ -188,7 +150,8 @@
                 <button class="faq-pergunta">Como concluir o meu pedido?</button>
                 <div class="faq-resposta">
                     <p>Preencha o formulário acima com nome, cor, tamanho e quantidade. Após, clique em
-                        <strong>COMPRAR</strong> para prosseguir ao pagamento e concluir seu pedido.</p>
+                        <strong>COMPRAR</strong> para prosseguir ao pagamento e concluir seu pedido.
+                    </p>
                 </div>
             </div>
             <div class="faq-item">
@@ -259,5 +222,7 @@
     </article>
     <script src="/SRC/js/sliderAnuncio.js"></script>
     <script src="/SRC/js/mais-perguntas.js"></script>
+    <script src="/SRC/js/campo-comprar.js"></script>
 </body>
+
 </html>
