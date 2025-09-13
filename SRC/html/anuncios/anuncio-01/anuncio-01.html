@@ -50,10 +50,6 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="cores">
-            <span class="texto-cores">Cores</span>
-            <img class="img-cores" src="/SRC/imagens/vitrine-anuncios/cores-anuncio.png" alt="">
-        </div> -->
         <div class="tamanhos">
             <span class="texto-tamanhos">Tamanhos:</span>
             <span class="icone-tamanhos">P-M-G-GG</span>
@@ -85,31 +81,25 @@
                 <div class="manga">Manga<br>10 cm<br>12 cm<br>14 cm<br>16 cm</div>
             </div>
             <span>Após a conclusão do pedido enviamos em até 24h, custo de <strong>R$ 9,90</strong> frete único para
-                todo Brasil.</span>
+                todo o Brasil.</span>
         </div>
-
-
 
         <!-- FORMULARIO PARA FAZER O PEDIDO -->
         <form class="form" action="https://api.staticforms.xyz/submit" method="post" id="meuFormulario">
             <input type="hidden" name="accessKey" value="sf_mm33a161fb5ddlc3221mkghh">
             <input type="hidden" name="redirectTo" value="https://camisetasbomb.com.br/SRC/html/obrigado.html">
-
             <div class="texto-selecionar-pedido">
                 <small>Preencha abaixo para fazer o pedido</small>
             </div>
-
             <div class="input-nome">
                 <label for="names" class="titulo-nome">Nome Completo</label>
                 <input class="valor-input-nome" type="text" id="names" name="nome"
                     placeholder="Escreva o seu nome aqui">
-                </div>
-                <p class="validation-message validation-name" id="names-msg"></p>
-
+            </div>
+            <p class="validation-message validation-name" id="names-msg"></p>
             <div class="titulo-form">
                 <input class="titulo-checkout" type="text" name="produto" value="Camiseta Masculina Barcelona" readonly>
             </div>
-
             <span class="titulo-variacoes">Selecione um tamanho</span>
             <div class="radio-group radio-tamanho">
                 <div class="radio-item">
@@ -130,12 +120,11 @@
                 </div>
             </div>
             <p class="validation-message validation-tamanho" id="campo2-msg"></p>
-
             <button class="btn-comprar" type="submit" id="validarAbrirBtn">Comprar</button>
         </form>
-
-
-
+        <div class="texto-selecionar-pedido">
+            <small class="titulo-duvidas">Tem dúvidas? fale com o suporte</small>
+        </div>
 
         <!-- BOTÃO WHATSAPP -->
         <div class="btn-whatsapp">
@@ -143,36 +132,40 @@
                 <img src="/SRC/imagens/vitrine-anuncios/icone-whatsapp.png" alt="">
             </a>
         </div>
+        
         <!-- PERGUNTAS FREQUENTES -->
         <div class="faq-container">
             <span class="titulo-faq">Perguntas Frequentes (FAQ)</span>
             <div class="faq-item">
-                <button class="faq-pergunta">Como concluir o meu pedido?</button>
+                <button class="faq-pergunta">Como comprar a camiseta?</button>
                 <div class="faq-resposta">
-                    <p>Preencha o formulário acima com nome, cor, tamanho e quantidade. Após, clique em
-                        <strong>COMPRAR</strong> para prosseguir ao pagamento e concluir seu pedido.
+                    <p>Preencha o formulário acima com nome e tamanho. Após, clique em <strong>COMPRAR</strong> para
+                        prosseguir ao pagamento e concluir seu pedido.
                     </p>
                 </div>
             </div>
             <div class="faq-item">
-                <button class="faq-pergunta">Como comprar acima de 06 unidades?</button>
+                <button class="faq-pergunta">Como falar com o suporte?</button>
                 <div class="faq-resposta">
-                    <p>Para pedidos acima de 6 unidades, oferecemos atendimento exclusivo via <strong>WhatsApp</strong>
-                        para uma experiência de compra personalizada e eficiente.</p>
+                    <p>É simples! Clique no botão com o símbolo do <a
+                            href="https://wa.me/message/MGMRQ5NME3DRA1">Whatsapp</a> e iniciara o chat para falar com um
+                        atendente ou, se preferir pode enviar um e-mail para: <strong>camisetasbomb@gmail.com</strong>
+                    </p>
                 </div>
             </div>
             <div class="faq-item">
-                <button class="faq-pergunta">Como comprar modelos diferentes em um mesmo pedido?</button>
+                <button class="faq-pergunta">Como comprar modelos diferentes no mesmo pedido?</button>
                 <div class="faq-resposta">
-                    <p>Para pedidos com modelos variados, entre em contato conosco via <strong>WhatsApp</strong> para
+                    <p>Para pedidos com modelos de camisetas diferentes, entre em contato conosco via <a
+                            href="https://wa.me/message/MGMRQ5NME3DRA1">Whatsapp</a> para
                         assistência personalizada. Nossa equipe o guiará para finalizar sua compra.</p>
                 </div>
             </div>
             <div class="faq-item">
                 <button class="faq-pergunta">Qual o valor do frete?</button>
                 <div class="faq-resposta">
-                    <p>O custo de frete único é de <strong>R$9,90</strong> para todo o Brasil. Esse valor visa
-                        simplificar sua compra, garantindo transparência e previsibilidade nos custos de entrega..</p>
+                    <p>O custo do frete dependerá da região de entrega, é possível consultar com o CEP e saber o valor e
+                        as transportadoras disponíveis. Siga para fazer o pedido e terá acesso para consultar.</p>
                 </div>
             </div>
             <div class="faq-item">
@@ -192,6 +185,7 @@
                 </div>
             </div>
         </div>
+        
         <!-- NAVEGAÇÃO INFERIOR -->
         <h2 class="titulo-inferior">Camisetas Bomb</h2>
         <nav class="navegacao-inferior">
@@ -214,9 +208,10 @@
                 </div>
             </div>
         </nav>
+        
         <!-- RODAPÉ -->
         <footer class="rodape-fazer-pedido">
-            <p class="rodape">Desenvolvido por CAMISETAS BOMB © São Paulo - SP. Contato: 11 9.9228-7852
+            <p class="rodape">Desenvolvido por CAMISETAS BOMB © São Paulo - SP. Contato: 11 9.9228-7852.
             <p>
         </footer>
     </article>
@@ -224,5 +219,4 @@
     <script src="/SRC/js/mais-perguntas.js"></script>
     <script src="/SRC/js/campo-comprar.js"></script>
 </body>
-
 </html>

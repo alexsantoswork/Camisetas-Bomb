@@ -221,7 +221,7 @@ div.legenda {
     text-decoration: none;
     text-transform: uppercase;
     text-decoration: none;
-    margin-bottom: 1.7em;
+    margin-bottom: 0.5em;
     bottom: 0.8em;
     position: relative;
     background-color: rgb(253, 214, 41);
@@ -231,7 +231,6 @@ div.legenda {
 .descricao {
     position: relative;
     padding: 0.7em 0.7em 0;
-    bottom: 1.5em;
     font-size: 0.9em;
 }
 
@@ -250,7 +249,8 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* background-image: url(/SRC/imagens/vitrine-anuncios/background-bomb.png); */
+    background-color: aliceblue;
+    border-top: white 2em solid;
 }
 
 .validation-message {
@@ -258,7 +258,6 @@ form {
     font-size: 0.9em;
     margin-top: 5px;
     min-height: 1em;
-    /* Garante que o layout não "pule" quando a mensagem aparece/desaparece */
 }
 
 .validation-name,.validation-tamanho {
@@ -267,10 +266,6 @@ form {
     font-weight: 400;
 }
 
-/* .validation-tamanho {
-    top: 108em;
-} */
-
 .texto-selecionar-pedido {
     display: flex;
     justify-content: center;
@@ -278,12 +273,11 @@ form {
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
-    margin: 1em;
+    margin: 2.5em 0em;
 }
 
 .titulo-nome {
     margin-bottom: 0.5em;
-    /* font-size: 1.2em; */
 }
 
 div.input-nome {
@@ -291,7 +285,6 @@ div.input-nome {
     flex-direction: column;
     align-items: center;
     text-transform: uppercase;
-    /* font-size: 0.8em; */
     font-weight: 600;
     margin-bottom: 1em;
     width: 100%;
@@ -306,6 +299,7 @@ input.valor-input-nome {
     box-shadow: 0.1em 0.1em rgb(66, 66, 66);
     font-size: 1.2em;
     margin-bottom: 0.9em;
+    background-color: white;
 }
 
 input.valor-input-nome::placeholder {
@@ -317,7 +311,6 @@ input.valor-input-nome::placeholder {
     display: flex;
     justify-content: center;
     width: 100%;
-    /* font-size: 1.2em; */
 }
 
 input.titulo-checkout {
@@ -328,6 +321,7 @@ input.titulo-checkout {
     font-size: 1em;
     font-weight: 600;
     margin-bottom: 2em;
+    background-color: aliceblue;
 }
 
 .titulo-variacoes {
@@ -346,8 +340,9 @@ div.radio-group {
     height: 5em;
     border: solid 0.1em rgb(66, 66, 66);
     border-radius: 0.5em;
-    box-shadow: 0.1em 0.1em rgb(66, 66, 66);
+    box-shadow: 0.1em 0.12em rgb(66, 66, 66);
     margin-bottom: 2em;
+    background-color: white;
 }
 
 .radio-item {
@@ -368,17 +363,9 @@ radio {
     font-weight: 600;
 }
 
-/* .radio-item {
-    margin: 2%;
-} */
-
 .radio-tamanho .radio-item {
     margin: 8%;
 }
-
-/* .radio-quantidade .radio-item {
-    margin: 4%;
-} */
 
 .btn-comprar {
     width: 12em;
@@ -395,23 +382,9 @@ radio {
     cursor: pointer;
 }
 
-/* p.validation-message {
-    position: absolute;
-    margin-top: 6em;
-    font-size: 0.7em;
+small.titulo-duvidas {
+    margin-bottom: -1em;
 }
-
-.success {
-    color: green;
-}
-
-.error {
-    color: red;
-}
-
-.redimencionar-msg {
-    padding-top: 6.6em;
-} */
 
 /* BOTÃO WHATSAPP */
 .btn-whatsapp {
@@ -457,7 +430,6 @@ radio {
     text-transform: uppercase;
     font-style: italic;
     font-weight: 600;
-    color: purple;
     margin-bottom: 1em;
     font-size: 0.8em;
 }
