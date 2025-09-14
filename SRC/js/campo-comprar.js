@@ -45,6 +45,11 @@
                 // Se todas as validações passaram, envia o formulário
                 if (isFormValid) {
                     form.submit();
+
+
+                    // ADICIONADO SOMENTE PARA TESTE DO LINK
+                    window.open('https://pag.ae/812bxoXw3', '_blank');
+                    
                 }
             });
         });
