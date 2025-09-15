@@ -368,6 +368,9 @@ radio {
 }
 
 .btn-comprar {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
     width: 12em;
     height: 3em;
     font-size: 1.1em;
