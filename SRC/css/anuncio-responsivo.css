@@ -1,5 +1,9 @@
 @media (min-width: 375px) {
 
+    h5.titulo-formulario, label.titulo-nome, div input.titulo-checkout, p.titulo-variacoes, .titulo-duvidas {
+        font-size: 1em;
+    }
+    
     div.btn-whatsapp a {
         font-size: 0.8em;
     }
@@ -11,7 +15,7 @@
 
 @media (min-width: 700px) {
     
-    form,div.slider-4,.cores,.tamanhos,.condicoes,.container-fazer-pedido,.descricao,.container,figure.loja-bomb,.titulo-inferior,.navegacao-inferior,.container-perguntas-frequentes,.btn-whatsapp,.faq-container,footer.rodape-fazer-pedido {
+    form,div.slider-4,.cores,.tamanhos,.condicoes,.descricao,.container,figure.loja-bomb,.titulo-inferior,.navegacao-inferior,.container-perguntas-frequentes,.btn-whatsapp,.faq-container,footer.rodape-fazer-pedido {
         width: 60%;
         margin-left: 20%;
     }

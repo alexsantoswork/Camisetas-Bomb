@@ -232,6 +232,7 @@ div.legenda {
     position: relative;
     padding: 0.7em 0.7em 0;
     font-size: 0.9em;
+    /* margin-bottom: 2em; */
 }
 
 .descricao p {
@@ -245,39 +246,28 @@ div.legenda {
 }
 
 /* FORMULARIO PARA FAZER PEDIDO */
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.container-formulario {
     background-color: aliceblue;
-    border-top: white 2em solid;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-top: 2em white solid;
 }
 
-.validation-message {
-    color: red;
-    font-size: 0.9em;
-    margin-top: 5px;
-    min-height: 1em;
-}
-
-.validation-name,.validation-tamanho {
-    position: relative;
-    bottom: 2em; 
-    font-weight: 400;
-}
-
-.texto-selecionar-pedido {
+.titulo-formulario {
     display: flex;
     justify-content: center;
-    font-size: 1.2em;
+    font-size: 0.9em;
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
-    margin: 2.5em 0em;
+    margin-bottom: 4em;
+    top: 2em;
+    position: relative;
 }
 
 .titulo-nome {
     margin-bottom: 0.5em;
+    font-size: 0.9em;
 }
 
 div.input-nome {
@@ -297,20 +287,9 @@ input.valor-input-nome {
     border-radius: 0.5em;
     border: solid 0.1em rgb(66, 66, 66);
     box-shadow: 0.1em 0.1em rgb(66, 66, 66);
-    font-size: 1.2em;
+    font-size: 1em;
     margin-bottom: 0.9em;
     background-color: white;
-}
-
-input.valor-input-nome::placeholder {
-    color: rgb(66, 66, 66);
-}
-
-.titulo-form {
-    border: none;
-    display: flex;
-    justify-content: center;
-    width: 100%;
 }
 
 input.titulo-checkout {
@@ -318,17 +297,37 @@ input.titulo-checkout {
     border: none;
     width: 90%;
     text-align: center;
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: 600;
     margin-bottom: 2em;
     background-color: aliceblue;
+    border: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .titulo-variacoes {
     text-transform: uppercase;
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: 600;
     margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.grupo-radio {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    position: relative;
+    height: 5em;
+    border: solid 0.1em rgb(66, 66, 66);
+    border-radius: 0.5em;
+    box-shadow: 0.1em 0.12em rgb(66, 66, 66);
+    margin-bottom: 2em;
+    background-color: white;
 }
 
 div.radio-group {
@@ -345,32 +344,29 @@ div.radio-group {
     background-color: white;
 }
 
-.radio-item {
+label, radio {
     display: flex;
     flex-direction: column;
 }
 
-.radio-item input,
-radio {
+.radio-item  {
     transform: scale(2);
     margin: 1em 0em;
     display: flex;
     align-self: center;
+    gap: 1em;
 }
 
 .fonte-tamanhos {
-    font-size: 1.2em;
-    font-weight: 600;
-}
-
-.radio-tamanho .radio-item {
-    margin: 8%;
+    font-size: 0.8em;
+    font-weight: 500;
 }
 
 .btn-comprar {
-    /* display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center; */
+    justify-self: center;
+    align-items: center;
     width: 12em;
     height: 3em;
     font-size: 1.1em;
@@ -381,12 +377,20 @@ radio {
     box-shadow: 0.1em 0.1em purple;
     color: purple;
     background-color: rgb(253, 214, 41);
-    margin-bottom: 3em;
+    margin-bottom: 1em;
     cursor: pointer;
 }
 
-small.titulo-duvidas {
-    margin-bottom: -1em;
+.status-message {
+    text-align: center;
+}
+
+.paragrafo-duvidas {
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1em;
 }
 
 /* BOTÃO WHATSAPP */

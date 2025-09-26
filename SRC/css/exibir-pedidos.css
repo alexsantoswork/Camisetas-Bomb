@@ -1,0 +1,15 @@
+/* Efeito para destacar o botão quando há novos dados pendentes */
+.new-data-alert {
+    background-color: #ffc107; /* Amarelo/Laranja de alerta */
+    color: #333;
+    animation: pulse 1s infinite alternate; /* Opcional: Efeito de piscar */
+}
+
+@keyframes pulse {
+    from {
+        box-shadow: 0 0 5px #ffc107;
+    }
+    to {
+        box-shadow: 0 0 20px #ffc107;
+    }
+}

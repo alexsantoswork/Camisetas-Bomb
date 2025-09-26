@@ -77,51 +77,47 @@
                 envio do seu pedido.</span>
         </div>
 
-        <!-- FORMULARIO PARA FAZER O PEDIDO -->
-        <form class="form" action="https://api.staticforms.xyz/submit" method="post" id="meuFormulario">
-            <input type="hidden" name="accessKey" value="sf_mm33a161fb5ddlc3221mkghh">
-            <input type="hidden" name="redirectTo" value="https://camisetasbomb.com.br/SRC/html/obrigado.html">
-            <div class="texto-selecionar-pedido">
-                <small>Preencha abaixo para fazer o pedido</small>
-            </div>
-            <div class="input-nome">
-                <label for="names" class="titulo-nome">Nome Completo</label>
-                <input class="valor-input-nome" type="text" id="names" name="nome"
-                    placeholder="Escreva o seu nome aqui">
-            </div>
-            <p class="validation-message validation-name" id="names-msg"></p>
-            <div class="titulo-form">
-                <input class="titulo-checkout" type="text" name="produto" value="Camiseta Masculina Barcelona" readonly>
-            </div>
-            <span class="titulo-variacoes">Selecione um tamanho</span>
-            <div class="radio-group radio-tamanho">
-                <div class="radio-item">
-                    <input type="radio" id="campo2_radio1" name="tamanho" value="P">
-                    <label class="fonte-tamanhos" for="campo2_radio1">P</label>
+        <!-- FORMULARIO PARA FAZERE O PEDIDO -->
+        <div id="meuFormulario" class="container-formulario">
+            <h5 class="titulo-formulario">Preencha abaixo para fazer o pedido</h5>
+            <form id="cadastroForm">
+                <div class="input-nome">
+                    <label class="titulo-nome" for="nome">Nome Completo</label>
+                    <input class="valor-input-nome" type="text" id="nome" name="nome" required>
                 </div>
-                <div class="radio-item">
-                    <input type="radio" id="campo2_radio2" name="tamanho" value="M">
-                    <label class="fonte-tamanhos" for="campo2_radio2">M</label>
+                <div>
+                    <input id="produto" class="titulo-checkout" type="text" name="produto" value="Camiseta Masculina Paris">
                 </div>
-                <div class="radio-item">
-                    <input type="radio" id="campo2_radio3" name="tamanho" value="G">
-                    <label class="fonte-tamanhos" for="campo2_radio3">G</label>
+                <p class="titulo-variacoes">Tamanhos</p>
+                <div class="grupo-radio">
+                    <div class="radio-item">
+                        <label class="fonte-tamanhos">
+                            <input type="radio" name="modelo" value="P" required>
+                            P
+                        </label>
+                        <label class="fonte-tamanhos">
+                            <input type="radio" name="modelo" value="M">
+                            M
+                        </label>
+                        <label class="fonte-tamanhos">
+                            <input type="radio" name="modelo" value="G">
+                            G
+                        </label>
+                        <label class="fonte-tamanhos">
+                            <input type="radio" name="modelo" value="GG">
+                            GG
+                        </label>
+                    </div>
                 </div>
-                <div class="radio-item">
-                    <input type="radio" id="campo2_radio4" name="tamanho" value="GG">
-                    <label class="fonte-tamanhos" for="campo2_radio4">GG</label>
-                </div>
-            </div>
-            <p class="validation-message validation-tamanho" id="campo2-msg"></p>
-            <a href="https://pag.ae/812bxoXw3">
-                <button class="btn-comprar" type="submit" id="validarAbrirBtn">Comprar</button>
-            </a>
-        </form>
-        <div class="texto-selecionar-pedido">
+                <button class="btn-comprar" type="submit" id="finalizarPedidoBtn" data-link="https://pag.ae/812-M7RX4">Comprar</button>
+            </form>
+            <div class="status-message" id="statusMessage"></div>
+        </div>
+        
+        <!-- CONTATO WHATSAPP -->
+        <div class="paragrafo-duvidas">
             <small class="titulo-duvidas">Tem dúvidas? fale com o suporte</small>
         </div>
-
-        <!-- BOTÃO WHATSAPP -->
         <div class="btn-whatsapp">
             <a href="https://wa.me/message/MGMRQ5NME3DRA1" target="_blank">Clique aqui fale no whatsapp
                 <img src="/SRC/imagens/vitrine-anuncios/icone-whatsapp.png" alt="">
@@ -212,7 +208,8 @@
     </article>
     <script src="/SRC/js/sliderAnuncio.js"></script>
     <script src="/SRC/js/mais-perguntas.js"></script>
-    <script src="/SRC/js/campo-comprar.js"></script>
+    <script src="/SRC/js/form-pedido.js"></script>
+
 </body>
 
 </html>
