@@ -209,7 +209,7 @@ section,
     border-radius: 0.5em;
     position: relative;
     bottom: 0.5em;
-    padding-top: 0.9em;
+    padding: 2em 0.5em;
     background-image: url(/SRC/imagens/vitrine-anuncios/background-bomb.png);
 }
 
@@ -221,7 +221,7 @@ section,
     color: purple;
     font-style: italic;
     text-transform: uppercase;
-    margin-bottom: 0.3em;
+    margin-bottom: 1em;
 }
 
 .email-input-inscrever-se {
@@ -237,6 +237,14 @@ section,
     text-align: center;
 }
 
+.msg-erro {
+    display: none;
+    color: red;
+    font-size: 0.7em;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .btn-inscrever-se {
     position: relative;
     padding: 0.1em 0.5em;
@@ -249,7 +257,7 @@ section,
     border: solid purple 0.1em;
     color: purple;
     border-radius: 0.5em;
-    bottom: 1em;
+    margin-top: 1em;
 }
 
 /* SLIDER*/
@@ -270,6 +278,22 @@ section,
     position: relative;
     overflow: hidden;
     margin: 0.5em 0em 1.5em;
+}
+
+.slider-wrapper a {
+    /* Define o 'a' como o novo slide */
+    display: inline-block; 
+    width: 100%; /* Cada slide ocupa 100% da largura do contêiner */
+    flex-shrink: 0; /* Impede que os slides diminuam */
+    height: 100%; /* Opcional, dependendo do layout */
+}
+
+.slider-wrapper a img {
+    /* Garante que a imagem preencha todo o slide */
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover; /* Para garantir que a imagem se ajuste bem */
 }
 
 .slider-wrapper {

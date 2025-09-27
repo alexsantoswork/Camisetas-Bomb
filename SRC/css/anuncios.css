@@ -381,6 +381,10 @@ label, radio {
     cursor: pointer;
 }
 
+a,.btn-comprar {
+    text-decoration: none;
+}
+
 .status-message {
     text-align: center;
 }
