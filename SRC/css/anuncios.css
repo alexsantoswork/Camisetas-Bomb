@@ -249,7 +249,7 @@ div.legenda {
 .container-formulario {
     background-color: aliceblue;
     padding-bottom: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     border-top: 2em white solid;
 }
 
@@ -282,7 +282,7 @@ div.input-nome {
 
 input.valor-input-nome {
     width: 90%;
-    height: 2.4em;
+    height: 3em;
     text-align: center;
     border-radius: 0.5em;
     border: solid 0.1em rgb(66, 66, 66);
