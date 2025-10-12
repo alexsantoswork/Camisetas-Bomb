@@ -320,7 +320,7 @@ input.titulo-checkout {
     display: flex;
     justify-content: center;
     justify-self: center;
-    align-items: center;
+    /* align-items: center; */
     position: relative;
     height: 5em;
     border: solid 0.1em rgb(66, 66, 66);
@@ -330,19 +330,6 @@ input.titulo-checkout {
     background-color: white;
 }
 
-/* div.radio-group {
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    height: 5em;
-    border: solid 0.1em rgb(66, 66, 66);
-    border-radius: 0.5em;
-    box-shadow: 0.1em 0.12em rgb(66, 66, 66);
-    margin-bottom: 2em;
-    background-color: white;
-} */
 
 label, radio {
     display: flex;
@@ -385,9 +372,7 @@ a,.btn-comprar {
     text-decoration: none;
 }
 
-.status-message {
-    text-align: center;
-}
+
 
 .paragrafo-duvidas {
     font-size: 1em;
