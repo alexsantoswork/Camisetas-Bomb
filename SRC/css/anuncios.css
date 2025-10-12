@@ -319,8 +319,8 @@ input.titulo-checkout {
     width: 90%;
     display: flex;
     justify-content: center;
+    align-items: center;
     justify-self: center;
-    /* align-items: center; */
     position: relative;
     height: 5em;
     border: solid 0.1em rgb(66, 66, 66);
@@ -340,7 +340,6 @@ label, radio {
     transform: scale(2);
     margin: 1em 0em;
     display: flex;
-    align-self: center;
     gap: 1em;
 }
 
@@ -352,8 +351,8 @@ label, radio {
 .btn-comprar {
     display: flex;
     justify-content: center;
-    justify-self: center;
     align-items: center;
+    justify-self: center;
     width: 12em;
     height: 3em;
     font-size: 1.1em;
