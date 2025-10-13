@@ -77,7 +77,7 @@
 
 
 // Sua URL de implantação do Apps Script (mantida)
-const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbySnkURJipmh2iLd23Vppy1eHk6kqC8Yf5QblMjqN6Mm50nn8tOTeuUN21_PQkuTHxfg/exec'; 
+const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyFMf7HONHKm5sytSdTUFUUbWVjhHc0iNZXbXN-Jcites9reWB3p99bGjwqGFoxdpIZ2Q/exec'; 
 
 const form = document.getElementById('cadastroForm');
 const finalizarPedidoBtn = document.getElementById('finalizarPedidoBtn');
