@@ -369,6 +369,8 @@ label, radio {
 
 a,.btn-comprar {
     text-decoration: none;
+    display: flex;
+    justify-content: center;
 }
 
 
