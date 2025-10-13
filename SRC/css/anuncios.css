@@ -330,9 +330,10 @@ input.titulo-checkout {
     background-color: white;
 }
 
-div.grupo-radio {
+.grupo-radio,.radio-item {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: aqua;
 } 
 
@@ -343,7 +344,7 @@ label, radio {
 }
 
 .radio-item  {
-    /* transform: scale(2); */
+    transform: scale(2);
     margin: 1em 0em;
     display: flex;
     gap: 1em;
