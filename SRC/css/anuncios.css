@@ -330,6 +330,11 @@ input.titulo-checkout {
     background-color: white;
 }
 
+form .grupo-radio {
+    display: flex;
+    justify-content: center;
+} 
+
 
 label, radio {
     display: flex;
