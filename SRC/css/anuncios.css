@@ -330,7 +330,7 @@ input.titulo-checkout {
     background-color: white;
 }
 
-.container-grupo-radio,.grupo-radio {
+div.container-grupo-radio {
     display: flex;
     justify-content: center;
     align-items: center;
