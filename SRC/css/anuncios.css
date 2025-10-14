@@ -330,13 +330,11 @@ input.titulo-checkout {
     background-color: white;
 }
 
-.grupo-radio,.radio-item {
+.container-grupo-radio {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
-} 
-
+}
 
 label, radio {
     display: flex;
