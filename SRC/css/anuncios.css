@@ -295,7 +295,7 @@ input.valor-input-nome {
 input.titulo-checkout {
     text-transform: uppercase;
     border: none;
-    width: 90%;
+    width: 100vw;
     text-align: center;
     font-size: 0.9em;
     font-weight: 600;
@@ -304,7 +304,6 @@ input.titulo-checkout {
     border: none;
     display: flex;
     justify-content: center;
-    width: 100%;
 }
 
 .titulo-variacoes {
@@ -320,7 +319,6 @@ input.titulo-checkout {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* justify-self: center; */
     position: relative;
     height: 5em;
     border: solid 0.1em rgb(66, 66, 66);
@@ -331,13 +329,11 @@ input.titulo-checkout {
 }
 
 form,.grupo-radio {
-    /* background-color: aqua; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-
 
 label, radio {
     display: flex;
