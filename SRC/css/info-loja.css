@@ -1,6 +1,8 @@
 div.tabela-medidas {
     gap: 0.7em;
     font-size: 0.9em;
+    display: flex;
+    justify-content: center;
 }
 
 .titulo-sobre {
