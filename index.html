@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
+    <script type="text/plain" class="opt-in-cookie">(function (w, d, s, l, i) {
             w[l] = w[l] || []; w[l].push({
                 'gtm.start':
                     new Date().getTime(), event: 'gtm.js'
@@ -14,8 +13,6 @@
                 j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
                     'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-P659GC76');</script>
-    <!-- End Google Tag Manager -->
-
     <meta name="google-site-verification" content="yBhxCGrd0X_jd_TjrcE3M9XVlVVNM7NA6loyt8PgA1U" />
     <meta name="facebook-domain-verification" content="nlgshexxbrhiu4hd7pnkvgcaobxyz1" />
     <meta property="og:image" content="https://camisetasbomb.com.br/SRC/imagens/baners/baner loja bomb.webp">
@@ -25,13 +22,7 @@
     <meta property="og:description" content="A sua nova camiseta está aqui, acesse e confira agora todos os modelos.">
     <meta name="description" content="A sua nova camiseta está aqui, acesse e confira agora todos os modelos.">
 
-
-
-
-
-
-    <!-- Meta Pixel Code -->
-    <script>
+    <script type="text/plain" class="opt-in-cookie">
         !function (f, b, e, v, n, t, s) {
             if (f.fbq) return; n = f.fbq = function () {
                 n.callMethod ?
@@ -45,18 +36,10 @@
             'https://connect.facebook.net/en_US/fbevents.js');
         fbq('init', '1369962460915107');
         fbq('track', 'PageView');
-
         fbq('track', 'ViewContent');
-
     </script>
-    <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=1369962460915107&ev=PageView&noscript=1" /></noscript>
-    <!-- End Meta Pixel Code -->
 
-
-
-    <!-- Meta Pixel Code -->
-    <script>
+    <script type="text/plain" class="opt-in-cookie">
         !function (f, b, e, v, n, t, s) {
             if (f.fbq) return; n = f.fbq = function () {
                 n.callMethod ?
@@ -70,40 +53,31 @@
             'https://connect.facebook.net/en_US/fbevents.js');
         fbq('init', '1199241512128127');
         fbq('track', 'PageView');
-
         fbq('track', 'ViewContent');
-
     </script>
-    <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=1199241512128127&ev=PageView&noscript=1" /></noscript>
-    <!-- End Meta Pixel Code -->
-
-
-
 
     <link rel="canonical" href="https://camisetasbomb.br/" />
     <link rel="shortcut icon" href="./SRC/imagens/favicom/camisetas bomb.ico" type="image/x-icon">
     <link rel="stylesheet" href="/SRC/css/style-responsivo.css">
     <link rel="stylesheet" href="/SRC/css/style.css">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-88K072MLK3"></script>
-    <script>
+
+    <script type="text/plain" class="opt-in-cookie"
+        src="https://www.googletagmanager.com/gtag/js?id=G-88K072MLK3"></script>
+    <script type="text/plain" class="opt-in-cookie">
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'G-88K072MLK3');
     </script>
+
     <title>Camisetas Bomb</title>
+
+
 </head>
 
 <body>
-
-    <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P659GC76" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
-
     <main class="pagina">
         <header class="cabecalho">
             <h1 class="titulo">Camisetas Bomb</h1>
@@ -722,13 +696,70 @@
         </nav>
         <!-- RODAPÉ -->
         <footer class="rodape-fazer-pedido">
-            <p class="rodape">Desenvolvido por CAMISETAS BOMB © São Paulo - SP. Contato: 11 99225-7582.
-            <p>
+            <p class="rodape">Desenvolvido por CAMISETAS BOMB © São Paulo - SP. Contato: 11 99225-7582.</p>
         </footer>
     </main>
-    <!-- JAVASCRIPT -->
+
+    <div id="cookie-banner" class="cookie-container">
+        <div class="cookie-text">
+            Utilizamos cookies para melhorar sua experiência e personalizar anúncios, confira a <a href="./SRC/html/privacidade.html" target="_blank">Política de Privacidade</a>. Você pode aceitar ou recusar o
+            rastreamento.
+        </div>
+        <div class="cookie-btns">
+            <button id="reject-cookies" class="cookie-btn btn-secundario">RECUSAR</button>
+            <button id="accept-cookies" class="cookie-btn">ACEITAR</button>
+        </div>
+    </div>
+
     <script src="/SRC/js/sliderAnuncio.js"></script>
     <script src="/SRC/js/formInscrever.js"></script>
+
+    <script>
+        (function () {
+            const cookieBanner = document.getElementById('cookie-banner');
+            const acceptBtn = document.getElementById('accept-cookies');
+            const rejectBtn = document.getElementById('reject-cookies');
+
+            function activateTracking() {
+                const trackingScripts = document.querySelectorAll('.opt-in-cookie');
+                trackingScripts.forEach(script => {
+                    const newScript = document.createElement('script');
+                    Array.from(script.attributes).forEach(attr => {
+                        if (attr.name !== 'type' && attr.name !== 'class') {
+                            newScript.setAttribute(attr.name, attr.value);
+                        }
+                    });
+                    newScript.innerHTML = script.innerHTML;
+                    document.head.appendChild(newScript);
+                    script.remove();
+                });
+            }
+
+            // Se já tomou uma decisão (aceitou ou recusou), não mostra o banner
+            const consent = localStorage.getItem('cookiesConsent');
+
+            if (consent === 'accepted') {
+                activateTracking();
+            } else if (!consent) {
+                cookieBanner.style.display = 'flex';
+            }
+
+            // Ao aceitar
+            acceptBtn.addEventListener('click', () => {
+                localStorage.setItem('cookiesConsent', 'accepted');
+                cookieBanner.style.display = 'none';
+                activateTracking();
+            });
+
+            // Ao recusar
+            rejectBtn.addEventListener('click', () => {
+                localStorage.setItem('cookiesConsent', 'rejected');
+                cookieBanner.style.display = 'none';
+                // Aqui não chamamos o activateTracking(), os scripts morrem no type="text/plain"
+                console.log("Rastreamento recusado pelo usuário.");
+            });
+        })();
+    </script>
 </body>
 
 </html>

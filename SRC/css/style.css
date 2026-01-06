@@ -424,3 +424,47 @@ div.index-navegacao-inferior-blocos a {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(78, 78, 78);
 }
+
+
+/* POPUP DE COOKIES */
+    .cookie-container {
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        max-width: 850px;
+        background: #1a1a1a;
+        color: #fff;
+        padding: 20px;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 12px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        z-index: 9999;
+        font-family: sans-serif;
+        border: 1px solid #333;
+    }
+    .cookie-text { font-size: 14px; line-height: 1.4; margin-right: 20px; flex: 1; }
+    .cookie-btns { display: flex; gap: 10px; }
+    .cookie-btn {
+        border: none;
+        padding: 12px 20px;
+        cursor: pointer;
+        border-radius: 6px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+    #accept-cookies { background: #f1c40f; color: #000; } /* Amarelo Bomb */
+    #accept-cookies:hover { background: #d4ac0d; }
+    
+    .btn-secundario { background: #444; color: #fff; } /* Cinza para Recusar */
+    .btn-secundario:hover { background: #666; }
+
+    @media (max-width: 600px) {
+        .cookie-container { flex-direction: column; text-align: center; }
+        .cookie-text { margin-right: 0; margin-bottom: 15px; }
+        .cookie-btns { width: 100%; flex-direction: column; }
+        .cookie-btn { width: 100%; }
+    }

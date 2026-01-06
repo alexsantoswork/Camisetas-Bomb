@@ -524,19 +524,19 @@ a,.btn-comprar {
     margin-bottom: 2em;
 }
 
-div.navegacao-inferior-blocos a {
-    text-decoration: none;
-    color: inherit;
-    box-shadow: none;
-    outline: none;
-}
-
 .navegacao-inferior-blocos {
     display: flex;
     position: relative;
     gap: 3em;
     top: 0.4em;
     margin-bottom: 2em;
+}
+
+div.navegacao-inferior-blocos a {
+    text-decoration: none;
+    color: inherit;
+    box-shadow: none;
+    outline: none;
 }
 
 .navegacao-inferior-bloco-um,
@@ -546,6 +546,7 @@ div.navegacao-inferior-blocos a {
     cursor: pointer;
     gap: 0.5em;
     color: purple;
+    align-items: flex-start;
 }
 
 /* RODAPÉ */
@@ -558,8 +559,8 @@ div.navegacao-inferior-blocos a {
 p.rodape {
     display: flex;
     justify-content: center;
+    text-align: center;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
     color: rgb(78, 78, 78);
 }
