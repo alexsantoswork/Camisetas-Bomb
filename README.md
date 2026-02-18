@@ -24,11 +24,13 @@ Tabela de Medidas: Guia para auxiliar na escolha do tamanho ideal.
 Checkout Seguro: Processamento de pagamentos e conformidade com a LGPD.
 
 
-🛠️ Tecnologias Sugeridas
+🛠️ Tecnologias para o desenvolvimento.
 
 Frontend: [HTML5, CSS3, JavaScript]
 
 Integrações: Checkout de pagamentos PagBank
+
+IA: Gemini
 
 
 🤝 Contato e Suporte
