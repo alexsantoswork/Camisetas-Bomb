@@ -11,7 +11,7 @@ function setupSlideshow(containerSelector) {
     let currentIndex = 0;
     const totalSlides = slides.length;
     let slideInterval;
-    const intervalTime = 3000; // 3 segundos
+    const intervalTime = 7000; // 3 segundos
 
     function updateSlider(isLooping = false) {
         // Se a transição for um loop, remove a transição do CSS
