@@ -1,9 +1,13 @@
 @media (min-width: 375px) {
 
-    h5.titulo-formulario, label.titulo-nome, div input.titulo-checkout, p.titulo-variacoes, .titulo-duvidas {
+    h5.titulo-formulario,
+    label.titulo-nome,
+    div input.titulo-checkout,
+    p.titulo-variacoes,
+    .titulo-duvidas {
         font-size: 1em;
     }
-    
+
     div.btn-whatsapp a {
         font-size: 0.8em;
     }
@@ -11,11 +15,28 @@
     span.titulo-faq {
         font-size: 1em;
     }
+
+    div .seletor-grupo label {
+        font-size: 1em;
+    }
 }
 
 @media (min-width: 700px) {
-    
-    form,div.slider-4,.cores,.tamanhos,.condicoes,.descricao,.container,figure.loja-bomb,.titulo-inferior,.navegacao-inferior,.container-perguntas-frequentes,.btn-whatsapp,.faq-container,footer.rodape-fazer-pedido {
+
+    form,
+    div.slider-4,
+    .cores,
+    .tamanhos,
+    .condicoes,
+    .descricao,
+    .container,
+    figure.loja-bomb,
+    .titulo-inferior,
+    .navegacao-inferior,
+    .container-perguntas-frequentes,
+    .btn-whatsapp,
+    .faq-container,
+    footer.rodape-fazer-pedido {
         width: 60%;
         margin-left: 20%;
     }
@@ -25,7 +46,7 @@
         word-spacing: 1em;
     }
 
-    .legenda-rolante-continua span::after  {
+    .legenda-rolante-continua span::after {
         content: " ";
         margin-right: 20px;
     }
@@ -33,7 +54,21 @@
 
 @media (min-width: 830px) {
 
-    form,div.slider-4,.cores,.tamanhos,.condicoes,.container-fazer-pedido,.descricao,.container,figure.loja-bomb,.titulo-inferior,.navegacao-inferior,.container-perguntas-frequentes,.btn-whatsapp,.faq-container,footer.rodape-fazer-pedido {
+    form,
+    div.slider-4,
+    .cores,
+    .tamanhos,
+    .condicoes,
+    .container-fazer-pedido,
+    .descricao,
+    .container,
+    figure.loja-bomb,
+    .titulo-inferior,
+    .navegacao-inferior,
+    .container-perguntas-frequentes,
+    .btn-whatsapp,
+    .faq-container,
+    footer.rodape-fazer-pedido {
         width: 50%;
         margin-left: 25%;
     }
@@ -45,15 +80,29 @@
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 
-    .legenda-rolante-continua span::after  {
+    .legenda-rolante-continua span::after {
         content: " ";
         margin-right: 20px;
     }
 }
 
 @media (min-width: 1000px) {
-    
-    form,div.slider-4,.cores,.tamanhos,.condicoes,.container-fazer-pedido,.descricao,.container,figure.loja-bomb,.titulo-inferior,.navegacao-inferior,.container-perguntas-frequentes,.btn-whatsapp,.faq-container,footer.rodape-fazer-pedido {
+
+    form,
+    div.slider-4,
+    .cores,
+    .tamanhos,
+    .condicoes,
+    .container-fazer-pedido,
+    .descricao,
+    .container,
+    figure.loja-bomb,
+    .titulo-inferior,
+    .navegacao-inferior,
+    .container-perguntas-frequentes,
+    .btn-whatsapp,
+    .faq-container,
+    footer.rodape-fazer-pedido {
         width: 40%;
         margin-left: 30%;
     }
@@ -63,7 +112,7 @@
         word-spacing: 0.9em;
     }
 
-    .legenda-rolante-continua span::after  {
+    .legenda-rolante-continua span::after {
         content: " ";
         margin-right: 20px;
     }
@@ -76,15 +125,29 @@
         word-spacing: 1em;
     }
 
-    .legenda-rolante-continua span::after  {
+    .legenda-rolante-continua span::after {
         content: " ";
         margin-right: 20px;
     }
 }
 
 @media (min-width: 1300px) {
-        
-    form,div.slider-4,.cores,.tamanhos,.condicoes,.container-fazer-pedido,.descricao,.container,figure.loja-bomb,.titulo-inferior,.navegacao-inferior,.container-perguntas-frequentes,.btn-whatsapp,.faq-container,footer.rodape-fazer-pedido {
+
+    form,
+    div.slider-4,
+    .cores,
+    .tamanhos,
+    .condicoes,
+    .container-fazer-pedido,
+    .descricao,
+    .container,
+    figure.loja-bomb,
+    .titulo-inferior,
+    .navegacao-inferior,
+    .container-perguntas-frequentes,
+    .btn-whatsapp,
+    .faq-container,
+    footer.rodape-fazer-pedido {
         width: 30%;
         margin-left: 35%;
     }
@@ -97,15 +160,29 @@
         word-spacing: 1.2em;
     }
 
-    .legenda-rolante-continua span::after  {
+    .legenda-rolante-continua span::after {
         content: " ";
         margin-right: 27px;
     }
 }
 
 @media (min-width: 1600px) {
-    
-    form,div.slider-4,.cores,.tamanhos,.condicoes,.container-fazer-pedido,.descricao,.container,figure.loja-bomb,.titulo-inferior,.navegacao-inferior,.container-perguntas-frequentes,.btn-whatsapp,.faq-container,footer.rodape-fazer-pedido {
+
+    form,
+    div.slider-4,
+    .cores,
+    .tamanhos,
+    .condicoes,
+    .container-fazer-pedido,
+    .descricao,
+    .container,
+    figure.loja-bomb,
+    .titulo-inferior,
+    .navegacao-inferior,
+    .container-perguntas-frequentes,
+    .btn-whatsapp,
+    .faq-container,
+    footer.rodape-fazer-pedido {
         width: 20%;
         margin-left: 40%;
     }
@@ -118,8 +195,8 @@
         word-spacing: 1.4em;
         font-weight: 700;
     }
-    
-    .legenda-rolante-continua span::after  {
+
+    .legenda-rolante-continua span::after {
         content: " ";
         margin-right: 50px;
     }
@@ -132,7 +209,7 @@
         word-spacing: 1.5em;
     }
 
-    .legenda-rolante-continua span::after  {
+    .legenda-rolante-continua span::after {
         content: " ";
         margin-right: 50px;
     }

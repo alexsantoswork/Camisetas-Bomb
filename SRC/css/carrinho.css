@@ -1,0 +1,106 @@
+.carrinho-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    height: 96vh;
+}
+
+
+.item-carrinho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.item-carrinho img {
+    width: 60px;
+    border-radius: 5px;
+}
+
+.item-info {
+    flex-grow: 1;
+    margin-left: 15px;
+}
+
+.btn-remover {
+    color: red;
+    cursor: pointer;
+    font-size: 14px;
+    background: none;
+    border: none;
+}
+
+.total-container {
+    text-align: right;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-finalizar {
+    background-color: rgb(253, 214, 41);
+    color: purple;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-style: italic;
+    border: solid 0.1em purple;
+    box-shadow: 0.1em 0.1em purple;
+    text-transform: uppercase;
+}
+
+.bloco-btn-cc {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.btn-cc {
+    display: flex;
+    justify-content: center;
+    height: 3em;
+    align-items: center;
+    font-size: 0.7em;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 0.5em;
+    border: solid 0.1em purple;
+    box-shadow: 0.1em 0.1em purple;
+    color: purple;
+    background-color: rgb(253, 214, 41);
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+.img-carrinho-thumb {
+    width: 80px;
+    /* Largura da miniatura */
+    height: 80px;
+    /* Altura da miniatura */
+    object-fit: cover;
+    /* Faz a imagem preencher o quadrado sem esticar */
+    border-radius: 5px;
+    /* Deixa as pontas arredondadas */
+    margin-right: 15px;
+    /* Afasta a imagem do texto */
+}
+
+.item-carrinho {
+    display: flex;
+    /* Alinha imagem e texto lado a lado */
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}

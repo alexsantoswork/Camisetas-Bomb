@@ -17,6 +17,7 @@ article {
     white-space: nowrap;
     color: purple;
     animation: rolarTextoContinuo 15s linear infinite;
+    
 }
 
 .legenda-rolante-continua span {
@@ -42,6 +43,7 @@ article {
     display: flex;
     align-items: center;
     margin: 0.5em 0;
+    
 }
 
 /* LEGENDA */
@@ -210,13 +212,13 @@ div.legenda {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 12em;
-    height: 3em;
+    width: 14em;
+    height: 4em;
     color: purple;
     border-radius: 0.5em;
     border: solid 0.1em purple;
     box-shadow: 0.1em 0.1em purple;
-    font-size: 1.1em;
+    font-size: 0.8em;
     font-weight: 600;
     text-decoration: none;
     text-transform: uppercase;
@@ -225,6 +227,7 @@ div.legenda {
     bottom: 0.8em;
     position: relative;
     background-color: rgb(253, 214, 41);
+    
 }
 
 /* DESCRIÇÃO */
@@ -260,13 +263,13 @@ div.legenda {
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 4em;
-    top: 2em;
+    margin-bottom: 3em;
+    top: 1em;
     position: relative;
 }
 
 .titulo-nome {
-    margin-bottom: 0.5em;
+    margin-bottom: 0.1em;
     font-size: 0.9em;
 }
 
@@ -295,11 +298,11 @@ input.valor-input-nome {
 input.titulo-checkout {
     text-transform: uppercase;
     border: none;
-    width: 100vw;
+    width: 90vw;
     text-align: center;
     font-size: 0.9em;
     font-weight: 600;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     background-color: aliceblue;
     border: none;
     display: flex;
@@ -310,9 +313,10 @@ input.titulo-checkout {
     text-transform: uppercase;
     font-size: 0.9em;
     font-weight: 600;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.1em;
     text-align: center;
 }
+
 
 .grupo-radio {
     width: 90%;
@@ -324,7 +328,7 @@ input.titulo-checkout {
     border: solid 0.1em rgb(66, 66, 66);
     border-radius: 0.5em;
     box-shadow: 0.1em 0.12em rgb(66, 66, 66);
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
     background-color: white;
 }
 
@@ -352,14 +356,74 @@ label, radio {
     font-weight: 500;
 }
 
+
+.seletor-grupo {
+    margin-bottom: 20px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    
+}
+
+.seletor-grupo label {
+    font-size: 1em;
+    font: italic bold 0.9em Arial, sans-serif;
+    margin-bottom: 0.1em;
+    
+}
+
+
+.select-bomb, .input-qtd {
+    width: 70%;
+    padding: 10px;
+    border: solid 0.1em rgb(66, 66, 66);
+    border-radius: 4px;
+    box-shadow: 0.1em 0.12em rgb(66, 66, 66);
+    text-align: center;
+    margin-bottom: 0.5em;
+    
+}
+
+.input-qtd {
+    width: 40%;
+    
+}
+
 .btn-comprar {
     display: flex;
     justify-content: center;
     align-items: center;
     justify-self: center;
-    width: 12em;
+    width: 14em;
+    height: 4em;
+    font-size: 0.8em;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 0.5em;
+    border: solid 0.1em purple;
+    box-shadow: 0.1em 0.1em purple;
+    color: purple;
+    background-color: rgb(253, 214, 41);
+    margin-bottom: 2em;
+    cursor: pointer;
+}
+
+a,.btn-comprar {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-voltar {
+    display: flex;
+    justify-content: center;
     height: 3em;
-    font-size: 1.1em;
+    align-items: center;
+    font-size: 0.7em;
+    padding: 5px;
     font-weight: 600;
     text-transform: uppercase;
     border-radius: 0.5em;
@@ -369,12 +433,7 @@ label, radio {
     background-color: rgb(253, 214, 41);
     margin-bottom: 1em;
     cursor: pointer;
-}
 
-a,.btn-comprar {
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
 }
 
 
@@ -551,7 +610,7 @@ div.navegacao-inferior-blocos a {
 
 /* RODAPÉ */
 .rodape-fazer-pedido {
-    font-size: 0.6em;
+    font-size: 0.5em;
     position: relative;
     padding-bottom: 1.5em;
 }
@@ -563,4 +622,25 @@ p.rodape {
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(78, 78, 78);
+}
+
+
+
+
+
+/* Estilo para a miniatura na página da sacola */
+.img-carrinho-thumb {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-right: 15px;
+}
+
+.item-carrinho {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
 }

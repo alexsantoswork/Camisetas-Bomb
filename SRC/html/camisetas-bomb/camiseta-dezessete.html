@@ -30,7 +30,7 @@
                 <div class="slider-wrapper">
                     <img src="/SRC/imagens/anuncios/anuncio-17/camiseta preta feminina baby look.webp"
                         alt="Imagem 1">
-                    <img src="/SRC/imagens/anuncios/anuncio-17/camiseta preta feminina baby look (1).webp" alt="Imagem 2">
+                    <img src="/SRC/imagens/anuncios/anuncio-17/camiseta feminina azul branca preta.webp" alt="Imagem 2">
                     <!-- <img src="" alt="Imagem 3"> -->
                 </div>
                 <button class="slider-button prev-button">&#10094;</button>
@@ -80,6 +80,11 @@
         <div id="meuFormulario" class="container-formulario">
             <h5 class="titulo-formulario">Preencha abaixo para fazer o pedido</h5>
             <form id="cadastroForm">
+
+                <input type="hidden" id="produto-preco" value="17.90">
+                <input type="hidden" id="produto-imagem" value="/SRC/imagens/anuncios/anuncio-17/camiseta preta feminina baby look.webp">
+
+                
                 <div class="input-nome">
                     <label class="titulo-nome" for="nome">Nome Completo</label>
                     <input class="valor-input-nome" type="text" id="nome" name="nome" required>
@@ -108,9 +113,60 @@
                         </label>
                     </div>
                 </div>
-                <a href="https://pag.ae/81dSKwz-u">
+
+                <!-- Seleção de Cor -->
+                <!-- <div class="seletor-grupo">
+                    <label for="cor">Escolha a Cor:</label>
+                    <select id="cor" name="cor" class="select-bomb" required>
+                        <option value="" disabled selected>Selecione a cor</option>
+                        <option value="Preto">Preto Tradicional</option>
+                        <option value="Branco">Off-White</option>
+                        <option value="Grafite">Grafite Estonado</option>
+                    </select>
+                </div> -->
+
+
+
+
+                <!-- Seleção de Cor -->
+                <div class="seletor-grupo">
+                    <label for="cor">Escolha a Cor:</label>
+                    <select id="cor" name="cor" class="select-bomb" required onchange="trocarFotoPorCor(this)">
+                        <option value="" disabled selected>Selecione a cor</option>
+                        <!-- Adicione o caminho da foto de cada cor aqui -->
+                        <option value="Preto"
+                            data-foto="/SRC/imagens//anuncios/anuncio-02/camiseta-vermelha-masculina-basica-vitrine.webp">
+                            Preto
+                        </option>
+                        <option value="Azul"
+                            data-foto="/SRC/imagens/anuncios/anuncio-01/camiseta feminina baby look azul royal freedom.webp">
+                            Azul
+                        </option>
+                        <option value="Branca"
+                            data-foto="/SRC/imagens/anuncios/anuncio-01/camiseta feminina baby look azul royal freedom.webp">
+                            Branca
+                        </option>
+                    </select>
+                </div>
+
+
+
+
+                <!-- Seleção de Quantidade -->
+                <div class="seletor-grupo">
+                    <label for="quantidade">Quantidade:</label>
+                    <input type="number" id="quantidade" name="quantidade" placeholder="0" min="1" max="10"
+                        class="input-qtd" required>
+                </div>
+
+                <button class="btn-comprar" type="submit" id="finalizarPedidoBtn">Adicionar a sacola</button>
+
+                <a class="btn-voltar" href="/" onclick="window.location.href='/'; return false;">Continuar comprando</a>
+
+                
+                <!-- <a href="https://pag.ae/81dSKwz-u">
                     <button class="btn-comprar" type="submit" id="finalizarPedidoBtn">Comprar</button>
-                </a>
+                </a> -->
             </form>
         </div>
         
@@ -130,46 +186,40 @@
             <div class="faq-item">
                 <button class="faq-pergunta">Como comprar a camiseta?</button>
                 <div class="faq-resposta">
-                    <p>Preencha o formulário acima com nome e tamanho. Após, clique em <strong>COMPRAR</strong> para
-                        prosseguir ao pagamento e concluir seu pedido.
+                    <p>Após preencher o formulário de pedido e adicioná-lo à sacola, basta acessar o ícone da sacola e selecionar "Finalizar Pedido" para processar sua compra.
                     </p>
                 </div>
             </div>
             <div class="faq-item">
-                <button class="faq-pergunta">Como falar com o suporte?</button>
+                <button class="faq-pergunta">Como tirar duvidas?</button>
                 <div class="faq-resposta">
-                    <p>É simples! Clique no botão com o símbolo do WhatsApp e iniciara o chat para falar com um
-                        atendente ou, se preferir pode enviar um e-mail para: <strong>camisetasbomb@gmail.com</strong>
+                    <p>Precisa de ajuda? Fale conosco em tempo real pelo WhatsApp. Estamos prontos para tirar suas dúvidas e auxiliar em sua compra. Basta clicar no botão verde.
                     </p>
                 </div>
             </div>
             <div class="faq-item">
-                <button class="faq-pergunta">Como comprar modelos diferentes no mesmo pedido?</button>
+                <button class="faq-pergunta">Como vou receber o pedido?</button>
                 <div class="faq-resposta">
-                    <p>Para pedidos com modelos de camisetas diferentes, entre em contato conosco via WhatsApp para
-                        assistência personalizada. Nossa equipe o guiará para finalizar sua compra.</p>
+                    <p>Estamos em São Paulo e distribuímos nossos produtos para todos os estados do Brasil através dos Correios e transportadoras, oferecendo conveniência e confiança na sua entrega.</p>
                 </div>
             </div>
             <div class="faq-item">
                 <button class="faq-pergunta">Qual o valor do frete?</button>
                 <div class="faq-resposta">
-                    <p>O custo do frete dependerá da região de entrega, é possível consultar com o CEP e saber o valor e
-                        as transportadoras disponíveis. Siga para fazer o pedido e terá acesso para consultar.</p>
+                    <p>Para algumas regiões em São Paulo entregamos com frete grátis; para as demais regiões, é possível consultar após finalizar o pedido.</p>
                 </div>
             </div>
             <div class="faq-item">
                 <button class="faq-pergunta">Como saber o tamanho correto?</button>
                 <div class="faq-resposta">
-                    <p>Para escolher o tamanho ideal, clique em <a href="/SRC/html/tabela.html" target="_blank">TABELA
-                            DE MEDIDAS</a> e consulte as medidas em centímetros. Essa referência detalhada garante a
-                        seleção perfeita para sua compra, otimizando sua experiência e satisfação.</p>
+                    <p>Acesse a tabela e consulte as medidas em centímetros. Essa referência detalhada garante a seleção perfeita para sua compra, otimizando sua experiência e satisfação.</p>
                 </div>
             </div>
             <div class="faq-item">
                 <button class="faq-pergunta">Tem garantia? Como funciona a troca ou devolução?</button>
                 <div class="faq-resposta">
                     <p>Todos os produtos possuem garantia. Para trocas ou devoluções, contate nosso suporte. Sua
-                        satisfação é nossa prioridade e estamos prontos para auxiliar em qualquer necessidade
+                        satisfação é nossa prioridade e estamos prontos para auxiliá-lo em qualquer necessidade
                         pós-compra.</p>
                 </div>
             </div>
@@ -180,7 +230,7 @@
         <nav class="navegacao-inferior">
             <div class="navegacao-inferior-blocos">
                 <div class="navegacao-inferior-bloco-um">
-                    <a href="/SRC/html/promocoes.html" target="_blank">Promoções</a>
+                    <a href="/" onclick="window.location.href='/'; return false;">Início</a>
                     <a href="/SRC/html/feminino.html" target="_blank">Feminino</a>
                     <a href="/SRC/html/masculino.html" target="_blank">Masculino</a>
                     <a href="/SRC/html/tabela.html" target="_blank">Tabelas</a>
@@ -199,14 +249,37 @@
         </nav>
 
         <!-- RODAPÉ -->
-        <footer class="rodape-fazer-pedido">
+        <!-- <footer class="rodape-fazer-pedido">
             <p class="rodape">Desenvolvido por CAMISETAS BOMB © São Paulo - SP. Contato: 11 99225-7582.
             <p>
+        </footer> -->
+
+
+        <footer class="rodape-fazer-pedido">
+            <address class="rodape">
+                Desenvolvido por &nbsp; <strong>CAMISETAS BOMB</strong> &nbsp; © &nbsp; São Paulo - SP.
+                Contato: &nbsp; <a href="tel:+5511992257582">11 99225-7582</a>
+            </address>
         </footer>
+
+
     </article>
+
+
+    <!-- Ícone Flutuante do Carrinho -->
+    <div id="icone-carrinho-flutuante" class="carrinho-float" onclick="window.location.href='/SRC/html/carrinho.html'">
+        <img src="/SRC/imagens/vitrine/icone-sacola.png" alt="Carrinho">
+        <span id="carrinho-contador">0</span>
+    </div>
+
     <script src="/SRC/js/sliderAnuncio.js"></script>
-    <script src="/SRC/js/formPlanilha.js"></script>
     <script src="/SRC/js/mais-perguntas.js"></script>
+    <script src="/SRC/js/carrinho.js"></script>
+    <script src="/SRC/js/carrinho-page.js"></script>
+    <script src="/SRC/js/formPlanilha.js"></script>
+    <script src="/SRC/js/imagem-sacola.js"></script>
+
+
 </body>
 
 </html>

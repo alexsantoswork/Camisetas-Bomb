@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="/SRC/css/info-loja.css">
     <link rel="stylesheet" href="/SRC/css/obrigado.css">
     <link rel="stylesheet" href="/SRC/css/anuncios.css">
-    <title>Camisetas Bomb</title>
+    <link rel="stylesheet" href="/SRC/css/style.css">
+    <title>Contato</title>
 </head>
 
 <body>
@@ -23,7 +24,8 @@
                     camisetasbomb@gmail.com.br</strong> seja para tirar dúvidas sobre um pedido, acompanhar sua entrega,
                 explorar opções de personalização ou simplesmente compartilhar seu feedback, estamos à disposição. Sua
                 opinião é muito importante para nós e nos ajuda a aprimorar constantemente nossos produtos e serviços.
-                Não hesite em nos procurar! A Camisetas Bomb está sempre pronta para tirar todas as dúvidas, contate-nos.
+                Não hesite em nos procurar! A Camisetas Bomb está sempre pronta para tirar todas as dúvidas,
+                contate-nos.
             </p>
         </section>
     </main>
@@ -33,28 +35,49 @@
     <nav class="navegacao-inferior">
         <div class="navegacao-inferior-blocos">
             <div class="navegacao-inferior-bloco-um">
-                    <a href="/SRC/html/promocoes.html" target="_blank">Promoções</a>
-                    <a href="/SRC/html/feminino.html" target="_blank">Feminino</a>
-                    <a href="/SRC/html/masculino.html" target="_blank">Masculino</a>
-                    <a href="/SRC/html/tabela.html" target="_blank">Tabelas</a>
-                    <a href="/SRC/html/frete.html" target="_blank">Frete</a>
-                    <a href="/SRC/html/devolucao.html" target="_blank">Devolução</a>
-                </div>
-                <div class="navegacao-inferior-bloco-dois">
-                    <a href="/SRC/html/sobre.html" target="_blank">Sobre</a>
-                    <a href="/SRC/html/contato.html" target="_blank">Contato</a>
-                    <a href="https://www.instagram.com/camisetas_bomb/" target="_blank">Instagram</a>
-                    <a>TikTok</a>
-                    <a>YouTube</a>
-                    <a href="/SRC/html/privacidade.html" target="_blank">Privacidade</a>
-                </div>
+                <a href="/" onclick="window.location.href='/'; return false;">Início</a>
+                <a href="/SRC/html/feminino.html">Feminino</a>
+                <a href="/SRC/html/masculino.html">Masculino</a>
+                <a href="/SRC/html/tabela.html">Tabelas</a>
+                <a href="/SRC/html/frete.html">Frete</a>
+                <a href="/SRC/html/devolucao.html">Devolução</a>
+            </div>
+            <div class="navegacao-inferior-bloco-dois">
+                <a href="/SRC/html/sobre.html">Sobre</a>
+                <a href="/SRC/html/contato.html">Contato</a>
+                <a href="https://www.instagram.com/camisetas_bomb/">Instagram</a>
+                <a>TikTok</a>
+                <a>YouTube</a>
+                <a href="/SRC/html/privacidade.html">Privacidade</a>
+            </div>
         </div>
     </nav>
 
     <!-- RODAPÉ -->
-    <footer class="rodape-fazer-pedido">
+    <!-- <footer class="rodape-fazer-pedido">
         <p class="rodape">Desenvolvido por CAMISETAS BOMB © São Paulo - SP. Contato: 11 99225-7582.
         <p>
+    </footer> -->
+
+
+    <footer class="rodape-fazer-pedido">
+        <address class="rodape">
+            Desenvolvido por &nbsp; <strong>CAMISETAS BOMB</strong> &nbsp; © &nbsp; São Paulo - SP.
+            Contato: &nbsp; <a href="tel:+5511992257582">11 99225-7582</a>
+        </address>
     </footer>
+
+
+    <script src="/SRC/js/carrinho.js"></script>
+
+
+    <!-- Ícone Flutuante do Carrinho -->
+    <div id="icone-carrinho-flutuante" class="carrinho-float" onclick="window.location.href='/SRC/html/carrinho.html'">
+        <img src="/SRC/imagens/vitrine/icone-sacola.png" alt="Carrinho">
+        <span id="carrinho-contador">0</span>
+    </div>
+
+
 </body>
+
 </html>

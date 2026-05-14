@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Carrinho - Camisetas Bomb</title>
+    <link rel="stylesheet" href="/SRC/css/style.css">
+    <link rel="stylesheet" href="/SRC/css/carrinho.css">
+</head>
+
+<body>
+
+    <div class="carrinho-container">
+        <h1 class="titulo-sacola">Sua Sacola</h1>
+        <div id="lista-carrinho">
+            <!-- Os itens aparecerão aqui via JS -->
+        </div>
+
+        <div class="total-container">
+            Total: R$ <span id="valor-total">0.00</span>
+        </div>
+
+        <button class="btn-finalizar" onclick="finalizarCompra()">Finalizar Pedido</button>
+        <!-- <a href="/" style="display: block; text-align: center; margin-top: 15px; color: #666;">Continuar Comprando</a> -->
+        <!-- No seu arquivo carrinho.html -->
+
+        <div class="bloco-btn-cc">
+            <a class="btn-cc" href="/" onclick="window.location.href='/'; return false;">Continuar Comprando</a>
+        </div>
+    </div>
+
+    <footer class="rodape-fazer-pedido">
+        <address class="rodape">
+            Desenvolvido por &nbsp; <strong>CAMISETAS BOMB</strong> &nbsp; © &nbsp; São Paulo - SP.
+            Contato: &nbsp; <a href="tel:+5511992257582">11 99225-7582</a>
+        </address>
+    </footer>
+
+    <script src="/SRC/js/carrinho.js"></script>
+    <script src="/SRC/js/carrinho-page.js"></script>
+</body>
+
+</html>

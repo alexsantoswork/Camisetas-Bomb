@@ -411,7 +411,7 @@ div.index-navegacao-inferior-blocos a {
 /* RODAPÉ */
 .rodape-fazer-pedido {
     
-    font-size: 0.6em;
+    font-size: 0.5em;
     position: relative;
     padding-bottom: 1.5em;
 }
@@ -468,3 +468,86 @@ div.index-navegacao-inferior-blocos a {
         .cookie-btns { width: 100%; flex-direction: column; }
         .cookie-btn { width: 100%; }
     }
+
+
+
+
+
+
+    /* Notificação do Carrinho */
+.toast-carrinho {
+    position: fixed;
+    top: -100px; /* Começa fora da tela */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #28a745; /* Verde de sucesso */
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: top 0.5s ease-in-out;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.toast-carrinho.show {
+    top: 20px; /* Desce para aparecer */
+}
+
+.toast-carrinho img {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
+
+.carrinho-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(253, 214, 41) ; /* Preto para combinar com a estética Bomb */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    z-index: 9998;
+    transition: transform 0.3s ease;
+}
+
+.carrinho-float:hover {
+    transform: scale(1.1);
+}
+
+.carrinho-float img {
+    width: 30px;
+    height: 30px;
+    filter: invert(1); /* Deixa o ícone branco se ele for preto */
+}
+
+#carrinho-contador {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ff0000; /* Vermelho para chamar atenção */
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
+}
