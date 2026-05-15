@@ -4,7 +4,6 @@
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-    height: 96vh;
 }
 
 
@@ -80,6 +79,7 @@
     background-color: rgb(253, 214, 41);
     margin-top: 20px;
     cursor: pointer;
+    margin-bottom: 27em;
 }
 
 
