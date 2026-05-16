@@ -295,6 +295,12 @@ input.valor-input-nome {
     background-color: white;
 }
 
+.valor-input-nome::placeholder {
+    color: black;
+    font-size: 0.8em;
+}
+
+
 input.titulo-checkout {
     text-transform: uppercase;
     border: none;
@@ -302,7 +308,7 @@ input.titulo-checkout {
     text-align: center;
     font-size: 0.9em;
     font-weight: 600;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     background-color: aliceblue;
     border: none;
     display: flex;
@@ -389,6 +395,10 @@ label, radio {
 
 .select-bomb {
     background-color: white;
+}
+
+.select-bomb::placeholder{
+    font-size: 1em;
 }
 
 .input-qtd {
