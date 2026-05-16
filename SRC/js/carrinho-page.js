@@ -12,26 +12,6 @@ function renderizarCarrinho() {
         return;
     }
 
-    // carrinho.forEach((item, index) => {
-    //     const subtotal = item.preco * item.quantidade;
-    //     totalGeral += subtotal;
-
-    //     listaElemento.innerHTML += `
-    //         <div class="item-carrinho">
-    //             <img src="${item.imagem}" alt="${item.nome}">
-    //             <div class="item-info">
-    //                 <strong>${item.nome}</strong><br>
-    //                 Cor: ${item.cor || 'N/A'} | Tamanho: ${item.tamanho}<br>
-    //                 Qtd: ${item.quantidade} | R$ ${item.preco.toFixed(2)}
-    //             </div>
-    //             <button class="btn-remover" onclick="removerItem(${index})">Remover</button>
-    //         </div>
-    //     `;
-    // });
-
-
-
-
     carrinho.forEach((item, index) => {
     const subtotal = item.preco * item.quantidade;
     totalGeral += subtotal;
@@ -78,7 +58,7 @@ function finalizarCompra() {
     const total = document.getElementById('valor-total').textContent;
     mensagem += `\n*Total: R$ ${total}*`;
 
-    const fone = "5511985480431"; // COLOQUE SEU WHATSAPP AQUI
+    const fone = "5511992257582"; // COLOQUE SEU WHATSAPP AQUI
     const url = `https://wa.me/${fone}?text=${encodeURIComponent(mensagem)}`;
 
     // AQUI ESTÁ A MUDANÇA:

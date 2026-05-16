@@ -387,6 +387,10 @@ label, radio {
     
 }
 
+.select-bomb {
+    background-color: white;
+}
+
 .input-qtd {
     width: 40%;
     
