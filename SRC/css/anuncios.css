@@ -394,6 +394,11 @@ radio {
     margin-bottom: 0.5em;
 }
 
+select, .select-bomb::placeholder {
+    background-color: white;
+    
+}
+
 .input-qtd {
     padding: 11px;
 }
