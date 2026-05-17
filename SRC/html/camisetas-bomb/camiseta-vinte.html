@@ -28,9 +28,9 @@
         <div class="slider-4">
             <div class="slider-container">
                 <div class="slider-wrapper">
-                    <img src="/SRC/imagens/anuncios/anuncio-20/camiseta azul masculina basica.webp"
-                        alt="Imagem 1">
-                    <img src="/SRC/imagens/anuncios/anuncio-20/camiseta masculina azul branca preta.webp" alt="Imagem 2">
+                    <img src="/SRC/imagens/anuncios/anuncio-20/camiseta azul masculina basica.webp" alt="Imagem 1">
+                    <img src="/SRC/imagens/anuncios/anuncio-20/camiseta masculina azul branca preta.webp"
+                        alt="Imagem 2">
                     <!-- <img src="" alt="Imagem 3"> -->
                 </div>
                 <button class="slider-button prev-button">&#10094;</button>
@@ -82,15 +82,18 @@
             <form id="cadastroForm">
 
                 <input type="hidden" id="produto-preco" value="19.90">
-                <input type="hidden" id="produto-imagem" value="/SRC/imagens/anuncios/anuncio-20/camiseta azul masculina basica.webp">
+                <input type="hidden" id="produto-imagem"
+                    value="/SRC/imagens/anuncios/anuncio-20/camiseta azul masculina basica.webp">
 
-                
+
                 <div class="input-nome">
                     <label class="titulo-nome" for="nome">Nome Completo</label>
-                    <input class="valor-input-nome" type="text" id="nome" name="nome" required placeholder="Escreva o seu nome aqui">
+                    <input class="valor-input-nome" type="text" id="nome" name="nome" required
+                        placeholder="Escreva o seu nome aqui">
                 </div>
                 <div>
-                    <input id="produto" class="titulo-checkout" type="text" name="produto" value="Camiseta Lisa Masculina">
+                    <input id="produto" class="titulo-checkout" type="text" name="produto"
+                        value="Camiseta Lisa Masculina">
                 </div>
                 <p class="titulo-variacoes">Tamanhos</p>
                 <div class="grupo-radio">
@@ -127,47 +130,46 @@
 
 
 
-                <!-- Seleção de Cor -->
-                <div class="seletor-grupo">
-                    <label for="cor">Cores</label>
-                    <select id="cor" name="cor" class="select-bomb" required onchange="trocarFotoPorCor(this)">
-                        <option value="" disabled selected>Selecione a cor</option>
-                        <!-- Adicione o caminho da foto de cada cor aqui -->
-                        <option value="Preto"
-                            data-foto="/SRC/imagens/miniaturas/masculina lisa preta.webp">
-                            Preto
-                        </option>
-                        <option value="Azul"
-                            data-foto="/SRC/imagens/miniaturas/masculina lisa azul.webp">
-                            Azul
-                        </option>
-                        <option value="Branco"
-                            data-foto="/SRC/imagens/miniaturas/masculina lisa branca.webp">
-                            Branco
-                        </option>
-                    </select>
-                </div>
+                <div class="cor-quantidade">
+                    <!-- Seleção de Cor -->
+                    <div class="seletor-grupo">
+                        <label for="cor">Cores</label>
+                        <select id="cor" name="cor" class="select-bomb" required onchange="trocarFotoPorCor(this)">
+                            <option value="" disabled selected>Selecione a cor</option>
+                            <!-- Adicione o caminho da foto de cada cor aqui -->
+                            <option value="Preto" data-foto="/SRC/imagens/miniaturas/masculina lisa preta.webp">
+                                Preto
+                            </option>
+                            <option value="Azul" data-foto="/SRC/imagens/miniaturas/masculina lisa azul.webp">
+                                Azul
+                            </option>
+                            <option value="Branco" data-foto="/SRC/imagens/miniaturas/masculina lisa branca.webp">
+                                Branco
+                            </option>
+                        </select>
+                    </div>
 
 
 
-                <!-- Seleção de Quantidade -->
-                <div class="seletor-grupo">
-                    <label for="quantidade">Quantidade</label>
-                    <input type="number" id="quantidade" name="quantidade" placeholder="0" min="1" max="10"
-                        class="input-qtd" required>
+                    <!-- Seleção de Quantidade -->
+                    <div class="seletor-grupo">
+                        <label for="quantidade">Quantidade</label>
+                        <input type="number" id="quantidade" name="quantidade" placeholder="0" min="1" max="10"
+                            class="input-qtd" required>
+                    </div>
                 </div>
 
                 <button class="btn-comprar" type="submit" id="finalizarPedidoBtn">Adicionar a sacola</button>
 
                 <a class="btn-voltar" href="/" onclick="window.location.href='/'; return false;">Continuar comprando</a>
 
-                
+
                 <!-- <a href="https://pag.ae/81dSLyxM4">
                     <button class="btn-comprar" type="submit" id="finalizarPedidoBtn">Comprar</button>
                 </a> -->
             </form>
         </div>
-        
+
         <!-- CONTATO WHATSAPP -->
         <div class="paragrafo-duvidas">
             <small class="titulo-duvidas">Tem dúvidas? fale com o suporte</small>
@@ -185,33 +187,38 @@
             <div class="faq-item">
                 <button class="faq-pergunta">Como comprar a camiseta?</button>
                 <div class="faq-resposta">
-                    <p>Após preencher o formulário de pedido e adicioná-lo à sacola, basta acessar o ícone da sacola e selecionar "Finalizar Pedido" para processar sua compra.
+                    <p>Após preencher o formulário de pedido e adicioná-lo à sacola, basta acessar o ícone da sacola e
+                        selecionar "Finalizar Pedido" para processar sua compra.
                     </p>
                 </div>
             </div>
             <div class="faq-item">
                 <button class="faq-pergunta">Como tirar duvidas?</button>
                 <div class="faq-resposta">
-                    <p>Precisa de ajuda? Fale conosco em tempo real pelo WhatsApp. Estamos prontos para tirar suas dúvidas e auxiliar em sua compra. Basta clicar no botão verde.
+                    <p>Precisa de ajuda? Fale conosco em tempo real pelo WhatsApp. Estamos prontos para tirar suas
+                        dúvidas e auxiliar em sua compra. Basta clicar no botão verde.
                     </p>
                 </div>
             </div>
             <div class="faq-item">
                 <button class="faq-pergunta">Como vou receber o pedido?</button>
                 <div class="faq-resposta">
-                    <p>Estamos em São Paulo e distribuímos nossos produtos para todos os estados do Brasil através dos Correios e transportadoras, oferecendo conveniência e confiança na sua entrega.</p>
+                    <p>Estamos em São Paulo e distribuímos nossos produtos para todos os estados do Brasil através dos
+                        Correios e transportadoras, oferecendo conveniência e confiança na sua entrega.</p>
                 </div>
             </div>
             <div class="faq-item">
                 <button class="faq-pergunta">Qual o valor do frete?</button>
                 <div class="faq-resposta">
-                    <p>Para algumas regiões em São Paulo entregamos com frete grátis; para as demais regiões, é possível consultar após finalizar o pedido.</p>
+                    <p>Para algumas regiões em São Paulo entregamos com frete grátis; para as demais regiões, é possível
+                        consultar após finalizar o pedido.</p>
                 </div>
             </div>
             <div class="faq-item">
                 <button class="faq-pergunta">Como saber o tamanho correto?</button>
                 <div class="faq-resposta">
-                    <p>Acesse a tabela e consulte as medidas em centímetros. Essa referência detalhada garante a seleção perfeita para sua compra, otimizando sua experiência e satisfação.</p>
+                    <p>Acesse a tabela e consulte as medidas em centímetros. Essa referência detalhada garante a seleção
+                        perfeita para sua compra, otimizando sua experiência e satisfação.</p>
                 </div>
             </div>
             <div class="faq-item">
@@ -261,7 +268,7 @@
             </address>
         </footer>
 
-        
+
     </article>
 
     <!-- Ícone Flutuante do Carrinho -->

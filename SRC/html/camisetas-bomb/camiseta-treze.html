@@ -88,7 +88,8 @@
 
                 <div class="input-nome">
                     <label class="titulo-nome" for="nome">Nome Completo</label>
-                    <input class="valor-input-nome" type="text" id="nome" name="nome" required placeholder="Escreva o seu nome aqui">
+                    <input class="valor-input-nome" type="text" id="nome" name="nome" required
+                        placeholder="Escreva o seu nome aqui">
                 </div>
                 <div>
                     <input id="produto" class="titulo-checkout" type="text" name="produto"
@@ -131,34 +132,35 @@
 
 
 
-                <!-- Seleção de Cor -->
-                <div class="seletor-grupo">
-                    <label for="cor">Cores</label>
-                    <select id="cor" name="cor" class="select-bomb" required onchange="trocarFotoPorCor(this)">
-                        <option value="" disabled selected>Selecione a cor</option>
-                        <!-- Adicione o caminho da foto de cada cor aqui -->
-                        <option value="Preto"
-                            data-foto="/SRC/imagens/miniaturas/feminina street style preta.webp">
-                            Preto
-                        </option>
-                        <option value="Vermelho"
-                            data-foto="/SRC/imagens/miniaturas/feminina street style vermelha.webp">
-                            Vermelho
-                        </option>
-                        <option value="Branco"
-                            data-foto="/SRC/imagens/miniaturas/feminina street style branca.webp">
-                            Branco
-                        </option>
-                    </select>
-                </div>
+                <div class="cor-quantidade">
+                    <!-- Seleção de Cor -->
+                    <div class="seletor-grupo">
+                        <label for="cor">Cores</label>
+                        <select id="cor" name="cor" class="select-bomb" required onchange="trocarFotoPorCor(this)">
+                            <option value="" disabled selected>Selecione a cor</option>
+                            <!-- Adicione o caminho da foto de cada cor aqui -->
+                            <option value="Preto" data-foto="/SRC/imagens/miniaturas/feminina street style preta.webp">
+                                Preto
+                            </option>
+                            <option value="Vermelho"
+                                data-foto="/SRC/imagens/miniaturas/feminina street style vermelha.webp">
+                                Vermelho
+                            </option>
+                            <option value="Branco"
+                                data-foto="/SRC/imagens/miniaturas/feminina street style branca.webp">
+                                Branco
+                            </option>
+                        </select>
+                    </div>
 
 
 
-                <!-- Seleção de Quantidade -->
-                <div class="seletor-grupo">
-                    <label for="quantidade">Quantidade</label>
-                    <input type="number" id="quantidade" name="quantidade" placeholder="0" min="1" max="10"
-                        class="input-qtd" required>
+                    <!-- Seleção de Quantidade -->
+                    <div class="seletor-grupo">
+                        <label for="quantidade">Quantidade</label>
+                        <input type="number" id="quantidade" name="quantidade" placeholder="0" min="1" max="10"
+                            class="input-qtd" required>
+                    </div>
                 </div>
 
                 <button class="btn-comprar" type="submit" id="finalizarPedidoBtn">Adicionar a sacola</button>

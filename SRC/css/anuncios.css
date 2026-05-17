@@ -17,7 +17,7 @@ article {
     white-space: nowrap;
     color: purple;
     animation: rolarTextoContinuo 15s linear infinite;
-    
+
 }
 
 .legenda-rolante-continua span {
@@ -43,7 +43,7 @@ article {
     display: flex;
     align-items: center;
     margin: 0.5em 0;
-    
+
 }
 
 /* LEGENDA */
@@ -212,13 +212,13 @@ div.legenda {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 14em;
-    height: 4em;
+    width: 12em;
+    height: 3em;
     color: purple;
     border-radius: 0.5em;
     border: solid 0.1em purple;
     box-shadow: 0.1em 0.1em purple;
-    font-size: 0.8em;
+    font-size: 1em;
     font-weight: 600;
     text-decoration: none;
     text-transform: uppercase;
@@ -227,7 +227,7 @@ div.legenda {
     bottom: 0.8em;
     position: relative;
     background-color: rgb(253, 214, 41);
-    
+
 }
 
 /* DESCRIÇÃO */
@@ -297,9 +297,8 @@ input.valor-input-nome {
 
 .valor-input-nome::placeholder {
     color: black;
-    font-size: 0.8em;
+    font-size: 0.84em;
 }
-
 
 input.titulo-checkout {
     text-transform: uppercase;
@@ -308,7 +307,7 @@ input.titulo-checkout {
     text-align: center;
     font-size: 0.9em;
     font-weight: 600;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     background-color: aliceblue;
     border: none;
     display: flex;
@@ -338,19 +337,21 @@ input.titulo-checkout {
     background-color: white;
 }
 
-form,.grupo-radio {
+form,
+.grupo-radio {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-label, radio {
+label,
+radio {
     display: flex;
     flex-direction: column;
 }
 
-.radio-item  {
+.radio-item {
     transform: scale(2);
     margin: 1em 0em;
     display: flex;
@@ -363,47 +364,42 @@ label, radio {
 }
 
 
+.cor-quantidade {
+    display: flex;
+    gap: 20px;
+    width: 90%;
+    text-align: center;
+}
+
 .seletor-grupo {
     margin-bottom: 20px;
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    width: 100%;
     text-transform: uppercase;
-    
 }
 
 .seletor-grupo label {
     font-size: 1em;
     font: italic bold 0.9em Arial, sans-serif;
     margin-bottom: 0.1em;
-    
 }
 
-
-.select-bomb, .input-qtd {
-    width: 70%;
+.select-bomb,
+.input-qtd {
+    width: 100%;
     padding: 10px;
     border: solid 0.1em rgb(66, 66, 66);
     border-radius: 4px;
     box-shadow: 0.1em 0.12em rgb(66, 66, 66);
     text-align: center;
     margin-bottom: 0.5em;
-    
-}
-
-.select-bomb {
-    background-color: white;
-}
-
-.select-bomb::placeholder{
-    font-size: 1em;
 }
 
 .input-qtd {
-    width: 40%;
-    
+    padding: 11px;
+}
+
+.input-qtd::placeholder {
+    color: black;
 }
 
 .btn-comprar {
@@ -411,9 +407,9 @@ label, radio {
     justify-content: center;
     align-items: center;
     justify-self: center;
-    width: 14em;
-    height: 4em;
-    font-size: 0.8em;
+    width: 90%;
+    height: 3em;
+    font-size: 1em;
     font-weight: 600;
     text-transform: uppercase;
     border-radius: 0.5em;
@@ -425,7 +421,8 @@ label, radio {
     cursor: pointer;
 }
 
-a,.btn-comprar {
+a,
+.btn-comprar {
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -434,6 +431,7 @@ a,.btn-comprar {
 .btn-voltar {
     display: flex;
     justify-content: center;
+    width: 15em;
     height: 3em;
     align-items: center;
     font-size: 0.7em;
