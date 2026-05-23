@@ -396,7 +396,7 @@ radio {
 
 select, .select-bomb::placeholder {
     background-color: white;
-    
+    text-align: center;
 }
 
 .input-qtd {
