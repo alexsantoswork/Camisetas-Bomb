@@ -242,10 +242,17 @@ div.legenda {
     margin-bottom: 0.5em;
 }
 
+.titulo-tabela {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
 .tabela-medidas {
     display: flex;
+    justify-content: center;
     gap: 1.5em;
-    margin-bottom: 0.5em;
+    margin: 0.5em 3em;
 }
 
 /* FORMULARIO PARA FAZER PEDIDO */
