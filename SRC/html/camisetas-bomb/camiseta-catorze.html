@@ -28,17 +28,19 @@
         <div class="slider-4">
             <div class="slider-container">
                 <div class="slider-wrapper">
-                    <img src="/SRC/imagens/anuncios/anuncio-14/camiseta preta keep calm masculina vitrine.webp"
+                    <img src="/SRC/imagens/anuncios/anuncio-14/camiseta masculina keep calm vitrine.webp"
                         alt="Imagem 1">
-                    <img src="/SRC/imagens/anuncios/anuncio-14/camiseta masculina keep calm.webp" alt="Imagem 2">
-                    <!-- <img src="" alt="Imagem 3"> -->
+                    <img src="/SRC/imagens/anuncios/anuncio-14/camiseta masculina keep calm preta.webp" alt="Imagem 2">
+                    <img src="/SRC/imagens/anuncios/anuncio-14/camiseta masculina keep calm branca.webp" alt="Imagem 3">
+                    <img src="/SRC/imagens/anuncios/anuncio-14/camiseta masculina keep calm azul.webp" alt="Imagem 4">
                 </div>
                 <button class="slider-button prev-button">&#10094;</button>
                 <button class="slider-button next-button">&#10095;</button>
                 <div class="slider-indicators">
                     <div class="indicator active" data-index="0"></div>
                     <div class="indicator" data-index="1"></div>
-                    <!-- <div class="indicator" data-index="2"></div> -->
+                    <div class="indicator" data-index="2"></div>
+                    <div class="indicator" data-index="3"></div>
                 </div>
             </div>
         </div>
@@ -48,10 +50,10 @@
         </div>
         <div class="condicoes">
             <div class="preco">
-                <span class="valor">R$ 19,90</span>
+                <span class="valor">R$ 69,90</span>
                 <span class="parcelamento">Em até 18X no cartão</span>
             </div>
-            <span class="frete"> Entrega rápida</span>
+            <span class="frete">Modelo Oversized</span>
         </div>
         <div class="container-fazer-pedido">
             <nav>
@@ -65,15 +67,14 @@
                 vai encontrar por aí. Pode confiar é qualidade que veste, te deixando no estilo e super à vontade. Chega
                 de blusa sem graça, bora ter uma que te representa.
             </p>
-            <strong>Tabela de medidas</strong>
+            <strong class="titulo-tabela">Tabela de medidas</strong>
             <div class="tabela-medidas">
                 <div class="tamanho">Tamanho<br>P<br>M<br>G<br>GG</div>
-                <div class="altura">Comprimento<br>73 cm<br>76 cm<br>78 cm<br>81 cm</div>
-                <div class="largura">Largura<br>52 cm<br>55 cm<br>58 cm<br>61 cm</div>
-                <div class="manga">Ombro a Ombro<br>46 cm<br>48 cm<br>50 cm<br>53 cm</div>
+                <div class="altura">Altura<br>74 cm<br>76 cm<br>79 cm<br>81 cm</div>
+                <div class="largura">Largura<br>55 cm<br>58 cm<br>62 cm<br>65 cm</div>
             </div>
-            <span>Após a conclusão do pagamento enviamos em até 24h e liberamos o codigo de rastreio para acompanhar o
-                envio do seu pedido.</span>
+            <span>Assim que seu pagamento for confirmado, seu pedido será despachado em até 24 horas. Em seguida, você
+                receberá o código de rastreamento para acompanhar cada etapa da entrega em tempo real.</span>
         </div>
 
         <!-- FORMULARIO PARA FAZERE O PEDIDO -->
@@ -81,7 +82,7 @@
             <h5 class="titulo-formulario">Preencha abaixo para fazer o pedido</h5>
             <form id="cadastroForm">
 
-                <input type="hidden" id="produto-preco" value="19.90">
+                <input type="hidden" id="produto-preco" value="69.90">
                 <input type="hidden" id="produto-imagem"
                     value="/SRC/imagens/anuncios/anuncio-14/camiseta preta keep calm masculina vitrine.webp">
 
@@ -136,14 +137,14 @@
                         <select id="cor" name="cor" class="select-bomb" required onchange="trocarFotoPorCor(this)">
                             <option value="" disabled selected>Selecione a cor</option>
                             <!-- Adicione o caminho da foto de cada cor aqui -->
-                            <option value="Preto" data-foto="/SRC/imagens/miniaturas/masculina keep calm preta.webp">
+                            <option value="Preto" data-foto="/SRC/imagens/miniaturas/camiseta masculina keep calm preta miniatura.webp">
                                 Preto
                             </option>
-                            <option value="Azul" data-foto="/SRC/imagens/miniaturas/masculina keep calm azul.webp">
-                                Azul
-                            </option>
-                            <option value="Branco" data-foto="/SRC/imagens/miniaturas/masculina keep calm branca.webp">
+                            <option value="Branco" data-foto="/SRC/imagens/miniaturas/camiseta masculina keep calm branca miniatura.webp">
                                 Branco
+                            </option>
+                            <option value="Azul" data-foto="/SRC/imagens/miniaturas/camiseta masculina keep calm azul miniatura.webp">
+                                Azul
                             </option>
                         </select>
                     </div>
