@@ -43,6 +43,6 @@ Email: camisetasbomb@gmail.com.br
 
 Instagram: @camisetasbomb
 
-WatsApp: 11 99225-7582
+WhatsApp: 11 99225-7582
 
 Desenvolvido por Camisetas Bomb.
